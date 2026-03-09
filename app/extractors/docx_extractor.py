@@ -159,10 +159,42 @@ class DocxExtractor(DocumentExtractor):
     def _is_heading_paragraph(self, paragraph: Paragraph, text: str) -> bool:
         style_name = (paragraph.style.name or "").lower() if paragraph.style else ""
 
+    # الحالة 1: heading style
         if style_name.startswith("heading"):
             return True
 
-        return looks_like_heading_by_text(text)
+        text = clean_text(text)
+        if not text:
+            return False
+
+    # الحالة 2: intro before list
+    # مثال:
+    # المتطلبات الأمنية:
+    # 1) ...
+        if text.endswith(":"):
+            return True
+
+    # الحالة 3: headings مرقمة
+    # مثل:
+    # 1 Introduction
+    # 1.2 Architecture
+        if re.match(r"^\d+(\.\d+)*\s+.+$", text):
+            return True
+
+    # الحالة 4: عناوين عربية شائعة
+        heading_keywords = [
+            "المطلوب",
+            "المقدمة",
+             "الخاتمة",
+             "النتائج",
+             "التوصيات",
+        ]
+
+        normalized = text.strip().rstrip(":")
+        if normalized in heading_keywords:
+            return True
+
+        return False
 
     def _resolve_heading_level(self, paragraph: Paragraph, text: str) -> int:
         style_name = paragraph.style.name if paragraph.style else ""

@@ -40,6 +40,55 @@ def looks_like_numbered_item(text: str) -> bool:
     return any(re.match(p, text) for p in patterns)
 
 def looks_like_heading_by_text(text: str) -> bool:
+    if not text:
+        return False
+
+    text = clean_text(text)
+    if not text:
+        return False
+
+    # لا نعتبر عناصر القوائم عناوين
+    if looks_like_numbered_item(text):
+        return False
+
+    # النصوص الطويلة ليست عناوين
+    if len(text) > 70:
+        return False
+
+    # الجملة المنتهية بنقطة أو فاصلة غالبًا ليست عنوانًا
+    if text.endswith(".") or text.endswith("،") or text.endswith(";") or text.endswith("؛"):
+        return False
+
+    words = text.split()
+
+    # العنوان لا يكون كلمة واحدة عادة، ولا طويلًا جدًا
+    if len(words) < 2 or len(words) > 8:
+        return False
+
+    heading_patterns = [
+        r"^\d+(?:\.\d+)*\s+.+$",
+        r"^[٠-٩]+(?:\.\d+)*\s+.+$",
+        r"^الفصل\s+.+$",
+        r"^المبحث\s+.+$",
+        r"^المطلب\s+.+$",
+        r"^العنوان\s+.+$",
+        r"^مقدمة$",
+        r"^خاتمة$",
+        r"^نتائج$",
+        r"^توصيات$",
+        r"^المطلوب:?$",
+    ]
+
+    if any(re.match(p, text) for p in heading_patterns):
+        return True
+
+    # heuristic محافظة:
+    # عنوان قصير بدون علامات ترقيم كثيرة
+    punctuation_count = sum(text.count(ch) for ch in [",", ":", "(", ")", "—", "-", "–"])
+    if punctuation_count > 1:
+        return False
+
+    return True
     """
     Heuristic heading detector for DOCX paragraphs with Normal style.
     """

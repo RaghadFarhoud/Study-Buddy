@@ -7,6 +7,7 @@ from app.domain.models import CanonicalDocument
 from app.services.document_extractor import DocumentExtractor
 from app.enrichers.basic_image_enricher import BasicImageEnricher
 from app.enrichers.caption_linker import CaptionLinker
+from app.normalizers.document_normalizer import DocumentNormalizer
 
 
 class IngestionPipeline:
@@ -15,10 +16,12 @@ class IngestionPipeline:
         extractor: DocumentExtractor,
         image_enricher: BasicImageEnricher | None = None,
         caption_linker: CaptionLinker | None = None,
+        normalizer: DocumentNormalizer | None = None,
     ):
         self.extractor = extractor
         self.image_enricher = image_enricher
         self.caption_linker = caption_linker
+        self.normalizer = normalizer
 
     def run(self, file_path: str) -> CanonicalDocument:
         document = self.extractor.extract(file_path)
@@ -28,6 +31,9 @@ class IngestionPipeline:
 
         if self.image_enricher:
             document = self.image_enricher.enrich(document)
+
+        if self.normalizer:
+            document = self.normalizer.normalize(document)
 
         return document
 
