@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import os
+import re
 import uuid
 from pathlib import Path
 from typing import List, Optional
@@ -21,7 +21,13 @@ from app.domain.models import (
     BlockType,
 )
 from app.services.document_extractor import DocumentExtractor
-from app.utils.text_utils import clean_text, is_empty, looks_like_caption
+from app.utils.text_utils import (
+    clean_text,
+    looks_like_caption,
+    looks_like_numbered_item,
+    is_meaningful_text,
+    looks_like_heading_by_text,
+)
 
 
 class DocxExtractor(DocumentExtractor):
@@ -46,26 +52,29 @@ class DocxExtractor(DocumentExtractor):
         sections: List[Section] = [current_section]
 
         order = 0
-        paragraph_texts = [clean_text(p.text) for p in doc.paragraphs if not is_empty(p.text)]
+        blocks = list(self._iter_block_items(doc))
 
-        for block in self._iter_block_items(doc):
+        for idx, block in enumerate(blocks):
             if isinstance(block, Paragraph):
                 text = clean_text(block.text)
-                if is_empty(text) and not self._paragraph_has_image(block):
+
+                if not is_meaningful_text(text) and not self._paragraph_has_image(block):
                     continue
 
-                style_name = (block.style.name or "").lower() if block.style else ""
+                is_heading = (
+                    self._is_heading_paragraph(block, text)
+                    or self._is_intro_heading_before_list(blocks, idx, text)
+                )
 
-                # Heading detection
-                if style_name.startswith("heading"):
-                    level = self._extract_heading_level(block.style.name)
+                if is_heading and is_meaningful_text(text):
+                    level = self._resolve_heading_level(block, text)
                     current_section_path = current_section_path[: level - 1]
                     current_section_path.append(text)
 
                     current_section = Section(
                         title=text,
                         path=current_section_path.copy(),
-                        blocks=[]
+                        blocks=[],
                     )
                     sections.append(current_section)
 
@@ -76,15 +85,19 @@ class DocxExtractor(DocumentExtractor):
                         order=order,
                         text=text,
                         section_path=current_section_path.copy(),
-                        metadata={"style_name": block.style.name, "heading_level": level},
+                        metadata={
+                            "style_name": block.style.name if block.style else None,
+                            "heading_level": level,
+                            "heading_source": self._heading_source(block, text, blocks, idx),
+                        },
                     )
                     current_section.blocks.append(heading_block)
                     continue
 
-                # Embedded image inside paragraph
                 if self._paragraph_has_image(block):
                     saved_images = self._extract_images_from_paragraph(block, doc_id)
                     caption = self._guess_caption(block)
+                    alt_text = self._extract_alt_text(block)
 
                     for image_path in saved_images:
                         order += 1
@@ -94,7 +107,10 @@ class DocxExtractor(DocumentExtractor):
                             order=order,
                             text=None,
                             image_path=str(image_path),
+                            image_name=Path(image_path).name,
                             caption=caption,
+                            rel_id=None,
+                            alt_text=alt_text,
                             section_path=current_section_path.copy(),
                             metadata={
                                 "style_name": block.style.name if block.style else None,
@@ -102,13 +118,8 @@ class DocxExtractor(DocumentExtractor):
                         )
                         current_section.blocks.append(fig_block)
 
-                # Paragraph / Bullet
-                if not is_empty(text):
-                    block_type = (
-                        BlockType.BULLET_LIST
-                        if self._is_list_paragraph(block)
-                        else BlockType.PARAGRAPH
-                    )
+                if is_meaningful_text(text):
+                    block_type = self._classify_paragraph_type(block, text)
 
                     order += 1
                     para_block = BaseBlock(
@@ -130,6 +141,97 @@ class DocxExtractor(DocumentExtractor):
 
         canonical.sections = sections
         return canonical
+
+    def _classify_paragraph_type(self, paragraph: Paragraph, text: str) -> BlockType:
+        style_name = (paragraph.style.name or "").lower() if paragraph.style else ""
+
+        if looks_like_caption(text):
+            return BlockType.CAPTION
+
+        if looks_like_numbered_item(text):
+            return BlockType.NUMBERED_LIST
+
+        if "list" in style_name or "bullet" in style_name:
+            return BlockType.BULLET_LIST
+
+        return BlockType.PARAGRAPH
+
+    def _is_heading_paragraph(self, paragraph: Paragraph, text: str) -> bool:
+        style_name = (paragraph.style.name or "").lower() if paragraph.style else ""
+
+        if style_name.startswith("heading"):
+            return True
+
+        return looks_like_heading_by_text(text)
+
+    def _resolve_heading_level(self, paragraph: Paragraph, text: str) -> int:
+        style_name = paragraph.style.name if paragraph.style else ""
+
+        if style_name and style_name.lower().startswith("heading"):
+            return self._extract_heading_level(style_name)
+
+        text = clean_text(text)
+
+        match = re.match(r"^(\d+(?:\.\d+)*)\s+.+$", text)
+        if match:
+            return match.group(1).count(".") + 1
+
+        match_ar = re.match(r"^([٠-٩]+(?:\.\d+)*)\s+.+$", text)
+        if match_ar:
+            return match_ar.group(1).count(".") + 1
+
+        if text.endswith(":"):
+            return 1
+
+        return 1
+
+    def _heading_source(
+        self,
+        paragraph: Paragraph,
+        text: str,
+        blocks=None,
+        index: int | None = None,
+    ) -> str:
+        style_name = (paragraph.style.name or "").lower() if paragraph.style else ""
+
+        if style_name.startswith("heading"):
+            return "style"
+
+        if looks_like_heading_by_text(text):
+            return "heuristic"
+
+        if blocks is not None and index is not None and self._is_intro_heading_before_list(blocks, index, text):
+            return "intro_before_list"
+
+        return "unknown"
+
+    def _is_intro_heading_before_list(self, blocks, index: int, text: str) -> bool:
+        text = clean_text(text)
+        if not text:
+            return False
+
+        if not text.endswith(":"):
+            return False
+
+        look_ahead_limit = 2
+        for offset in range(1, look_ahead_limit + 1):
+            next_index = index + offset
+            if next_index >= len(blocks):
+                break
+
+            next_block = blocks[next_index]
+
+            if isinstance(next_block, Paragraph):
+                next_text = clean_text(next_block.text)
+
+                if looks_like_numbered_item(next_text):
+                    return True
+
+                style_name = (next_block.style.name or "").lower() if next_block.style else ""
+                if "list" in style_name or "bullet" in style_name:
+                    return True
+
+        return False
 
     def _extract_table(
         self,
@@ -170,12 +272,7 @@ class DocxExtractor(DocumentExtractor):
             return f"جدول يحتوي على {rows} صفوف و {cols} أعمدة. العناوين المحتملة: {', '.join(headers[:5])}"
         return f"جدول يحتوي على {rows} صفوف و {cols} أعمدة"
 
-    def _is_list_paragraph(self, paragraph: Paragraph) -> bool:
-        style_name = (paragraph.style.name or "").lower() if paragraph.style else ""
-        return "list" in style_name or "bullet" in style_name
-
     def _extract_heading_level(self, style_name: str) -> int:
-        # Examples: Heading 1, Heading 2
         parts = style_name.strip().split()
         for p in reversed(parts):
             if p.isdigit():
@@ -183,7 +280,6 @@ class DocxExtractor(DocumentExtractor):
         return 1
 
     def _paragraph_has_image(self, paragraph: Paragraph) -> bool:
-        # Detect drawing or pict elements inside the paragraph XML
         xml = paragraph._element.xml
         return ("pic:pic" in xml) or ("a:blip" in xml)
 
@@ -193,11 +289,28 @@ class DocxExtractor(DocumentExtractor):
             return text
         return None
 
+    def _extract_alt_text(self, paragraph: Paragraph) -> Optional[str]:
+        try:
+            doc_pr = paragraph._element.xpath(".//wp:docPr")
+            if not doc_pr:
+                return None
+
+            descr = doc_pr[0].get("descr")
+            if descr:
+                return clean_text(descr)
+
+            title = doc_pr[0].get("title")
+            if title:
+                return clean_text(title)
+
+            return None
+        except Exception:
+            return None
+
     def _extract_images_from_paragraph(self, paragraph: Paragraph, doc_id: str) -> List[Path]:
         image_paths: List[Path] = []
         rel_ids = []
 
-        # Search for embedded image relationships in paragraph XML
         blips = paragraph._element.xpath(".//a:blip")
         for blip in blips:
             embed = blip.get(qn("r:embed"))
@@ -229,13 +342,11 @@ class DocxExtractor(DocumentExtractor):
             "image/gif": "gif",
             "image/bmp": "bmp",
             "image/tiff": "tiff",
+            "image/webp": "webp",
         }
         return mapping.get(content_type, "bin")
 
     def _iter_block_items(self, parent):
-        """
-        Iterate over paragraphs and tables in document order.
-        """
         from docx.document import Document as _Document
         from docx.oxml.table import CT_Tbl
         from docx.oxml.text.paragraph import CT_P

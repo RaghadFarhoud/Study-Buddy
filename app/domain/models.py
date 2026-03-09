@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from enum import Enum
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel, Field
 
 
@@ -9,20 +9,15 @@ class BlockType(str, Enum):
     HEADING = "heading"
     PARAGRAPH = "paragraph"
     BULLET_LIST = "bullet_list"
+    NUMBERED_LIST = "numbered_list"
     TABLE = "table"
     FIGURE = "figure"
     FIGURE_DESCRIPTION = "figure_description"
+    CAPTION = "caption"
 
 
 class SourceType(str, Enum):
     DOCX = "docx"
-
-
-class BoundingBox(BaseModel):
-    x: float
-    y: float
-    width: float
-    height: float
 
 
 class BaseBlock(BaseModel):
@@ -37,7 +32,10 @@ class BaseBlock(BaseModel):
 
 class FigureBlock(BaseBlock):
     image_path: Optional[str] = None
+    image_name: Optional[str] = None
     caption: Optional[str] = None
+    rel_id: Optional[str] = None
+    alt_text: Optional[str] = None
 
 
 class TableCell(BaseModel):
@@ -53,10 +51,13 @@ class TableBlock(BaseBlock):
     summary: Optional[str] = None
 
 
+Block = Union[BaseBlock, FigureBlock, TableBlock]
+
+
 class Section(BaseModel):
     title: str
     path: List[str]
-    blocks: List[BaseBlock] = Field(default_factory=list)
+    blocks: List[Block] = Field(default_factory=list)
 
 
 class CanonicalDocument(BaseModel):
