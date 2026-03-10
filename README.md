@@ -1,1 +1,1 @@
-python -m app.main lecture.docx
+python -m app.main lecture.docx --out-dir output
