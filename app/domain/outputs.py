@@ -19,3 +19,24 @@ class StudyTextDocument(BaseModel):
     full_text: str
     sections: List[StudyTextSection] = Field(default_factory=list)
     metadata: Dict[str, Any] = Field(default_factory=dict)
+
+
+
+class MultiLevelChunkItem(BaseModel):
+    chunk_id: str
+    level: str  # proposition | paragraph | section
+    document_id: str
+    section_title: str
+    section_path: List[str] = Field(default_factory=list)
+    text: str
+    source_block_ids: List[str] = Field(default_factory=list)
+    block_types: List[str] = Field(default_factory=list)
+    metadata: Dict[str, Any] = Field(default_factory=dict)
+
+
+class MultiLevelChunkDocument(BaseModel):
+    document_id: str
+    source_type: str
+    source_file: str
+    chunks: List[MultiLevelChunkItem] = Field(default_factory=list)
+    metadata: Dict[str, Any] = Field(default_factory=dict)

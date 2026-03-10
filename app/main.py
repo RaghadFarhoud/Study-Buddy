@@ -21,7 +21,7 @@ from app.interpreters.table_interpreter import TableInterpreter
 
 from app.builders.study_text_builder import StudyTextBuilder
 from app.services.document_processing_service import DocumentProcessingService
-
+from app.builders.multi_level_chunk_builder import MultiLevelChunkBuilder
 
 def main():
 
@@ -36,7 +36,6 @@ def main():
 
     extractor = DocxExtractor(image_output_dir=str(out_dir / "images"))
     caption_linker = CaptionLinker()
-
     normalizer = DocumentNormalizer(
         passes=[
             CleanupPass(),
@@ -62,11 +61,13 @@ def main():
     )
 
     study_text_builder = StudyTextBuilder()
+    chunk_builder = MultiLevelChunkBuilder(max_paragraph_chars=1200)
 
     service = DocumentProcessingService(
         ingestion_pipeline=ingestion_pipeline,
         media_pipeline=media_pipeline,
         study_text_builder=study_text_builder,
+        chunk_builder=chunk_builder,
     )
 
     result = service.process(args.file)
@@ -74,6 +75,7 @@ def main():
     canonical_path = out_dir / "canonical_document.json"
     study_text_json_path = out_dir / "study_text.json"
     study_text_txt_path = out_dir / "study_text.txt"
+    chunks_json_path = out_dir / "chunks.json"
 
     canonical_path.write_text(
         json.dumps(result.canonical_document.model_dump(), indent=2, ensure_ascii=False),
@@ -90,9 +92,15 @@ def main():
         encoding="utf-8",
     )
 
+    chunks_json_path.write_text(
+    json.dumps(result.chunks.model_dump(), indent=2, ensure_ascii=False),
+    encoding="utf-8",
+    )
+
     print(f"Canonical document saved to: {canonical_path}")
     print(f"Study text JSON saved to: {study_text_json_path}")
     print(f"Study text TXT saved to: {study_text_txt_path}")
+    print(f"Chunks JSON saved to: {chunks_json_path}")
 
 
 if __name__ == "__main__":
