@@ -1,0 +1,292 @@
+{
+  "document_id": "lecture",
+  "source_type": "pptx",
+  "source_file": "lecture.pptx",
+  "title": "lecture",
+  "full_text": "Information Systems Security\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\nSecurity-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.\n\nAttack Examples\n\nJune 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries\n\nVerzion’s 2024 Data Breach Investigations Report\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\n2. What is ISS?\n\n- Information system\n  - set of applications, services, information technology assets, or other information-handling components\n- Assets: Data/information, software, hardware, communication facilities, physical facilities\n\nphysical facilities\n\nNets\n\nHW\n\nSW systems\n\napplications\n\nData\n\n2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.\n\nWhat is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …\n\nWhat is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\nISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control\n\nISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…\n\nISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …\n\nISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.\n\nISS Objectives\n\n  - Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.\n\nComputer Security Challenges\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\n4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome\n\nSecurity terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper\n\nSecurity terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder\n\nThreats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems\n\nTypes of Attack\n\nInterruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access.\n\nTypes of Attack\n\nMasquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later\n\nAssets and Examples of Threats\n\nCountermeasures\n\ninclude techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc.\n\nA Model for Computer Security\n\nISS- another  definition\n\n  - What  needs to be protected, i.e., assets\n  - Why (security requirements which include CIA),\n  - What we need to protect from (Threats, vulnerabilities, risks)\n  - and how  (Countermeasures) to protect it for as long as it exists\n  - Then operate, monitor, review, improve\n  - All steps are implemented according to the security policy\n\n5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.\n\nSecurity Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)\n\nSecurity Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate\n\n6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail\n\nQuestions?\n\nQuestions?\n\nCase Study 1 – Hospital system\n\nCase Study 2 – Online bank",
+  "sections": [
+    {
+      "title": "Information Systems Security",
+      "section_path": [
+        "Information Systems Security"
+      ],
+      "text": "Information Systems Security",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "Security-Related News",
+      "section_path": [
+        "Security-Related News"
+      ],
+      "text": "Security-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.",
+      "metadata": {}
+    },
+    {
+      "title": "Attack Examples",
+      "section_path": [
+        "Attack Examples"
+      ],
+      "text": "Attack Examples\n\nJune 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries",
+      "metadata": {}
+    },
+    {
+      "title": "Verzion’s 2024 Data Breach Investigations Report",
+      "section_path": [
+        "Verzion’s 2024 Data Breach Investigations Report"
+      ],
+      "text": "Verzion’s 2024 Data Breach Investigations Report",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "2. What is ISS?",
+      "section_path": [
+        "2. What is ISS?"
+      ],
+      "text": "2. What is ISS?\n\n- Information system\n  - set of applications, services, information technology assets, or other information-handling components\n- Assets: Data/information, software, hardware, communication facilities, physical facilities\n\nphysical facilities\n\nNets\n\nHW\n\nSW systems\n\napplications\n\nData",
+      "metadata": {}
+    },
+    {
+      "title": "2. What is ISS?",
+      "section_path": [
+        "2. What is ISS?"
+      ],
+      "text": "2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.",
+      "metadata": {}
+    },
+    {
+      "title": "What is ISS?",
+      "section_path": [
+        "What is ISS?"
+      ],
+      "text": "What is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …",
+      "metadata": {}
+    },
+    {
+      "title": "What is ISS?",
+      "section_path": [
+        "What is ISS?"
+      ],
+      "text": "What is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\n  - Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.",
+      "metadata": {}
+    },
+    {
+      "title": "Computer Security Challenges",
+      "section_path": [
+        "Computer Security Challenges"
+      ],
+      "text": "Computer Security Challenges",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "4. Security Terms",
+      "section_path": [
+        "4. Security Terms"
+      ],
+      "text": "4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome",
+      "metadata": {}
+    },
+    {
+      "title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "text": "Security terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper",
+      "metadata": {}
+    },
+    {
+      "title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "text": "Security terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+      "metadata": {}
+    },
+    {
+      "title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "text": "Threats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems",
+      "metadata": {}
+    },
+    {
+      "title": "Types of Attack",
+      "section_path": [
+        "Types of Attack"
+      ],
+      "text": "Types of Attack\n\nInterruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access.",
+      "metadata": {}
+    },
+    {
+      "title": "Types of Attack",
+      "section_path": [
+        "Types of Attack"
+      ],
+      "text": "Types of Attack\n\nMasquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later",
+      "metadata": {}
+    },
+    {
+      "title": "Assets and Examples of Threats",
+      "section_path": [
+        "Assets and Examples of Threats"
+      ],
+      "text": "Assets and Examples of Threats",
+      "metadata": {}
+    },
+    {
+      "title": "Countermeasures",
+      "section_path": [
+        "Countermeasures"
+      ],
+      "text": "Countermeasures\n\ninclude techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc.",
+      "metadata": {}
+    },
+    {
+      "title": "A Model for Computer Security",
+      "section_path": [
+        "A Model for Computer Security"
+      ],
+      "text": "A Model for Computer Security",
+      "metadata": {}
+    },
+    {
+      "title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "text": "ISS- another  definition\n\n  - What  needs to be protected, i.e., assets\n  - Why (security requirements which include CIA),\n  - What we need to protect from (Threats, vulnerabilities, risks)\n  - and how  (Countermeasures) to protect it for as long as it exists\n  - Then operate, monitor, review, improve\n  - All steps are implemented according to the security policy",
+      "metadata": {}
+    },
+    {
+      "title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "text": "5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.",
+      "metadata": {}
+    },
+    {
+      "title": "Security Policy",
+      "section_path": [
+        "Security Policy"
+      ],
+      "text": "Security Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)",
+      "metadata": {}
+    },
+    {
+      "title": "Security Lifecycle",
+      "section_path": [
+        "Security Lifecycle"
+      ],
+      "text": "Security Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate",
+      "metadata": {}
+    },
+    {
+      "title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail",
+      "metadata": {}
+    },
+    {
+      "title": "Questions?",
+      "section_path": [
+        "Questions?"
+      ],
+      "text": "Questions?\n\nQuestions?",
+      "metadata": {}
+    },
+    {
+      "title": "Case Study 1 – Hospital system",
+      "section_path": [
+        "Case Study 1 – Hospital system"
+      ],
+      "text": "Case Study 1 – Hospital system",
+      "metadata": {}
+    },
+    {
+      "title": "Case Study 2 – Online bank",
+      "section_path": [
+        "Case Study 2 – Online bank"
+      ],
+      "text": "Case Study 2 – Online bank",
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "section_count": 35
+  }
+}

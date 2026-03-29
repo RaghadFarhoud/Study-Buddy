@@ -40,3 +40,22 @@ class MultiLevelChunkDocument(BaseModel):
     source_file: str
     chunks: List[MultiLevelChunkItem] = Field(default_factory=list)
     metadata: Dict[str, Any] = Field(default_factory=dict)
+
+class EducationalUnitItem(BaseModel):
+    unit_id: str
+    document_id: str
+    section_title: str
+    section_path: List[str] = Field(default_factory=list)
+    unit_type: str  # requirement | permission | procedure | concept | fact | figure_insight
+    text: str
+    source_block_ids: List[str] = Field(default_factory=list)
+    source_block_types: List[str] = Field(default_factory=list)
+    metadata: Dict[str, Any] = Field(default_factory=dict)
+
+
+class EducationalUnitDocument(BaseModel):
+    document_id: str
+    source_type: str
+    source_file: str
+    units: List[EducationalUnitItem] = Field(default_factory=list)
+    metadata: Dict[str, Any] = Field(default_factory=dict)

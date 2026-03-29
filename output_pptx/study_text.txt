@@ -1,0 +1,282 @@
+Information Systems Security
+
+Outline
+
+- Attack Examples
+- What is Information Systems Security?
+- ISS Objectives
+- Security terms
+- Security Policies
+- Conclusion
+
+Security-Related News
+
+July 2024,
+a flawed software update from the security firm CrowdStrike took down Windows computers across the world.
+
+Attack Examples
+
+June 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.
+10 sec of attack’s traffic = Wikipedia’s daily requests
+Targeted by 5,256 source IP @s from 132 countries
+
+Verzion’s 2024 Data Breach Investigations Report
+
+Outline
+
+- Attack Examples
+- What is Information Systems Security?
+- ISS Objectives
+- Security terms
+- Security Policies
+- Conclusion
+
+2. What is ISS?
+
+- Information system
+  - set of applications, services, information technology assets, or other information-handling components
+- Assets: Data/information, software, hardware, communication facilities, physical facilities
+
+physical facilities
+
+Nets
+
+HW
+
+SW systems
+
+applications
+
+Data
+
+2. What is ISS?
+
+Information Systems Security (ISS)
+is the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.
+
+What is ISS?
+
+- synonymous with Computer Security
+- part of information security
+- Information security includes
+  - Computer security
+  - Information systems security
+  - Database security
+  - Network security
+  - Web security
+  - Digital forensics
+  - Information security management
+  - …
+
+What is ISS?
+
+- information security [ISO 27000: 2018]
+  - preservation of confidentiality, integrity and availability of information
+  - also preservation of authenticity, accountability, non-repudiation, and reliability
+
+Outline
+
+- Attack Examples
+- What is Information Systems Security?
+- ISS Objectives
+- Security terms
+- Security Policies
+- Conclusion
+
+ISS Objectives
+
+Confidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes
+Privacy: individual’s information is under her/his control
+means: encryption, access control
+
+ISS Objectives
+
+Integrity: property of accuracy and completeness
+Integrity: covers two related concepts
+Data integrity: assures that information and programs are changed only in a specified and authorized manner
+System integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation
+means: cryptographic checksums, access control,…
+
+ISS Objectives
+
+- Availability
+  - property of being accessible and usable on demand by an authorized entity.
+  - means: protection from disruption, intentional deletion, …
+
+ISS Objectives
+
+- Other Objectives:
+  - Authenticity
+    - property that an entity is what it claims to be
+
+2 related terms are usually used
+Entity authentication
+corroboration of the identity of an entity (e.g., a person, a credit card)
+Message authentication
+corroborating the source of information;
+also known as data origin authentication.
+
+ISS Objectives
+
+  - Non-repudiation
+    - preventing the denial of previous commitments or actions
+  - Accountability
+    - the ability to identify entities responsible for past actions.
+
+Computer Security Challenges
+
+Outline
+
+- Attack Examples
+- What is Information Systems Security?
+- ISS Objectives
+- Security terms
+- Security Policies
+- Conclusion
+
+4. Security Terms
+
+A vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.
+Example: a software bug exists in the OS, or no password rules are set.
+A threat:
+Something that can potentially cause damage
+Refers to a situation in which either a person could do something undesirable
+or a natural occurrence could cause an undesirable outcome
+
+Security terms
+
+- Vulnerabilities: Examples
+  - Unprotected data under transmission
+  - Mistakes in firewall or router
+  - Software bugs exist.
+  - Passwords posted near the computer
+- Threats: Examples
+  - Virus
+  - Illegal Passwords  use
+  - Illegal access to the Internet
+  - Pretending to be a desk helper
+
+Security terms
+
+- A Risk: the expected loss due to harmful future events,
+- An attack: is a realization of a threat
+- An attacker: is a person who exploits a vulnerability
+- An attacker must have means, opportunity, and motive
+  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder
+
+Threats  from hackers
+
+They Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)
+
+They cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown
+
+Crackers
+
+- Examples of threats from crackers’ actions:
+- Illegally use IDs or passwords that they stole
+- Illegally access servers and steal personal information, etc.
+- Destroy systems
+
+Types of Attack
+
+Interruption, delay, denial of receipt or denial of service
+System assets or information become unavailable or are rendered unavailable
+Interception or snooping
+Unauthorized party gains access to information by browsing through files or reading communications.
+Modification or alteration
+Unauthorized party changes information in transit or information stored for subsequent access.
+
+Types of Attack
+
+Masquerade or spoofing
+Spurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.
+Repudiation
+False denial that an entity created something.
+Traffic analysis
+Monitoring traffic in order to get information about exchanged data (regardless the content itself)
+Replay attack
+Intercepting a message in order to re-send it  later
+
+Assets and Examples of Threats
+
+Countermeasures
+
+include techniques for ensuring:
+Prevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.
+Detection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.
+Reaction (or recovery): Such as Backup systems, OS’s recovery points, etc.
+
+A Model for Computer Security
+
+ISS- another  definition
+
+  - What  needs to be protected, i.e., assets
+  - Why (security requirements which include CIA),
+  - What we need to protect from (Threats, vulnerabilities, risks)
+  - and how  (Countermeasures) to protect it for as long as it exists
+  - Then operate, monitor, review, improve
+  - All steps are implemented according to the security policy
+
+5. Security Policy
+
+- a document describing intentions and direction of an organization regarding information security
+  - Example 1:
+    - personal information must be treated as confidential.
+    - services must be available 24/7
+- states what is/is not allowed
+  - examples:
+    - account names must not be used in passwords.
+    - Surfing the www is prohibited.
+
+Security Policy
+
+security policy does not specify technologies.
+A security Policy is a guideline for implementing security measures.
+Example:
+Use a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)
+Encrypt email containing sensitive data (as to protect private information)
+
+Security Lifecycle
+
+- Develop sec policy
+- Draw blueprints
+- Determine sec requirements (objectives)
+- Analyze threats, vulnerabilities (i.e., analyze risks)
+
+Analyze
+
+- Design architecture,
+- Choose countermeasures
+- Continue developing sec policy
+
+Design
+
+- Implement countermeasures
+- Test
+- Carry out training and awareness
+
+Implement
+
+- Monitor
+- review
+
+Operate
+
+6. Conclusion
+
+- Security terms
+  - ISS
+  - Security objectives
+  - Vulnerabilities and Threats,
+  - Security measures
+  - Security Policy
+- Next lectures:
+  - Covering these terms in detail
+
+Questions?
+
+Questions?
+
+Case Study 1 – Hospital system
+
+Case Study 2 – Online bank

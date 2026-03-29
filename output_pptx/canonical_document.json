@@ -1,0 +1,2904 @@
+{
+  "document_id": "lecture",
+  "source_type": "pptx",
+  "source_file": "lecture.pptx",
+  "title": "lecture",
+  "language": null,
+  "sections": [
+    {
+      "title": "Information Systems Security",
+      "path": [
+        "Information Systems Security"
+      ],
+      "blocks": [
+        {
+          "id": "d6d228dfcd734d8287a88d52313addb0",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 1,
+          "section_path": [
+            "Information Systems Security"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1392555,
+              "top": 106680,
+              "width": 7086600,
+              "height": 1431925
+            }
+          },
+          "text": "Information Systems Security",
+          "level": 1
+        },
+        {
+          "id": "384788a63874421ab04796d2a7a3f510",
+          "type": "heading",
+          "order": 2,
+          "page_or_slide": 1,
+          "section_path": [
+            "Information Systems Security"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1203960,
+              "top": 2583815,
+              "width": 7741920,
+              "height": 2924175
+            }
+          },
+          "text": "Introduction to Information Systems Security\nLecture 1",
+          "level": 1
+        }
+      ],
+      "page_or_slide": 1,
+      "notes": "ISO/IEC 27000: 2018\nInformation technology — Security techniques — Information security management systems — Overview and vocabulary",
+      "metadata": {
+        "slide_index": 1,
+        "shape_count": 2
+      }
+    },
+    {
+      "title": "Outline",
+      "path": [
+        "Outline"
+      ],
+      "blocks": [
+        {
+          "id": "8e905bcaf2ca45e1a593343430d8aff6",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 2,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Outline",
+          "level": 1
+        },
+        {
+          "id": "74b0259933cb43fdb4daabdffbc71f01",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 2,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 762000,
+              "top": 2024743,
+              "width": 7772400,
+              "height": 4447495
+            }
+          },
+          "items": [
+            {
+              "text": "Attack Examples",
+              "level": 0
+            },
+            {
+              "text": "What is Information Systems Security?",
+              "level": 0
+            },
+            {
+              "text": "ISS Objectives",
+              "level": 0
+            },
+            {
+              "text": "Security terms",
+              "level": 0
+            },
+            {
+              "text": "Security Policies",
+              "level": 0
+            },
+            {
+              "text": "Conclusion",
+              "level": 0
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 2,
+      "notes": null,
+      "metadata": {
+        "slide_index": 2,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Security-Related News",
+      "path": [
+        "Security-Related News"
+      ],
+      "blocks": [
+        {
+          "id": "054a89e04a814e0b92c412e29b54b5a1",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 3,
+          "section_path": [
+            "Security-Related News"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 634482,
+              "top": 0,
+              "width": 7976118,
+              "height": 1341438
+            }
+          },
+          "text": "Security-Related News",
+          "level": 1
+        },
+        {
+          "id": "3702556f027e40399a23bf494e956938",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 3,
+          "section_path": [
+            "Security-Related News"
+          ],
+          "metadata": {
+            "shape_name": "Content Placeholder 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 797711,
+              "top": 1364248,
+              "width": 8306602,
+              "height": 1994457
+            }
+          },
+          "text": "July 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world."
+        },
+        {
+          "id": "2201282eb2ee4103a67a1dea3379c616",
+          "type": "figure",
+          "order": 3,
+          "page_or_slide": 3,
+          "section_path": [
+            "Security-Related News"
+          ],
+          "metadata": {
+            "shape_name": "Picture 5",
+            "shape_type": "PICTURE (13)",
+            "bbox": {
+              "left": 2325561,
+              "top": 3429000,
+              "width": 4873752,
+              "height": 3249168
+            }
+          },
+          "text": null,
+          "image_path": "output_pptx\\images\\slide_3_bf844344.jpg",
+          "image_name": "slide_3_bf844344.jpg",
+          "caption": null,
+          "rel_id": null,
+          "alt_text": null
+        },
+        {
+          "id": "2201282eb2ee4103a67a1dea3379c616_desc",
+          "type": "figure_description",
+          "order": 4,
+          "page_or_slide": null,
+          "section_path": [
+            "Security-Related News"
+          ],
+          "metadata": {
+            "figure_id": "2201282eb2ee4103a67a1dea3379c616",
+            "generated": true
+          }
+        }
+      ],
+      "page_or_slide": 3,
+      "notes": null,
+      "metadata": {
+        "slide_index": 3,
+        "shape_count": 4
+      }
+    },
+    {
+      "title": "Attack Examples",
+      "path": [
+        "Attack Examples"
+      ],
+      "blocks": [
+        {
+          "id": "3ba10184ee934286979b45caa500bfce",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 4,
+          "section_path": [
+            "Attack Examples"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 634482,
+              "top": 0,
+              "width": 7976118,
+              "height": 1341438
+            }
+          },
+          "text": "Attack Examples",
+          "level": 1
+        },
+        {
+          "id": "81465887a9a14c008d98678c3d256d24",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 4,
+          "section_path": [
+            "Attack Examples"
+          ],
+          "metadata": {
+            "shape_name": "Content Placeholder 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 837398,
+              "top": 1665170,
+              "width": 8306602,
+              "height": 3765812
+            }
+          },
+          "text": "June 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries"
+        }
+      ],
+      "page_or_slide": 4,
+      "notes": null,
+      "metadata": {
+        "slide_index": 4,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Verzion’s 2024 Data Breach Investigations Report",
+      "path": [
+        "Verzion’s 2024 Data Breach Investigations Report"
+      ],
+      "blocks": [
+        {
+          "id": "9e451604c1c64ab589271659a5b1ef7d",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 5,
+          "section_path": [
+            "Verzion’s 2024 Data Breach Investigations Report"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7741534,
+              "height": 1341438
+            }
+          },
+          "text": "Verzion’s 2024 Data Breach Investigations Report",
+          "level": 1
+        },
+        {
+          "id": "a602e7ad20264bfb94bd12bdad692c8e",
+          "type": "figure",
+          "order": 2,
+          "page_or_slide": 5,
+          "section_path": [
+            "Verzion’s 2024 Data Breach Investigations Report"
+          ],
+          "metadata": {
+            "shape_name": "Picture 5",
+            "shape_type": "PICTURE (13)",
+            "bbox": {
+              "left": 152400,
+              "top": 2099359,
+              "width": 8839200,
+              "height": 3914775
+            }
+          },
+          "text": null,
+          "image_path": "output_pptx\\images\\slide_5_a1c4243e.png",
+          "image_name": "slide_5_a1c4243e.png",
+          "caption": null,
+          "rel_id": null,
+          "alt_text": null
+        },
+        {
+          "id": "a602e7ad20264bfb94bd12bdad692c8e_desc",
+          "type": "figure_description",
+          "order": 3,
+          "page_or_slide": null,
+          "section_path": [
+            "Verzion’s 2024 Data Breach Investigations Report"
+          ],
+          "metadata": {
+            "figure_id": "a602e7ad20264bfb94bd12bdad692c8e",
+            "generated": true
+          }
+        }
+      ],
+      "page_or_slide": 5,
+      "notes": null,
+      "metadata": {
+        "slide_index": 5,
+        "shape_count": 4
+      }
+    },
+    {
+      "title": "Outline",
+      "path": [
+        "Outline"
+      ],
+      "blocks": [
+        {
+          "id": "f7bba6efac814eddb699d8c980423f57",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 6,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Outline",
+          "level": 1
+        },
+        {
+          "id": "2600a6c269c34c8199ecca46636a2cc4",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 6,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 762000,
+              "top": 2024743,
+              "width": 7772400,
+              "height": 4447495
+            }
+          },
+          "items": [
+            {
+              "text": "Attack Examples",
+              "level": 0
+            },
+            {
+              "text": "What is Information Systems Security?",
+              "level": 0
+            },
+            {
+              "text": "ISS Objectives",
+              "level": 0
+            },
+            {
+              "text": "Security terms",
+              "level": 0
+            },
+            {
+              "text": "Security Policies",
+              "level": 0
+            },
+            {
+              "text": "Conclusion",
+              "level": 0
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 6,
+      "notes": null,
+      "metadata": {
+        "slide_index": 6,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "2. What is ISS?",
+      "path": [
+        "2. What is ISS?"
+      ],
+      "blocks": [
+        {
+          "id": "deb7ae5760c24a60b401d80e209d08cc",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7870825,
+              "height": 1341438
+            }
+          },
+          "text": "2. What is ISS?",
+          "level": 1
+        },
+        {
+          "id": "0120b4d287bd48b884afee335d5be383",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 266700,
+              "top": 1363806,
+              "width": 8877301,
+              "height": 5166938
+            }
+          },
+          "items": [
+            {
+              "text": "Information system",
+              "level": 0
+            },
+            {
+              "text": "set of applications, services, information technology assets, or other information-handling components",
+              "level": 1
+            },
+            {
+              "text": "Assets: Data/information, software, hardware, communication facilities, physical facilities",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "id": "422e3e1426e24b049b4ab04f18255cf1",
+          "type": "paragraph",
+          "order": 3,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 13",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 3450852,
+              "top": 3993873,
+              "width": 2296806,
+              "height": 369332
+            }
+          },
+          "text": "physical facilities"
+        },
+        {
+          "id": "b00addee90304728b69b8b21bcc423a1",
+          "type": "paragraph",
+          "order": 4,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 10",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 4099318,
+              "top": 4337251,
+              "width": 886340,
+              "height": 369332
+            }
+          },
+          "text": "Nets"
+        },
+        {
+          "id": "fdee649883c94e5abe6b723ee8d6d476",
+          "type": "paragraph",
+          "order": 5,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 9",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 4077550,
+              "top": 4655126,
+              "width": 886340,
+              "height": 369332
+            }
+          },
+          "text": "HW"
+        },
+        {
+          "id": "326e0bfdcb1a443a819cb9720b904e6e",
+          "type": "paragraph",
+          "order": 6,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 8",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 3725114,
+              "top": 5024804,
+              "width": 1568245,
+              "height": 369332
+            }
+          },
+          "text": "SW systems"
+        },
+        {
+          "id": "c0f0a38d966d42e2a64a1d67162235e5",
+          "type": "paragraph",
+          "order": 7,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 7",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 3685660,
+              "top": 5368009,
+              "width": 1667531,
+              "height": 369332
+            }
+          },
+          "text": "applications"
+        },
+        {
+          "id": "3d6fde86ed7347c0889723dee7ad6015",
+          "type": "paragraph",
+          "order": 8,
+          "page_or_slide": 7,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 6",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 4056527,
+              "top": 5720477,
+              "width": 828496,
+              "height": 369332
+            }
+          },
+          "text": "Data"
+        }
+      ],
+      "page_or_slide": 7,
+      "notes": "According to ISO 27000,\nAn information system set of applications, services, information technology assets, or other information-handling components. Information systems include servers, PCs, routers, switches, applications, services, OSes, …\nThe assets (what is important and need protection) of a computer system can be categorized as follows:\n• Hardware:  Including computer systems and other data processing, data storage,\nand data communications devices\n• Software:  Including the operating system, system utilities, and applications.\n• Data:  Including files and databases, as well as security-related data, such as\npassword files.\n• Communication facilities and networks:  Local and wide area network\ncommunication links, bridges, routers, and so on.",
+      "metadata": {
+        "slide_index": 7,
+        "shape_count": 15
+      }
+    },
+    {
+      "title": "2. What is ISS?",
+      "path": [
+        "2. What is ISS?"
+      ],
+      "blocks": [
+        {
+          "id": "b5fb12b067bd4fc3b7a8e843f60d2e6c",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 8,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7870825,
+              "height": 1341438
+            }
+          },
+          "text": "2. What is ISS?",
+          "level": 1
+        },
+        {
+          "id": "5771b46047074f14aebb116fe3bedc7d",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 8,
+          "section_path": [
+            "2. What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 266700,
+              "top": 1581525,
+              "width": 8877301,
+              "height": 5166938
+            }
+          },
+          "text": "Information Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats."
+        }
+      ],
+      "page_or_slide": 8,
+      "notes": "According to NIST,\nInformation Systems Security is the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats\nISS refers to the processes and methodologies involved with keeping information confidential, available, and assuring its integrity.",
+      "metadata": {
+        "slide_index": 8,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "What is ISS?",
+      "path": [
+        "What is ISS?"
+      ],
+      "blocks": [
+        {
+          "id": "a00de829ca19418ebe1b686731571b53",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 9,
+          "section_path": [
+            "What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "What is ISS?",
+          "level": 1
+        },
+        {
+          "id": "307ef20520df4af3a69fefe5e743137f",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 9,
+          "section_path": [
+            "What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 776743,
+              "top": 1683626,
+              "width": 8151357,
+              "height": 4265449
+            }
+          },
+          "items": [
+            {
+              "text": "synonymous with Computer Security",
+              "level": 0
+            },
+            {
+              "text": "part of information security",
+              "level": 0
+            },
+            {
+              "text": "Information security includes",
+              "level": 0
+            },
+            {
+              "text": "Computer security",
+              "level": 1
+            },
+            {
+              "text": "Information systems security",
+              "level": 1
+            },
+            {
+              "text": "Database security",
+              "level": 1
+            },
+            {
+              "text": "Network security",
+              "level": 1
+            },
+            {
+              "text": "Web security",
+              "level": 1
+            },
+            {
+              "text": "Digital forensics",
+              "level": 1
+            },
+            {
+              "text": "Information security management",
+              "level": 1
+            },
+            {
+              "text": "…",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 9,
+      "notes": "9\nISS is part of Information security.\nAccording to NIST,\nComputer Security: Measures and controls that ensure confidentiality, integrity, and availability of information system assets including hardware, software, firmware, and information being processed, stored, and communicated.\nIn  this context Computer security = ISS",
+      "metadata": {
+        "slide_index": 9,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "What is ISS?",
+      "path": [
+        "What is ISS?"
+      ],
+      "blocks": [
+        {
+          "id": "a10e8bb0e9ec4f3c930087d6d1ed2c23",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 10,
+          "section_path": [
+            "What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "What is ISS?",
+          "level": 1
+        },
+        {
+          "id": "93b29445394e4fcab4c17ae02599e659",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 10,
+          "section_path": [
+            "What is ISS?"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 776743,
+              "top": 1683626,
+              "width": 8151357,
+              "height": 4265449
+            }
+          },
+          "items": [
+            {
+              "text": "information security [ISO 27000: 2018]",
+              "level": 0
+            },
+            {
+              "text": "preservation of confidentiality, integrity and availability of information",
+              "level": 1
+            },
+            {
+              "text": "also preservation of authenticity, accountability, non-repudiation, and reliability",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 10,
+      "notes": "10\nAccording to ISO 27000\nInformation security: preservation of confidentiality, integrity and availability of information\nIt also preservation of authenticity, accountability, non-repudiation, and reliability\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes.\nIntegrity: property of accuracy and completeness.\nAvailability: property of being accessible and usable on demand by an authorized entity.\nAuthenticity: property that an entity is what it claims to be.\nnon-repudiation: ability to prove the occurrence of a claimed event or action and its originating entities\nReliability: property of consistent intended behavior and results\nAccountability: the ability to identify principals responsible for past actions",
+      "metadata": {
+        "slide_index": 10,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Outline",
+      "path": [
+        "Outline"
+      ],
+      "blocks": [
+        {
+          "id": "850fc2ff05204bcfb1e2280e9390c3a9",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 11,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Outline",
+          "level": 1
+        },
+        {
+          "id": "141d7716579e463db62f34f9b8618b0e",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 11,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 762000,
+              "top": 2024743,
+              "width": 7772400,
+              "height": 4447495
+            }
+          },
+          "items": [
+            {
+              "text": "Attack Examples",
+              "level": 0
+            },
+            {
+              "text": "What is Information Systems Security?",
+              "level": 0
+            },
+            {
+              "text": "ISS Objectives",
+              "level": 0
+            },
+            {
+              "text": "Security terms",
+              "level": 0
+            },
+            {
+              "text": "Security Policies",
+              "level": 0
+            },
+            {
+              "text": "Conclusion",
+              "level": 0
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 11,
+      "notes": null,
+      "metadata": {
+        "slide_index": 11,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "ISS Objectives",
+      "path": [
+        "ISS Objectives"
+      ],
+      "blocks": [
+        {
+          "id": "afd816ee84894cadad0a3a2ced8f9080",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 12,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "ISS Objectives",
+          "level": 1
+        },
+        {
+          "id": "b8ee2c889ec54b949d92ac50e54452f1",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 12,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 837398,
+              "top": 1857676,
+              "width": 8072686,
+              "height": 4433587
+            }
+          },
+          "text": "Confidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control"
+        }
+      ],
+      "page_or_slide": 12,
+      "notes": "12\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes.\n- A process: set of interrelated or interacting activities which transforms inputs into outputs. Example: change management process which is carried out by a manager.\n- Examples of entities: users, groups, roles (as in sql), application processes, ….\nPrivacy: Assures that individuals control or influence what information related to them may be collected and stored and by whom and to whom that information may be disclosed",
+      "metadata": {
+        "slide_index": 12,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "ISS Objectives",
+      "path": [
+        "ISS Objectives"
+      ],
+      "blocks": [
+        {
+          "id": "1975dac08dd143678b397ed8bf441ec1",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 13,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "ISS Objectives",
+          "level": 1
+        },
+        {
+          "id": "0cc6674f8eba448bb1e22678a614faf3",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 13,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 671333,
+              "top": 1341438,
+              "width": 8432980,
+              "height": 5199061
+            }
+          },
+          "text": "Integrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…"
+        }
+      ],
+      "page_or_slide": 13,
+      "notes": "13\nIntegrity: property of accuracy and completeness .\nIntegrity: This term covers two related concepts:\n—Data integrity: Assures that information and programs are changed only in a specified and authorized manner.\nin other words, ensuring information has not been altered by unauthorized or unknown means.\n—System integrity: Assures that a system performs its intended function in an unimpaired manner, free from deliberate or inadvertent unauthorized manipulation of the system.",
+      "metadata": {
+        "slide_index": 13,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "ISS Objectives",
+      "path": [
+        "ISS Objectives"
+      ],
+      "blocks": [
+        {
+          "id": "75751765903d4284ada3786a803c96ec",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 14,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "ISS Objectives",
+          "level": 1
+        },
+        {
+          "id": "7c67f5bf846b4d6c86149ee62be63c2f",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 14,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 808073,
+              "top": 1786270,
+              "width": 8296239,
+              "height": 4754230
+            }
+          },
+          "items": [
+            {
+              "text": "Availability",
+              "level": 0
+            },
+            {
+              "text": "property of being accessible and usable on demand by an authorized entity.",
+              "level": 1
+            },
+            {
+              "text": "means: protection from disruption, intentional deletion, …",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 14,
+      "notes": "14\nAvailability: property of being accessible and usable on demand by an authorized entity.",
+      "metadata": {
+        "slide_index": 14,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "ISS Objectives",
+      "path": [
+        "ISS Objectives"
+      ],
+      "blocks": [
+        {
+          "id": "0b28a0da49af4eeab620c9ac251e5e3d",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 15,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "ISS Objectives",
+          "level": 1
+        },
+        {
+          "id": "56109e2a5bcd4d10864b5458c77cf9c9",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 15,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 360231,
+              "top": 1413164,
+              "width": 9144000,
+              "height": 1787236
+            }
+          },
+          "items": [
+            {
+              "text": "Other Objectives:",
+              "level": 0
+            },
+            {
+              "text": "Authenticity",
+              "level": 1
+            },
+            {
+              "text": "property that an entity is what it claims to be",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": "236378374b2741a89a7de130848d20e2",
+          "type": "paragraph",
+          "order": 3,
+          "page_or_slide": 15,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 175746,
+              "top": 3291378,
+              "width": 9144000,
+              "height": 2986088
+            }
+          },
+          "text": "2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication."
+        }
+      ],
+      "page_or_slide": 15,
+      "notes": "15\nISO 27000: 2018:\nauthenticity\nproperty that an entity is what it claims to be\nخاصية أن الكيان هو ما يدعي كونه\nauthentication\nprovision of assurance that a claimed characteristic of an entity is correct\nتقديم ضمان بأن خاصية مزعومة لكيان هي صحيحة",
+      "metadata": {
+        "slide_index": 15,
+        "shape_count": 4
+      }
+    },
+    {
+      "title": "ISS Objectives",
+      "path": [
+        "ISS Objectives"
+      ],
+      "blocks": [
+        {
+          "id": "2fd718dfa0b34ffb8e66d6fd141d5cd2",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 16,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "ISS Objectives",
+          "level": 1
+        },
+        {
+          "id": "a17d26ab0a114fb49f556fbae91e071e",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 16,
+          "section_path": [
+            "ISS Objectives"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 646113,
+              "top": 1798638,
+              "width": 8497887,
+              "height": 4537075
+            }
+          },
+          "items": [
+            {
+              "text": "Non-repudiation",
+              "level": 1
+            },
+            {
+              "text": "preventing the denial of previous commitments or actions",
+              "level": 2
+            },
+            {
+              "text": "Accountability",
+              "level": 1
+            },
+            {
+              "text": "the ability to identify entities responsible for past actions.",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 16,
+      "notes": null,
+      "metadata": {
+        "slide_index": 16,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Computer Security Challenges",
+      "path": [
+        "Computer Security Challenges"
+      ],
+      "blocks": [
+        {
+          "id": "2a30cb0b605943919b31e494cec519c6",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 17,
+          "section_path": [
+            "Computer Security Challenges"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 457200,
+              "top": 0,
+              "width": 8229600,
+              "height": 836712
+            }
+          },
+          "text": "Computer Security Challenges",
+          "level": 1
+        }
+      ],
+      "page_or_slide": 17,
+      "notes": "17\nComputer security is both fascinating and complex. Some of the reasons follow:\n1. Computer security is not as simple as it might first appear to the novice. The\nrequirements seem to be straightforward; indeed, most of the major requirements\nfor security services can be given self-explanatory one-word labels:\nconfidentiality, authentication, nonrepudiation, and integrity. But the mechanisms\nused to meet those requirements can be quite complex, and understanding\nthem may involve rather subtle reasoning.\n2. In developing a particular security mechanism or algorithm, one must always consider\npotential attacks on those security features. In many cases, successful attacks\nare designed by looking at the problem in a completely different way, therefore\nexploiting an unexpected weakness in the mechanism.\n3. Because of Point 2, the procedures used to provide particular services are often\ncounterintuitive. Typically, a security mechanism is complex, and it is not obvious\nfrom the statement of a particular requirement that such elaborate measures are\nneeded. Only when the various aspects of the threat are considered do elaborate\nsecurity mechanisms make sense.\n4. Having designed various security mechanisms, it is necessary to decide where to\nuse them. This is true both in terms of physical placement (e.g., at what points in\na network are certain security mechanisms needed) and in a logical sense [e.g.,\nat what layer or layers of an architecture such as TCP/IP (Transmission Control\nProtocol/Internet Protocol) should mechanisms be placed].\n5. Security mechanisms typically involve more than a particular algorithm or\nprotocol. They also require that participants be in possession of some secret\ninformation (e.g., an encryption key), which raises questions about the creation,\ndistribution, and protection of that secret information. There may also be a reliance\non communications protocols whose behavior may complicate the task of\ndeveloping the security mechanism. For example, if the proper functioning of the\nsecurity mechanism requires setting time limits on the transit time of a message\nfrom sender to receiver, then any protocol or network that introduces variable,\nunpredictable delays may render such time limits meaningless.\n6.  Computer security is essentially a battle of wits between a perpetrator who tries\nto find holes, and the designer or administrator who tries to close them. The great\nadvantage that the attacker has is that he or she need only find a single weakness,\nwhile the designer must find and eliminate all weaknesses to achieve perfect\nsecurity.\n7.  There is a natural tendency on the part of users and system managers to perceive\nlittle benefit from security investment until a security failure occurs.\n8.  Security requires regular, even constant monitoring, and this is difficult in today’s\nshort-term, overloaded environment.\n9.  Security is still too often an afterthought to be incorporated into a system after\nthe design is complete, rather than being an integral part of the design process.\n10.  Many users and even security administrators view strong security as an impediment\nto efficient and user-friendly operation of an information system or use\nof information.",
+      "metadata": {
+        "slide_index": 17,
+        "shape_count": 2
+      }
+    },
+    {
+      "title": "Outline",
+      "path": [
+        "Outline"
+      ],
+      "blocks": [
+        {
+          "id": "37e0984495e34fadb5c7d233b21de281",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 18,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Outline",
+          "level": 1
+        },
+        {
+          "id": "9468f6d792f54166ae405ab6e062909f",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 18,
+          "section_path": [
+            "Outline"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 762000,
+              "top": 2024743,
+              "width": 7772400,
+              "height": 4447495
+            }
+          },
+          "items": [
+            {
+              "text": "Attack Examples",
+              "level": 0
+            },
+            {
+              "text": "What is Information Systems Security?",
+              "level": 0
+            },
+            {
+              "text": "ISS Objectives",
+              "level": 0
+            },
+            {
+              "text": "Security terms",
+              "level": 0
+            },
+            {
+              "text": "Security Policies",
+              "level": 0
+            },
+            {
+              "text": "Conclusion",
+              "level": 0
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 18,
+      "notes": null,
+      "metadata": {
+        "slide_index": 18,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "4. Security Terms",
+      "path": [
+        "4. Security Terms"
+      ],
+      "blocks": [
+        {
+          "id": "7a5b0fd55a01441cbedf5f6e0dcaa357",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 19,
+          "section_path": [
+            "4. Security Terms"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 711200,
+              "top": 0,
+              "width": 8432800,
+              "height": 1341438
+            }
+          },
+          "text": "4. Security Terms",
+          "level": 1
+        },
+        {
+          "id": "f7b1ce1f45b64c7f802a06b76d9d9884",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 19,
+          "section_path": [
+            "4. Security Terms"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 711200,
+              "top": 1645919,
+              "width": 8432800,
+              "height": 4696143
+            }
+          },
+          "text": "A vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome"
+        }
+      ],
+      "page_or_slide": 19,
+      "notes": "19\nVulnerabilities: is a weakness in system design or implementation and can be in hardware or software.\nhardware\naccidental: fires, floods, mice\nmalicious: fires, theft\nsoftware:\naccidental: Bugs (buffer overflows), bad design (fails to an insecure state)\nMalicious: deletion, spyware, Trojans,\nis an indication of potential undesirable event\nA Threat is something that can potentially cause damage to the network or computer system.\nIt is an indication of a potential undesirable event. It refers to a situation in which either a person could do something undesirable (e.g., initiating a denial-of-service attack against an organization's email server) or a natural occurrence could cause an undesirable outcome (a fire damaging an organization's information technology hardware).",
+      "metadata": {
+        "slide_index": 19,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Security terms",
+      "path": [
+        "Security terms"
+      ],
+      "blocks": [
+        {
+          "id": "c3ae0870a4fd440ebc84ce72a7afba77",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 20,
+          "section_path": [
+            "Security terms"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 8077200,
+              "height": 1341438
+            }
+          },
+          "text": "Security terms",
+          "level": 1
+        },
+        {
+          "id": "2ef6f4b270294ae1876174971ff57340",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 20,
+          "section_path": [
+            "Security terms"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 646113,
+              "top": 1422400,
+              "width": 8497887,
+              "height": 5334000
+            }
+          },
+          "items": [
+            {
+              "text": "Vulnerabilities: Examples",
+              "level": 0
+            },
+            {
+              "text": "Unprotected data under transmission",
+              "level": 1
+            },
+            {
+              "text": "Mistakes in firewall or router",
+              "level": 1
+            },
+            {
+              "text": "Software bugs exist.",
+              "level": 1
+            },
+            {
+              "text": "Passwords posted near the computer",
+              "level": 1
+            },
+            {
+              "text": "Threats: Examples",
+              "level": 0
+            },
+            {
+              "text": "Virus",
+              "level": 1
+            },
+            {
+              "text": "Illegal Passwords  use",
+              "level": 1
+            },
+            {
+              "text": "Illegal access to the Internet",
+              "level": 1
+            },
+            {
+              "text": "Pretending to be a desk helper",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 20,
+      "notes": null,
+      "metadata": {
+        "slide_index": 20,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Security terms",
+      "path": [
+        "Security terms"
+      ],
+      "blocks": [
+        {
+          "id": "9129b3ba37084db7b1f585a83ea3e8ef",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 21,
+          "section_path": [
+            "Security terms"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 8077200,
+              "height": 1341438
+            }
+          },
+          "text": "Security terms",
+          "level": 1
+        },
+        {
+          "id": "fb30430b4dbf47c8b4857a96e2fee56a",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 21,
+          "section_path": [
+            "Security terms"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 646113,
+              "top": 1524000,
+              "width": 8497887,
+              "height": 4870450
+            }
+          },
+          "items": [
+            {
+              "text": "A Risk: the expected loss due to harmful future events,",
+              "level": 0
+            },
+            {
+              "text": "An attack: is a realization of a threat",
+              "level": 0
+            },
+            {
+              "text": "An attacker: is a person who exploits a vulnerability",
+              "level": 0
+            },
+            {
+              "text": "An attacker must have means, opportunity, and motive",
+              "level": 0
+            },
+            {
+              "text": "Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 21,
+      "notes": "21\nRisk: is the possibility of suffering harm or loss\nRisk: the expected loss due to harmful future events,",
+      "metadata": {
+        "slide_index": 21,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Threats  from hackers",
+      "path": [
+        "Threats  from hackers"
+      ],
+      "blocks": [
+        {
+          "id": "8538b269f44a4bf19dc0ecc92f057653",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 22,
+          "section_path": [
+            "Threats  from hackers"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Threats  from hackers",
+          "level": 1
+        },
+        {
+          "id": "c54d53bbfc5d4e4c9f89b007376990d3",
+          "type": "heading",
+          "order": 2,
+          "page_or_slide": 22,
+          "section_path": [
+            "Threats  from hackers"
+          ],
+          "metadata": {
+            "shape_name": "AutoShape 3",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 195263,
+              "top": 862013,
+              "width": 3013075,
+              "height": 2282825
+            }
+          },
+          "text": "hackers are  computer or network expert",
+          "level": 1
+        },
+        {
+          "id": "240e249fc25d4161a443fdb17c9e71be",
+          "type": "paragraph",
+          "order": 3,
+          "page_or_slide": 22,
+          "section_path": [
+            "Threats  from hackers"
+          ],
+          "metadata": {
+            "shape_name": "Text Box 5",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 3111500,
+              "top": 1370013,
+              "width": 5913438,
+              "height": 1187450
+            }
+          },
+          "text": "They Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)"
+        },
+        {
+          "id": "073d3907d3af4fbc8fcc7a6147b0be35",
+          "type": "paragraph",
+          "order": 4,
+          "page_or_slide": 22,
+          "section_path": [
+            "Threats  from hackers"
+          ],
+          "metadata": {
+            "shape_name": "Text Box 6",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 2017713,
+              "top": 2951163,
+              "width": 4867275,
+              "height": 1552575
+            }
+          },
+          "text": "They cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown"
+        },
+        {
+          "id": "a0f60dd3c5a2406db7d35fd217a37895",
+          "type": "paragraph",
+          "order": 5,
+          "page_or_slide": 22,
+          "section_path": [
+            "Threats  from hackers"
+          ],
+          "metadata": {
+            "shape_name": "AutoShape 10",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 7392988,
+              "top": 3395663,
+              "width": 1751012,
+              "height": 822325
+            }
+          },
+          "text": "Crackers"
+        },
+        {
+          "id": "d8ee452e24964e1288148e730957f961",
+          "type": "bullet_list",
+          "order": 6,
+          "page_or_slide": 22,
+          "section_path": [
+            "Threats  from hackers"
+          ],
+          "metadata": {
+            "shape_name": "Text Box 8",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 531813,
+              "top": 4757738,
+              "width": 8591550,
+              "height": 2124075
+            }
+          },
+          "items": [
+            {
+              "text": "Examples of threats from crackers’ actions:",
+              "level": 0
+            },
+            {
+              "text": "Illegally use IDs or passwords that they stole",
+              "level": 0
+            },
+            {
+              "text": "Illegally access servers and steal personal information, etc.",
+              "level": 0
+            },
+            {
+              "text": "Destroy systems",
+              "level": 0
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 22,
+      "notes": "22\nA hacker:\nA person who have advanced knowledge of operating systems and  programming languages\nMight discover holes within systems and the reasons for such holes\nShare what they  discover but never intentionally damage data\nA cracker:\nThe one who breaks into or violates the system integrity of remote machines with the malicious intent, i.e., gaining unauthorized access\nMight destroy vital data, deny legitimate users services",
+      "metadata": {
+        "slide_index": 22,
+        "shape_count": 10
+      }
+    },
+    {
+      "title": "Types of Attack",
+      "path": [
+        "Types of Attack"
+      ],
+      "blocks": [
+        {
+          "id": "fc393dd85eae4d2989829dcbe5f9c313",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 23,
+          "section_path": [
+            "Types of Attack"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Types of Attack",
+          "level": 1
+        },
+        {
+          "id": "d9c37e4aec004193bef14bec3b2c8b27",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 23,
+          "section_path": [
+            "Types of Attack"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 636588,
+              "top": 1444625,
+              "width": 8507412,
+              "height": 5413375
+            }
+          },
+          "text": "Interruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access."
+        }
+      ],
+      "page_or_slide": 23,
+      "notes": null,
+      "metadata": {
+        "slide_index": 23,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Types of Attack",
+      "path": [
+        "Types of Attack"
+      ],
+      "blocks": [
+        {
+          "id": "4a0547c2820e4a128c21f241a75a0170",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 24,
+          "section_path": [
+            "Types of Attack"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Types of Attack",
+          "level": 1
+        },
+        {
+          "id": "edc0c1f3c0904137842eaf50d5bd5b86",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 24,
+          "section_path": [
+            "Types of Attack"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 676275,
+              "top": 1444625,
+              "width": 8467725,
+              "height": 5413375
+            }
+          },
+          "text": "Masquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later"
+        }
+      ],
+      "page_or_slide": 24,
+      "notes": "24\nSpurious info معلومات زائفة",
+      "metadata": {
+        "slide_index": 24,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Assets and Examples of Threats",
+      "path": [
+        "Assets and Examples of Threats"
+      ],
+      "blocks": [
+        {
+          "id": "ec7eb9cb92ff44ddb09f58eb4ba693ac",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 25,
+          "section_path": [
+            "Assets and Examples of Threats"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Assets and Examples of Threats",
+          "level": 1
+        },
+        {
+          "id": "39b35ea46ec44082a08ea34a12159f8c",
+          "type": "figure",
+          "order": 2,
+          "page_or_slide": 25,
+          "section_path": [
+            "Assets and Examples of Threats"
+          ],
+          "metadata": {
+            "shape_name": "Picture 6",
+            "shape_type": "PICTURE (13)",
+            "bbox": {
+              "left": 107504,
+              "top": 980728,
+              "width": 8921829,
+              "height": 6040822
+            }
+          },
+          "text": null,
+          "image_path": "output_pptx\\images\\slide_25_89109aa8.wmf",
+          "image_name": "slide_25_89109aa8.wmf",
+          "caption": null,
+          "rel_id": null,
+          "alt_text": null
+        },
+        {
+          "id": "39b35ea46ec44082a08ea34a12159f8c_desc",
+          "type": "figure_description",
+          "order": 3,
+          "page_or_slide": null,
+          "section_path": [
+            "Assets and Examples of Threats"
+          ],
+          "metadata": {
+            "figure_id": "39b35ea46ec44082a08ea34a12159f8c",
+            "generated": true
+          }
+        }
+      ],
+      "page_or_slide": 25,
+      "notes": null,
+      "metadata": {
+        "slide_index": 25,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Countermeasures",
+      "path": [
+        "Countermeasures"
+      ],
+      "blocks": [
+        {
+          "id": "51fc1d416e374267b54398d03c786cc4",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 26,
+          "section_path": [
+            "Countermeasures"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Countermeasures",
+          "level": 1
+        },
+        {
+          "id": "629e6d56cece463ea42e62b22ef751e8",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 26,
+          "section_path": [
+            "Countermeasures"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 631371,
+              "top": 1548946,
+              "width": 8512629,
+              "height": 5199517
+            }
+          },
+          "text": "include techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc."
+        }
+      ],
+      "page_or_slide": 26,
+      "notes": null,
+      "metadata": {
+        "slide_index": 26,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "A Model for Computer Security",
+      "path": [
+        "A Model for Computer Security"
+      ],
+      "blocks": [
+        {
+          "id": "8e855a2d68514769b2bf48b1a5d260e0",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 27,
+          "section_path": [
+            "A Model for Computer Security"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 609600,
+              "top": 241300,
+              "width": 8001000,
+              "height": 1100138
+            }
+          },
+          "text": "A Model for Computer Security",
+          "level": 1
+        },
+        {
+          "id": "41ffdeb6304a4effbb4a25cedeced929",
+          "type": "figure",
+          "order": 2,
+          "page_or_slide": 27,
+          "section_path": [
+            "A Model for Computer Security"
+          ],
+          "metadata": {
+            "shape_name": "Picture 2",
+            "shape_type": "PICTURE (13)",
+            "bbox": {
+              "left": 799586,
+              "top": 1541666,
+              "width": 7544828,
+              "height": 5621134
+            }
+          },
+          "text": null,
+          "image_path": "output_pptx\\images\\slide_27_e165e92e.wmf",
+          "image_name": "slide_27_e165e92e.wmf",
+          "caption": null,
+          "rel_id": null,
+          "alt_text": null
+        },
+        {
+          "id": "41ffdeb6304a4effbb4a25cedeced929_desc",
+          "type": "figure_description",
+          "order": 3,
+          "page_or_slide": null,
+          "section_path": [
+            "A Model for Computer Security"
+          ],
+          "metadata": {
+            "figure_id": "41ffdeb6304a4effbb4a25cedeced929",
+            "generated": true
+          }
+        }
+      ],
+      "page_or_slide": 27,
+      "notes": "Figure 1.2, based on [CCPS12a], shows the relationship among some of these terms.\nWe start with the concept of a system resource , or asset , that users and owners wish to protect.\nAdversary (threat agent): Individual, group, organization, or government that conducts or has the intent to conduct detrimental activities.\nCountermeasure: A device or techniques that has as its objective the impairment of the operational effectiveness of undesirable\nor adversarial activity, or the prevention of espionage, sabotage, theft, or unauthorized access to or use of\nsensitive information or information systems.\nSystem Resource (Asset): A major application, general support system, high impact program, physical plant, mission critical system, personnel, equipment, or a logically related group of systems",
+      "metadata": {
+        "slide_index": 27,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "ISS- another  definition",
+      "path": [
+        "ISS- another  definition"
+      ],
+      "blocks": [
+        {
+          "id": "51bf9452d0b643b990a9b71eb27f65f9",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 28,
+          "section_path": [
+            "ISS- another  definition"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 609600,
+              "top": 0,
+              "width": 8001000,
+              "height": 1341438
+            }
+          },
+          "text": "ISS- another  definition",
+          "level": 1
+        },
+        {
+          "id": "158816a4e05f4e27bfbc559fcec9d1f1",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 28,
+          "section_path": [
+            "ISS- another  definition"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 357808,
+              "top": 1808921,
+              "width": 8825879,
+              "height": 4602991
+            }
+          },
+          "items": [
+            {
+              "text": "What  needs to be protected, i.e., assets",
+              "level": 1
+            },
+            {
+              "text": "Why (security requirements which include CIA),",
+              "level": 1
+            },
+            {
+              "text": "What we need to protect from (Threats, vulnerabilities, risks)",
+              "level": 1
+            },
+            {
+              "text": "and how  (Countermeasures) to protect it for as long as it exists",
+              "level": 1
+            },
+            {
+              "text": "Then operate, monitor, review, improve",
+              "level": 1
+            },
+            {
+              "text": "All steps are implemented according to the security policy",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 28,
+      "notes": "28\nInformation security:\nIs more than setting up a firewall, running an anti-virus software, using passwords to control access to databases, or discovering vulnerabilities in your system software.\nIs about:\nwhat  needs to be protected, i.e., assets such as PCs, software, applications, etc.\nWhy assets need protection, i.e., security requirements such as Confidentiality, Integrity, and Availability (C.I.A.)\nwhat  do we need to protect from? (e.g., threats, vulnerabilities, risks),\nhow to protect assets, i.e., what security measures we need to protect assets\nSecurity measures include techniques for:\nPrevention: techniques, to prevent occurrence of threats, such as encryption, firewalls, etc.\nDetection: techniques, to discover illegal actions, or attempted illegal access, such as IDSs (Intrusion Detection Systems), monitoring tools, etc.\nReaction or recovery: techniques to minimizes the damages and restore the CIA of damages assets (eg, backup of systems).\nSecurity measures are an implementation of a security policy.",
+      "metadata": {
+        "slide_index": 28,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "5. Security Policy",
+      "path": [
+        "5. Security Policy"
+      ],
+      "blocks": [
+        {
+          "id": "1e1d74ef28884bf1a38e18d21933671e",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 29,
+          "section_path": [
+            "5. Security Policy"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "5. Security Policy",
+          "level": 1
+        },
+        {
+          "id": "4b0f8e41e55d4bce96a33f238f80aa0b",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 29,
+          "section_path": [
+            "5. Security Policy"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 825500,
+              "top": 1981200,
+              "width": 8318500,
+              "height": 4797425
+            }
+          },
+          "items": [
+            {
+              "text": "a document describing intentions and direction of an organization regarding information security",
+              "level": 0
+            },
+            {
+              "text": "Example 1:",
+              "level": 1
+            },
+            {
+              "text": "personal information must be treated as confidential.",
+              "level": 2
+            },
+            {
+              "text": "services must be available 24/7",
+              "level": 2
+            },
+            {
+              "text": "states what is/is not allowed",
+              "level": 0
+            },
+            {
+              "text": "examples:",
+              "level": 1
+            },
+            {
+              "text": "account names must not be used in passwords.",
+              "level": 2
+            },
+            {
+              "text": "Surfing the www is prohibited.",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 29,
+      "notes": "29\nPolicy: intentions and direction of an organization, as formally expressed by its top management",
+      "metadata": {
+        "slide_index": 29,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Security Policy",
+      "path": [
+        "Security Policy"
+      ],
+      "blocks": [
+        {
+          "id": "97bdbb0503704fd881cf23a53d2cf1bc",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 30,
+          "section_path": [
+            "Security Policy"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Security Policy",
+          "level": 1
+        },
+        {
+          "id": "9e54f740090a4815978f315a9a1cfa34",
+          "type": "paragraph",
+          "order": 2,
+          "page_or_slide": 30,
+          "section_path": [
+            "Security Policy"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 859970,
+              "top": 1959429,
+              "width": 7935687,
+              "height": 4331834
+            }
+          },
+          "text": "security policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)"
+        }
+      ],
+      "page_or_slide": 30,
+      "notes": null,
+      "metadata": {
+        "slide_index": 30,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Security Lifecycle",
+      "path": [
+        "Security Lifecycle"
+      ],
+      "blocks": [
+        {
+          "id": "46ffd33851a3421a8db58e8e8163e733",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Security Lifecycle",
+          "level": 1
+        },
+        {
+          "id": "df32b61c9fb54f0c9b652b6f7020e852",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 23",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 3257548,
+              "top": 1489054,
+              "width": 4729844,
+              "height": 1477328
+            }
+          },
+          "items": [
+            {
+              "text": "Develop sec policy",
+              "level": 0
+            },
+            {
+              "text": "Draw blueprints",
+              "level": 0
+            },
+            {
+              "text": "Determine sec requirements (objectives)",
+              "level": 0
+            },
+            {
+              "text": "Analyze threats, vulnerabilities (i.e., analyze risks)",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "id": "f71ce24d157c41d3b530dea3e264dba6",
+          "type": "paragraph",
+          "order": 3,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle: Rounded Corners 4",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 544286,
+              "top": 1709055,
+              "width": 1970314,
+              "height": 587829
+            }
+          },
+          "text": "Analyze"
+        },
+        {
+          "id": "c594372e719e4ef1afd44ad21d9458cc",
+          "type": "bullet_list",
+          "order": 4,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 27",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 3897084,
+              "top": 2935103,
+              "width": 3717473,
+              "height": 923330
+            }
+          },
+          "items": [
+            {
+              "text": "Design architecture,",
+              "level": 0
+            },
+            {
+              "text": "Choose countermeasures",
+              "level": 0
+            },
+            {
+              "text": "Continue developing sec policy",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "id": "9e173b6bb9ce4529af02fc5cc25f3e24",
+          "type": "paragraph",
+          "order": 5,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle: Rounded Corners 16",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 1235528,
+              "top": 3058884,
+              "width": 1970314,
+              "height": 587829
+            }
+          },
+          "text": "Design"
+        },
+        {
+          "id": "f994d53d18764ff88cc55b372c3beb49",
+          "type": "bullet_list",
+          "order": 6,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 35",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 4588326,
+              "top": 4252067,
+              "width": 4060367,
+              "height": 923330
+            }
+          },
+          "items": [
+            {
+              "text": "Implement countermeasures",
+              "level": 0
+            },
+            {
+              "text": "Test",
+              "level": 0
+            },
+            {
+              "text": "Carry out training and awareness",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "id": "f0ec75c823b64850a6fbda5e5a7eca2f",
+          "type": "paragraph",
+          "order": 7,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle: Rounded Corners 18",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 1926770,
+              "top": 4408713,
+              "width": 1970314,
+              "height": 587829
+            }
+          },
+          "text": "Implement"
+        },
+        {
+          "id": "4360930e35b248e8bc76342c6109f5b5",
+          "type": "bullet_list",
+          "order": 8,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "TextBox 29",
+            "shape_type": "TEXT_BOX (17)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 5562597,
+              "top": 5725205,
+              "width": 2046515,
+              "height": 646331
+            }
+          },
+          "items": [
+            {
+              "text": "Monitor",
+              "level": 0
+            },
+            {
+              "text": "review",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "id": "a7b9a19928924bc8981272feb90a1de1",
+          "type": "paragraph",
+          "order": 9,
+          "page_or_slide": 31,
+          "section_path": [
+            "Security Lifecycle"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle: Rounded Corners 20",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 2770414,
+              "top": 5758542,
+              "width": 1970314,
+              "height": 587829
+            }
+          },
+          "text": "Operate"
+        }
+      ],
+      "page_or_slide": 31,
+      "notes": null,
+      "metadata": {
+        "slide_index": 31,
+        "shape_count": 23
+      }
+    },
+    {
+      "title": "6. Conclusion",
+      "path": [
+        "6. Conclusion"
+      ],
+      "blocks": [
+        {
+          "id": "d0d651c5c0cd409d8ed5b494e7eedbfd",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 32,
+          "section_path": [
+            "6. Conclusion"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "6. Conclusion",
+          "level": 1
+        },
+        {
+          "id": "faa514e7306947bc80fa6ef2d8c1251a",
+          "type": "bullet_list",
+          "order": 2,
+          "page_or_slide": 32,
+          "section_path": [
+            "6. Conclusion"
+          ],
+          "metadata": {
+            "shape_name": "Rectangle 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 646113,
+              "top": 1571331,
+              "width": 8497887,
+              "height": 4702175
+            }
+          },
+          "items": [
+            {
+              "text": "Security terms",
+              "level": 0
+            },
+            {
+              "text": "ISS",
+              "level": 1
+            },
+            {
+              "text": "Security objectives",
+              "level": 1
+            },
+            {
+              "text": "Vulnerabilities and Threats,",
+              "level": 1
+            },
+            {
+              "text": "Security measures",
+              "level": 1
+            },
+            {
+              "text": "Security Policy",
+              "level": 1
+            },
+            {
+              "text": "Next lectures:",
+              "level": 0
+            },
+            {
+              "text": "Covering these terms in detail",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "page_or_slide": 32,
+      "notes": null,
+      "metadata": {
+        "slide_index": 32,
+        "shape_count": 3
+      }
+    },
+    {
+      "title": "Questions?",
+      "path": [
+        "Questions?"
+      ],
+      "blocks": [
+        {
+          "id": "b8f1d6f9e1454a96af7843f78e657e31",
+          "type": "paragraph",
+          "order": 1,
+          "page_or_slide": 33,
+          "section_path": [
+            "Questions?"
+          ],
+          "metadata": {
+            "shape_name": "WordArt 6",
+            "shape_type": "AUTO_SHAPE (1)",
+            "is_placeholder": false,
+            "bbox": {
+              "left": 1419225,
+              "top": 1539875,
+              "width": 7142163,
+              "height": 4179888
+            }
+          },
+          "text": "Questions?"
+        }
+      ],
+      "page_or_slide": 33,
+      "notes": null,
+      "metadata": {
+        "slide_index": 33,
+        "shape_count": 2
+      }
+    },
+    {
+      "title": "Case Study 1 – Hospital system",
+      "path": [
+        "Case Study 1 – Hospital system"
+      ],
+      "blocks": [
+        {
+          "id": "559c58df958141a6b453c888911a2c9f",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 34,
+          "section_path": [
+            "Case Study 1 – Hospital system"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Case Study 1 – Hospital system",
+          "level": 1
+        },
+        {
+          "id": "49b41970ca214fde9e242074aca3f6ad",
+          "type": "figure",
+          "order": 2,
+          "page_or_slide": 34,
+          "section_path": [
+            "Case Study 1 – Hospital system"
+          ],
+          "metadata": {
+            "shape_name": "Picture 584",
+            "shape_type": "PICTURE (13)",
+            "bbox": {
+              "left": 751840,
+              "top": 1564641,
+              "width": 7477760,
+              "height": 4503419
+            }
+          },
+          "text": null,
+          "image_path": "output_pptx\\images\\slide_34_81bb6557.png",
+          "image_name": "slide_34_81bb6557.png",
+          "caption": null,
+          "rel_id": null,
+          "alt_text": null
+        },
+        {
+          "id": "49b41970ca214fde9e242074aca3f6ad_desc",
+          "type": "figure_description",
+          "order": 3,
+          "page_or_slide": null,
+          "section_path": [
+            "Case Study 1 – Hospital system"
+          ],
+          "metadata": {
+            "figure_id": "49b41970ca214fde9e242074aca3f6ad",
+            "generated": true
+          }
+        }
+      ],
+      "page_or_slide": 34,
+      "notes": "نظام المعلومات في المشفى\nيعتمد نظام المعلومات في المشفى عمارة ثلاثية الطبقات (three-tier architecture): طبقة العرض وتتمثل بالواجهة التي يستخدمها مستثمرو النظام لإنجاز وظائفهم، وطبقة التطبيق التي تعالج طلبات المستخدمين/الزبائن وتخاطب طبقة البيانات للإجابة على طلبات المستخدمين وترسل لهم نتائج المعالجة، وطبقة البيانات التي تحتوي على بيانات شخصية عامة للمرضى مثل الاسم والعنوان وتاريخ الميلاد وتخزن ضمن الجدول pnt_info ، وبيانات شخصية صحية ترتبط بالتشخيص والعلاج وتحفظ ضمن الجدول pnt_records. مستخدمو النظام هم مدير النظام وموظف القبول، والطبيب، والمريض.\nيُسمح لمدير النظام بإدارة (إنشاء، إلغاء، تعديل، منح صالحيات، تدقيق/مراجعة عمليات...) حسابات المستخدمين من أطباء وموظفي القبول ومرضى للدخول إلى نظام المعلومات.\nيستطيع موظف القبول فتح حساب للمريض لدى الدخول لأول مرة إلى المشفى، وقراءة وتعديل البيانات الشخصية العامة للمريض، وتسجيل معلومات عن مراجعات المريض وحالات القبول في المشفى والمغادرة.\nيمكن للطبيب المعالج أن يطلع على كامل بيانات المريض وتعديل البيانات الصحية (إضافة تشخيص، إضافة علاج، تعديل علاج، ...).\nيُسمح للمريض patient بالاطلاع على كامل بياناته الشخصية، وتعديل بياناته الشخصية العامة. ويحق للمريض فقط الدخول إلى النظام من خارج شبكة المشفى.\nيَنفذ كل من المريض ومدير النظام والطبيب والموظف إلى النظام عبر الويب بعد تسجيل الدخول (login) بالاعتماد على اسم مستخدم (معرف) وكلمة مرور، وذلك من خلال واجهة ويب، وتتاح لهم واجهة تستعرض العمليات التي يسمح لكل منهم القيام بها.\nيمكن للمستخدم بعد تسجيل الدخول إلى النظام من القيام بالعمليات التي يحتاجها (قراءة، كتابة،...) من خلال طلب استعلام query_request يحتوي على معرف المستخدم ونوع العملية (قراءة، تعديل، إضافة، حذف،....) واسم المريض ومعرفه إن كان متاحاً. وفي حال كانت العملية من النوع تعديل بيانات أو إضافة بيانات جديدة فسيحتوي طلب الاستعلام على البيانات المراد تعديلها أو إضافتها. ويعيد النظام إلى المستخدم نتيجة المعالجة ضمن جواب استعلام reply_ query يحتوي على اسم المريض ومعرفه ونتيجة معالجة طلب الاستعلام.\nالمتطلبات الأمنية للنظام: تريد إدارة المشفى من نظام المعلومات تحقيق المتطلبات التالية:\n1) يجب أن يسمح نظام المعلومات للكادرين الطبي والإداري وللمريض فقط بالنفاذ إلى بيانات المريض حسب الحاجة والصلاحيات آنفة الذكر.\n2) يجب أن تكون بيانات المرضى (الشخصية العامة، والصحية) متاحة بشكل دائم لمستخدمي النظام وفق الصلاحيات الممنوحة لهم.\n3) يجب أن يسمح النظام بمراجعة العمليات التي تجرى على بيانات المرضى.\n4) يجب أن يؤخذ بعين الاعتبار أهمية وحساسية البيانات الصحية للمرضى لذلك سيسمح فقط للطبيب المعالج بتعديل بيانات المريض الصحية بطريقة لا تسمح له انكار إجراء أي تعديل (إضافة، حذف، تحديث).\n5) يجب على المشفى التقيد بقوانين الخصوصية.\n6) يسمح لوزارة الصحة بالقيام بعمليات إحصائية على قواعد المعطيات.",
+      "metadata": {
+        "slide_index": 34,
+        "shape_count": 4
+      }
+    },
+    {
+      "title": "Case Study 2 – Online bank",
+      "path": [
+        "Case Study 2 – Online bank"
+      ],
+      "blocks": [
+        {
+          "id": "3e783daab83d4932b43c1bcff3b0fbaf",
+          "type": "heading",
+          "order": 1,
+          "page_or_slide": 35,
+          "section_path": [
+            "Case Study 2 – Online bank"
+          ],
+          "metadata": {
+            "shape_name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "is_placeholder": true,
+            "bbox": {
+              "left": 1066800,
+              "top": 0,
+              "width": 7543800,
+              "height": 1341438
+            }
+          },
+          "text": "Case Study 2 – Online bank",
+          "level": 1
+        },
+        {
+          "id": "6f850448fc684bcd8f5feeffbf41ab20",
+          "type": "figure",
+          "order": 2,
+          "page_or_slide": 35,
+          "section_path": [
+            "Case Study 2 – Online bank"
+          ],
+          "metadata": {
+            "shape_name": "Picture 74",
+            "shape_type": "PICTURE (13)",
+            "bbox": {
+              "left": 1066800,
+              "top": 1961804,
+              "width": 6797040,
+              "height": 3906981
+            }
+          },
+          "text": null,
+          "image_path": "output_pptx\\images\\slide_35_158faed3.png",
+          "image_name": "slide_35_158faed3.png",
+          "caption": null,
+          "rel_id": null,
+          "alt_text": null
+        },
+        {
+          "id": "6f850448fc684bcd8f5feeffbf41ab20_desc",
+          "type": "figure_description",
+          "order": 3,
+          "page_or_slide": null,
+          "section_path": [
+            "Case Study 2 – Online bank"
+          ],
+          "metadata": {
+            "figure_id": "6f850448fc684bcd8f5feeffbf41ab20",
+            "generated": true
+          }
+        }
+      ],
+      "page_or_slide": 35,
+      "notes": "إدارة الحسابات المصرفية عبر الشبكة\nتعد عمليات السحب عن طريق الصرافات الآلية (ATM) والتحويل الداخلي من الخدمات الأساسية المقدمة لأصحاب الحسابات المصرفية.  تود إدارة المصرف XYZ أتمتة خدماتها المقدمة للزبائن مالكي الحسابات المصرفية. يجب أن يسمح النظام المؤتمت لإدارة المصرف بتقديم الخدمات بطريقة آمنة. يقدم الشكل التالي الشبكة الداخلية للمصرف والصرافات الموزعة جغرافيا في مناطق مختلفة وترتبط بشبكة المصرف الداخلية عن طريق الانتنرت.\nتود إدارة المصرف التقيد بالأنظمة والقوانين التي تحمي الخصوصية.\nالمطلوب:\n1. حلل النظام (الجزء المتعلق بالتهديدات والثغرات والمتطلبات الأمنية)\n2. صمم النظام (الجزء المتعلق بالآليات الأمنية)\n3. نفذ النظام (الجزء المتعلق بالأدوات الخاصة بتنفيذ الآليات)\n4. اختبر النظام (الجزء المتعلق بالسرية والسلامة والإتاحة)",
+      "metadata": {
+        "slide_index": 35,
+        "shape_count": 4
+      }
+    }
+  ],
+  "metadata": {
+    "extractor": "PptxExtractor",
+    "slide_count": 35
+  }
+}

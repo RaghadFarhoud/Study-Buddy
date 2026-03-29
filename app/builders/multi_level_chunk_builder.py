@@ -5,12 +5,13 @@ from typing import List
 
 from app.domain.models import CanonicalDocument, BlockType
 from app.domain.outputs import MultiLevelChunkDocument, MultiLevelChunkItem
-
+from app.builders.proposition_refiner import PropositionRefiner
 
 class MultiLevelChunkBuilder:
 
     def __init__(self, max_paragraph_chars: int = 1200):
         self.max_paragraph_chars = max_paragraph_chars
+        self.proposition_refiner = PropositionRefiner()
 
     def build(self, document: CanonicalDocument) -> MultiLevelChunkDocument:
 
@@ -185,48 +186,64 @@ class MultiLevelChunkBuilder:
             })
 
         return groups
+    
+    def _build_propositions(self, blocks)-> List[dict]:
 
-    def _build_propositions(self, blocks):
-
-        propositions = []
+        propositions: List[dict] = []
 
         for block in blocks:
 
-            if block.type in {BlockType.BULLET_LIST, BlockType.NUMBERED_LIST} and block.text:
+            if block.type in {BlockType.BULLET_LIST, BlockType.NUMBERED_LIST}:
+                items = getattr(block, "items", None) or []
 
+                for item in items:
+                    text = (item.text or "").strip()
+
+                    if not text:
+                        continue
+
+                    propositions.append({
+                        "text": text,
+                        "block_ids": [block.id],
+                        "block_types": [block.type.value],
+                    })
+
+                continue
+
+              
+
+            if block.type == BlockType.FIGURE_DESCRIPTION :
+               text = (getattr(block, "text", "") or "") .strip()
+               if text:
                 propositions.append({
-                    "text": block.text.strip(),
+                    "text": text,
                     "block_ids": [block.id],
                     "block_types": [block.type.value],
                 })
 
                 continue
+         
 
-            if block.type == BlockType.FIGURE_DESCRIPTION and block.text:
+            if block.type == BlockType.PARAGRAPH :
+                text = (getattr(block, "text", "") or "") .strip()
+                if not text:
+                    continue
+ 
+                refined_props = self.proposition_refiner.refine(text)
 
-                propositions.append({
-                    "text": block.text.strip(),
-                    "block_ids": [block.id],
-                    "block_types": [block.type.value],
-                })
+                for prop in refined_props:
+                    prop = prop.strip()
+                    if not prop:
+                        continue
 
-                continue
-
-            if block.type == BlockType.PARAGRAPH and block.text:
-
-                sentences = self._split_sentences(block.text)
-
-                for s in sentences:
-
-                    if self._looks_like_proposition(s):
-
-                        propositions.append({
-                            "text": s.strip(),
-                            "block_ids": [block.id],
-                            "block_types": [block.type.value],
-                        })
+                    propositions.append({
+                        "text": prop,
+                        "block_ids": [block.id],
+                        "block_types": [block.type.value],
+                    })
 
         return propositions
+    
 
     def _render_block(self, block):
 
@@ -234,25 +251,42 @@ class MultiLevelChunkBuilder:
             return ""
 
         if block.type == BlockType.PARAGRAPH:
-            return block.text or ""
+            return getattr(block, "text", "") or ""
 
         if block.type == BlockType.BULLET_LIST:
-            return f"- {block.text}"
+            if not getattr(block, "items", None):
+                return ""
+
+            lines = []
+
+            for item in block.items:
+                indent = "  " * item.level
+                lines.append(f"{indent}- {item.text}")
+            return "\n".join(lines)
 
         if block.type == BlockType.NUMBERED_LIST:
-            return block.text
+            if not getattr(block, "items", None):
+                return ""
+
+            lines = []
+
+            for idx, item in enumerate(block.items, start=1):
+                indent = "  " * item.level
+                lines.append(f"{indent}{idx}.{item.text}")
+            return "\n".join(lines)
 
         if block.type == BlockType.FIGURE_DESCRIPTION:
-            return block.text
+            return getattr(block, "text", "") or ""
 
         if block.type == BlockType.TABLE:
             summary = getattr(block, "summary", None)
 
             if summary:
                 return f"ملخص الجدول: {summary}"
+            return "يوجد جدول في هذا القسم"
 
-        return ""
-
+        return getattr(block, "text", "") or ""
+     
     def _split_sentences(self, text):
 
         parts = re.split(r"(?<=[\.\!\؟\?؛])\s+", text)

@@ -43,10 +43,10 @@ class StudyTextBuilder:
             },
         )
 
-    def _render_section(self, title: str, blocks) -> str:
+    def _render_section(self, title: str | None, blocks) -> str:
         parts: List[str] = []
 
-        if title != "Root":
+        if title and title != "Root":
             parts.append(title)
             parts.append("")
 
@@ -68,15 +68,31 @@ class StudyTextBuilder:
             return block.text or ""
 
         if block.type == BlockType.BULLET_LIST:
-            if block.text:
-                return f"- {block.text}"
-            return ""
+            if not block.items:
+                return ""
+            
+            lines = []
+
+            for item in block.items:
+                indent = "  " * item.level
+                lines.append(f"{indent}- {item.text}") 
+            return "\n".join(lines)
 
         if block.type == BlockType.NUMBERED_LIST:
-            return block.text or ""
+           if not getattr(block, "items", None):
+                return ""
+            
+           lines = []
+
+           for idx, item in enumerate(block.items, start=1 ):
+                indent = "  " * item.level
+                lines.append(f"{indent}{idx}.{item.text}") 
+           return "\n".join(lines)
 
         if block.type == BlockType.CAPTION:
-            if block.text:
+            text = getattr(block, "text", "") or ""
+
+            if text:
                 return f"توضيح الشكل: {block.text}"
             return ""
 
@@ -84,7 +100,7 @@ class StudyTextBuilder:
             return ""
 
         if block.type == BlockType.FIGURE_DESCRIPTION:
-            return block.text or ""
+            return getattr(block, "text", "") or ""
 
         if block.type == BlockType.TABLE:
             summary = getattr(block, "summary", None)
@@ -94,7 +110,7 @@ class StudyTextBuilder:
 
             return "يوجد جدول في هذا القسم."
 
-        return ""
+        return getattr(block, "text", "") or ""
 
     def _join_sections(self, sections: List[StudyTextSection]) -> str:
         parts: List[str] = []
