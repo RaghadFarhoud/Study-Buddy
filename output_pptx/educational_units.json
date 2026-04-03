@@ -11,26 +11,9 @@
         "Outline"
       ],
       "unit_type": "fact",
-      "text": "Conclusion",
+      "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
-      ],
-      "source_block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "unit_id": "lecture_unit_2",
-      "document_id": "lecture",
-      "section_title": "Outline",
-      "section_path": [
-        "Outline"
-      ],
-      "unit_type": "fact",
-      "text": "Conclusion",
-      "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "source_block_types": [
         "bullet_list"
@@ -44,10 +27,10 @@
       "section_path": [
         "2. What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Assets: Data/information, software, hardware, communication facilities, physical facilities",
+      "unit_type": "concept",
+      "text": "Information system: set of applications, services, information technology assets, or other information-handling components",
       "source_block_ids": [
-        "0120b4d287bd48b884afee335d5be383"
+        "8eb96bafcd71456fb22c8b28c25f5b63"
       ],
       "source_block_types": [
         "bullet_list"
@@ -57,14 +40,14 @@
     {
       "unit_id": "lecture_unit_4",
       "document_id": "lecture",
-      "section_title": "What is ISS?",
+      "section_title": "2. What is ISS?",
       "section_path": [
-        "What is ISS?"
+        "2. What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "…",
+      "unit_type": "concept",
+      "text": "Assets: Data/information, software, hardware, communication facilities, physical facilities",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "8eb96bafcd71456fb22c8b28c25f5b63"
       ],
       "source_block_types": [
         "bullet_list"
@@ -79,9 +62,9 @@
         "What is ISS?"
       ],
       "unit_type": "fact",
-      "text": "also preservation of authenticity, accountability, non-repudiation, and reliability",
+      "text": "synonymous with Computer Security",
       "source_block_ids": [
-        "93b29445394e4fcab4c17ae02599e659"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -91,14 +74,14 @@
     {
       "unit_id": "lecture_unit_6",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Outline"
+        "What is ISS?"
       ],
       "unit_type": "fact",
-      "text": "Conclusion",
+      "text": "part of information security",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -108,14 +91,14 @@
     {
       "unit_id": "lecture_unit_7",
       "document_id": "lecture",
-      "section_title": "ISS Objectives",
+      "section_title": "What is ISS?",
       "section_path": [
-        "ISS Objectives"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "means: protection from disruption, intentional deletion, …",
+      "unit_type": "concept",
+      "text": "Information security includes: Computer security",
       "source_block_ids": [
-        "7c67f5bf846b4d6c86149ee62be63c2f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -125,14 +108,14 @@
     {
       "unit_id": "lecture_unit_8",
       "document_id": "lecture",
-      "section_title": "ISS Objectives",
+      "section_title": "What is ISS?",
       "section_path": [
-        "ISS Objectives"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "property that an entity is what it claims to be",
+      "unit_type": "concept",
+      "text": "Information security includes: Information systems security",
       "source_block_ids": [
-        "56109e2a5bcd4d10864b5458c77cf9c9"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -142,14 +125,14 @@
     {
       "unit_id": "lecture_unit_9",
       "document_id": "lecture",
-      "section_title": "ISS Objectives",
+      "section_title": "What is ISS?",
       "section_path": [
-        "ISS Objectives"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "the ability to identify entities responsible for past actions.",
+      "unit_type": "concept",
+      "text": "Information security includes: Database security",
       "source_block_ids": [
-        "a17d26ab0a114fb49f556fbae91e071e"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -159,14 +142,14 @@
     {
       "unit_id": "lecture_unit_10",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Outline"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Conclusion",
+      "unit_type": "concept",
+      "text": "Information security includes: Network security",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -176,14 +159,14 @@
     {
       "unit_id": "lecture_unit_11",
       "document_id": "lecture",
-      "section_title": "Security terms",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Security terms"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Pretending to be a desk helper",
+      "unit_type": "concept",
+      "text": "Information security includes: Web security",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -193,14 +176,14 @@
     {
       "unit_id": "lecture_unit_12",
       "document_id": "lecture",
-      "section_title": "Security terms",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Security terms"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+      "unit_type": "concept",
+      "text": "Information security includes: Digital forensics",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -210,14 +193,14 @@
     {
       "unit_id": "lecture_unit_13",
       "document_id": "lecture",
-      "section_title": "Threats  from hackers",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Threats  from hackers"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Destroy systems",
+      "unit_type": "concept",
+      "text": "Information security includes: Information security management",
       "source_block_ids": [
-        "d8ee452e24964e1288148e730957f961"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -227,14 +210,14 @@
     {
       "unit_id": "lecture_unit_14",
       "document_id": "lecture",
-      "section_title": "ISS- another  definition",
+      "section_title": "What is ISS?",
       "section_path": [
-        "ISS- another  definition"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "All steps are implemented according to the security policy",
+      "unit_type": "concept",
+      "text": "Information security includes: …",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "source_block_types": [
         "bullet_list"
@@ -244,14 +227,14 @@
     {
       "unit_id": "lecture_unit_15",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "What is ISS?",
       "section_path": [
-        "5. Security Policy"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Surfing the www is prohibited.",
+      "unit_type": "concept",
+      "text": "information security [ISO 27000: 2018]",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "source_block_types": [
         "bullet_list"
@@ -261,14 +244,14 @@
     {
       "unit_id": "lecture_unit_16",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Security Lifecycle"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Analyze threats, vulnerabilities (i.e., analyze risks)",
+      "unit_type": "concept",
+      "text": "information security [ISO 27000: 2018]: preservation of confidentiality, integrity and availability of information",
       "source_block_ids": [
-        "df32b61c9fb54f0c9b652b6f7020e852"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "source_block_types": [
         "bullet_list"
@@ -278,31 +261,14 @@
     {
       "unit_id": "lecture_unit_17",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Security Lifecycle"
+        "What is ISS?"
       ],
-      "unit_type": "fact",
-      "text": "Continue developing sec policy",
+      "unit_type": "concept",
+      "text": "information security [ISO 27000: 2018]: also preservation of authenticity, accountability, non-repudiation, and reliability",
       "source_block_ids": [
-        "c594372e719e4ef1afd44ad21d9458cc"
-      ],
-      "source_block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "unit_id": "lecture_unit_18",
-      "document_id": "lecture",
-      "section_title": "Security Lifecycle",
-      "section_path": [
-        "Security Lifecycle"
-      ],
-      "unit_type": "fact",
-      "text": "Carry out training and awareness",
-      "source_block_ids": [
-        "f994d53d18764ff88cc55b372c3beb49"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "source_block_types": [
         "bullet_list"
@@ -312,14 +278,14 @@
     {
       "unit_id": "lecture_unit_19",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "ISS Objectives",
       "section_path": [
-        "Security Lifecycle"
+        "ISS Objectives"
       ],
-      "unit_type": "fact",
-      "text": "review",
+      "unit_type": "concept",
+      "text": "Availability: property of being accessible and usable on demand by an authorized entity.",
       "source_block_ids": [
-        "4360930e35b248e8bc76342c6109f5b5"
+        "40543bf33b7f4bd98af3389693fc9a6f"
       ],
       "source_block_types": [
         "bullet_list"
@@ -329,14 +295,779 @@
     {
       "unit_id": "lecture_unit_20",
       "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "concept",
+      "text": "Availability: means: protection from disruption, intentional deletion, …",
+      "source_block_ids": [
+        "40543bf33b7f4bd98af3389693fc9a6f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_21",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "concept",
+      "text": "Other Objectives: Authenticity",
+      "source_block_ids": [
+        "cbb12ffde615447a98537676c0ad4a4c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_22",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "concept",
+      "text": "Other Objectives: property that an entity is what it claims to be",
+      "source_block_ids": [
+        "cbb12ffde615447a98537676c0ad4a4c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_23",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "fact",
+      "text": "Non-repudiation",
+      "source_block_ids": [
+        "5b19a8d19e7f473f9745ce12e0a08b01"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_24",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "fact",
+      "text": "preventing the denial of previous commitments or actions",
+      "source_block_ids": [
+        "5b19a8d19e7f473f9745ce12e0a08b01"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_25",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "fact",
+      "text": "Accountability",
+      "source_block_ids": [
+        "5b19a8d19e7f473f9745ce12e0a08b01"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_26",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "unit_type": "fact",
+      "text": "the ability to identify entities responsible for past actions.",
+      "source_block_ids": [
+        "5b19a8d19e7f473f9745ce12e0a08b01"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_28",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Vulnerabilities: Examples: Unprotected data under transmission",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_29",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Vulnerabilities: Examples: Mistakes in firewall or router",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_30",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Vulnerabilities: Examples: Software bugs exist.",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_31",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Vulnerabilities: Examples: Passwords posted near the computer",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_32",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Threats: Examples: Virus",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_33",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Threats: Examples: Illegal Passwords  use",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_34",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Threats: Examples: Illegal access to the Internet",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_35",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "Threats: Examples: Pretending to be a desk helper",
+      "source_block_ids": [
+        "1770f006ab5c42a6a09f9a83c8023c41"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_36",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "A Risk: the expected loss due to harmful future events,",
+      "source_block_ids": [
+        "789a89736ddf4360b584764e98d5d199"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_37",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "An attack: is a realization of a threat",
+      "source_block_ids": [
+        "789a89736ddf4360b584764e98d5d199"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_38",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "concept",
+      "text": "An attacker: is a person who exploits a vulnerability",
+      "source_block_ids": [
+        "789a89736ddf4360b584764e98d5d199"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_39",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "requirement",
+      "text": "An attacker must have means, opportunity, and motive",
+      "source_block_ids": [
+        "789a89736ddf4360b584764e98d5d199"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_40",
+      "document_id": "lecture",
+      "section_title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "unit_type": "requirement",
+      "text": "An attacker must have means, opportunity, and motive: Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+      "source_block_ids": [
+        "789a89736ddf4360b584764e98d5d199"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_41",
+      "document_id": "lecture",
+      "section_title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "unit_type": "fact",
+      "text": "Illegally use IDs or passwords that they stole",
+      "source_block_ids": [
+        "1537d76147364ee1af7acfbc4ae1c22a"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_42",
+      "document_id": "lecture",
+      "section_title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "unit_type": "fact",
+      "text": "Illegally access servers and steal personal information, etc.",
+      "source_block_ids": [
+        "1537d76147364ee1af7acfbc4ae1c22a"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_43",
+      "document_id": "lecture",
+      "section_title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "unit_type": "fact",
+      "text": "What  needs to be protected, i.e., assets",
+      "source_block_ids": [
+        "bcbe93cb67384d9bb44e1c497da16d9c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_44",
+      "document_id": "lecture",
+      "section_title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "unit_type": "requirement",
+      "text": "Why (security requirements which include CIA),",
+      "source_block_ids": [
+        "bcbe93cb67384d9bb44e1c497da16d9c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_45",
+      "document_id": "lecture",
+      "section_title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "unit_type": "fact",
+      "text": "What we need to protect from (Threats, vulnerabilities, risks)",
+      "source_block_ids": [
+        "bcbe93cb67384d9bb44e1c497da16d9c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_46",
+      "document_id": "lecture",
+      "section_title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "unit_type": "fact",
+      "text": "and how  (Countermeasures) to protect it for as long as it exists",
+      "source_block_ids": [
+        "bcbe93cb67384d9bb44e1c497da16d9c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_47",
+      "document_id": "lecture",
+      "section_title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "unit_type": "procedure",
+      "text": "Then operate, monitor, review, improve",
+      "source_block_ids": [
+        "bcbe93cb67384d9bb44e1c497da16d9c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_48",
+      "document_id": "lecture",
+      "section_title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "unit_type": "procedure",
+      "text": "All steps are implemented according to the security policy",
+      "source_block_ids": [
+        "bcbe93cb67384d9bb44e1c497da16d9c"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_49",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "fact",
+      "text": "a document describing intentions and direction of an organization regarding information security",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_50",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "fact",
+      "text": "a document describing intentions and direction of an organization regarding information security: Example 1:",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_51",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "requirement",
+      "text": "a document describing intentions and direction of an organization regarding information security: personal information must be treated as confidential.",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_52",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "requirement",
+      "text": "a document describing intentions and direction of an organization regarding information security: services must be available 24/7",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_53",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "requirement",
+      "text": "states what is/is not allowed",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_54",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "requirement",
+      "text": "states what is/is not allowed: examples:",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_55",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "requirement",
+      "text": "states what is/is not allowed: account names must not be used in passwords.",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_56",
+      "document_id": "lecture",
+      "section_title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "unit_type": "requirement",
+      "text": "states what is/is not allowed: Surfing the www is prohibited.",
+      "source_block_ids": [
+        "abe02a6ca4e84231b72ba886805b7d5f"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_57",
+      "document_id": "lecture",
+      "section_title": "Security Lifecycle",
+      "section_path": [
+        "Security Lifecycle"
+      ],
+      "unit_type": "requirement",
+      "text": "Determine sec requirements (objectives)",
+      "source_block_ids": [
+        "ae759b7005924f80ab05c94ea6d2d6bb"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_58",
+      "document_id": "lecture",
+      "section_title": "Security Lifecycle",
+      "section_path": [
+        "Security Lifecycle"
+      ],
+      "unit_type": "procedure",
+      "text": "Analyze threats, vulnerabilities (i.e., analyze risks)",
+      "source_block_ids": [
+        "ae759b7005924f80ab05c94ea6d2d6bb"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_59",
+      "document_id": "lecture",
+      "section_title": "Security Lifecycle",
+      "section_path": [
+        "Security Lifecycle"
+      ],
+      "unit_type": "procedure",
+      "text": "Continue developing sec policy",
+      "source_block_ids": [
+        "f4f2ca376e21431597e49b5dade8f2b4"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_60",
+      "document_id": "lecture",
+      "section_title": "Security Lifecycle",
+      "section_path": [
+        "Security Lifecycle"
+      ],
+      "unit_type": "fact",
+      "text": "Carry out training and awareness",
+      "source_block_ids": [
+        "30c91a056d0943b4b55b5fe0f878a988"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_61",
+      "document_id": "lecture",
       "section_title": "6. Conclusion",
       "section_path": [
         "6. Conclusion"
       ],
-      "unit_type": "fact",
-      "text": "Covering these terms in detail",
+      "unit_type": "concept",
+      "text": "Security terms: ISS",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_62",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "unit_type": "concept",
+      "text": "Security terms: Security objectives",
+      "source_block_ids": [
+        "bd0c1e5fbe1649689d63671af167bdf9"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_63",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "unit_type": "concept",
+      "text": "Security terms: Vulnerabilities and Threats,",
+      "source_block_ids": [
+        "bd0c1e5fbe1649689d63671af167bdf9"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_64",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "unit_type": "concept",
+      "text": "Security terms: Security measures",
+      "source_block_ids": [
+        "bd0c1e5fbe1649689d63671af167bdf9"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_65",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "unit_type": "concept",
+      "text": "Security terms: Security Policy",
+      "source_block_ids": [
+        "bd0c1e5fbe1649689d63671af167bdf9"
+      ],
+      "source_block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "unit_id": "lecture_unit_66",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "unit_type": "concept",
+      "text": "Next lectures: Covering these terms in detail",
+      "source_block_ids": [
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "source_block_types": [
         "bullet_list"
@@ -345,7 +1076,7 @@
     }
   ],
   "metadata": {
-    "unit_count": 20,
+    "unit_count": 63,
     "unit_types": [
       "requirement",
       "permission",

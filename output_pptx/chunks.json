@@ -13,7 +13,7 @@
       ],
       "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -30,7 +30,7 @@
       ],
       "text": "Attack Examples",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -47,7 +47,7 @@
       ],
       "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -64,7 +64,7 @@
       ],
       "text": "ISS Objectives",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -81,7 +81,7 @@
       ],
       "text": "Security terms",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -98,7 +98,7 @@
       ],
       "text": "Security Policies",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -115,7 +115,7 @@
       ],
       "text": "Conclusion",
       "source_block_ids": [
-        "74b0259933cb43fdb4daabdffbc71f01"
+        "d3aa376291394bc89c11e374156cf83d"
       ],
       "block_types": [
         "bullet_list"
@@ -132,7 +132,7 @@
       ],
       "text": "Security-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.",
       "source_block_ids": [
-        "3702556f027e40399a23bf494e956938"
+        "0b3e36205c2e4e0197c2211eaf1ed1c3"
       ],
       "block_types": [
         "paragraph"
@@ -149,7 +149,7 @@
       ],
       "text": "Attack Examples\n\nJune 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries",
       "source_block_ids": [
-        "81465887a9a14c008d98678c3d256d24"
+        "a801ce0184ff440faeeee74f91c2f071"
       ],
       "block_types": [
         "paragraph"
@@ -166,7 +166,7 @@
       ],
       "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -183,7 +183,7 @@
       ],
       "text": "Attack Examples",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -200,7 +200,7 @@
       ],
       "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -217,7 +217,7 @@
       ],
       "text": "ISS Objectives",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -234,7 +234,7 @@
       ],
       "text": "Security terms",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -251,7 +251,7 @@
       ],
       "text": "Security Policies",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -268,7 +268,7 @@
       ],
       "text": "Conclusion",
       "source_block_ids": [
-        "2600a6c269c34c8199ecca46636a2cc4"
+        "b16d87a930954fc882c94c77fdc42652"
       ],
       "block_types": [
         "bullet_list"
@@ -285,13 +285,13 @@
       ],
       "text": "2. What is ISS?\n\n- Information system\n  - set of applications, services, information technology assets, or other information-handling components\n- Assets: Data/information, software, hardware, communication facilities, physical facilities\n\nphysical facilities\n\nNets\n\nHW\n\nSW systems\n\napplications\n\nData",
       "source_block_ids": [
-        "0120b4d287bd48b884afee335d5be383",
-        "422e3e1426e24b049b4ab04f18255cf1",
-        "b00addee90304728b69b8b21bcc423a1",
-        "fdee649883c94e5abe6b723ee8d6d476",
-        "326e0bfdcb1a443a819cb9720b904e6e",
-        "c0f0a38d966d42e2a64a1d67162235e5",
-        "3d6fde86ed7347c0889723dee7ad6015"
+        "8eb96bafcd71456fb22c8b28c25f5b63",
+        "b7bdf9ed68cc4bc2837ca2f5c1090477",
+        "ca1547afd4d842f3aea6c3311a00c2ec",
+        "7fdc11bd8c994124bf3fd33f919710d5",
+        "2dc94803fbcd4ab698a161324a979f22",
+        "6267c6dbb27846619507ea52db6a8572",
+        "40a78e2818914fc6b0876b244e846a95"
       ],
       "block_types": [
         "bullet_list",
@@ -314,7 +314,7 @@
       ],
       "text": "Information system",
       "source_block_ids": [
-        "0120b4d287bd48b884afee335d5be383"
+        "8eb96bafcd71456fb22c8b28c25f5b63"
       ],
       "block_types": [
         "bullet_list"
@@ -331,7 +331,7 @@
       ],
       "text": "set of applications, services, information technology assets, or other information-handling components",
       "source_block_ids": [
-        "0120b4d287bd48b884afee335d5be383"
+        "8eb96bafcd71456fb22c8b28c25f5b63"
       ],
       "block_types": [
         "bullet_list"
@@ -348,7 +348,7 @@
       ],
       "text": "Assets: Data/information, software, hardware, communication facilities, physical facilities",
       "source_block_ids": [
-        "0120b4d287bd48b884afee335d5be383"
+        "8eb96bafcd71456fb22c8b28c25f5b63"
       ],
       "block_types": [
         "bullet_list"
@@ -365,7 +365,7 @@
       ],
       "text": "2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.",
       "source_block_ids": [
-        "5771b46047074f14aebb116fe3bedc7d"
+        "38db4191bb5448dca684a36c0a631113"
       ],
       "block_types": [
         "paragraph"
@@ -382,7 +382,7 @@
       ],
       "text": "What is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -399,7 +399,7 @@
       ],
       "text": "synonymous with Computer Security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -416,7 +416,7 @@
       ],
       "text": "part of information security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -433,7 +433,7 @@
       ],
       "text": "Information security includes",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -450,7 +450,7 @@
       ],
       "text": "Computer security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -467,7 +467,7 @@
       ],
       "text": "Information systems security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -484,7 +484,7 @@
       ],
       "text": "Database security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -501,7 +501,7 @@
       ],
       "text": "Network security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -518,7 +518,7 @@
       ],
       "text": "Web security",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -535,7 +535,7 @@
       ],
       "text": "Digital forensics",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -552,7 +552,7 @@
       ],
       "text": "Information security management",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -569,7 +569,7 @@
       ],
       "text": "…",
       "source_block_ids": [
-        "307ef20520df4af3a69fefe5e743137f"
+        "ec8fae08b1a14c43ae82656416e63b68"
       ],
       "block_types": [
         "bullet_list"
@@ -586,7 +586,7 @@
       ],
       "text": "What is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability",
       "source_block_ids": [
-        "93b29445394e4fcab4c17ae02599e659"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "block_types": [
         "bullet_list"
@@ -603,7 +603,7 @@
       ],
       "text": "information security [ISO 27000: 2018]",
       "source_block_ids": [
-        "93b29445394e4fcab4c17ae02599e659"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "block_types": [
         "bullet_list"
@@ -620,7 +620,7 @@
       ],
       "text": "preservation of confidentiality, integrity and availability of information",
       "source_block_ids": [
-        "93b29445394e4fcab4c17ae02599e659"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "block_types": [
         "bullet_list"
@@ -637,7 +637,7 @@
       ],
       "text": "also preservation of authenticity, accountability, non-repudiation, and reliability",
       "source_block_ids": [
-        "93b29445394e4fcab4c17ae02599e659"
+        "f63bca77ced84324b08f45e9059f2e45"
       ],
       "block_types": [
         "bullet_list"
@@ -654,7 +654,7 @@
       ],
       "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -671,7 +671,7 @@
       ],
       "text": "Attack Examples",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -688,7 +688,7 @@
       ],
       "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -705,7 +705,7 @@
       ],
       "text": "ISS Objectives",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -722,7 +722,7 @@
       ],
       "text": "Security terms",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -739,7 +739,7 @@
       ],
       "text": "Security Policies",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -756,7 +756,7 @@
       ],
       "text": "Conclusion",
       "source_block_ids": [
-        "141d7716579e463db62f34f9b8618b0e"
+        "e23ea7dd28a946098c6385eb74a80215"
       ],
       "block_types": [
         "bullet_list"
@@ -773,7 +773,7 @@
       ],
       "text": "ISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control",
       "source_block_ids": [
-        "b8ee2c889ec54b949d92ac50e54452f1"
+        "2fc3640ab2b84fdeaa93814f3f6ac66e"
       ],
       "block_types": [
         "paragraph"
@@ -790,7 +790,7 @@
       ],
       "text": "ISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…",
       "source_block_ids": [
-        "0cc6674f8eba448bb1e22678a614faf3"
+        "bb3ab12d23d949fa844ae7461c2c587c"
       ],
       "block_types": [
         "paragraph"
@@ -807,7 +807,7 @@
       ],
       "text": "ISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …",
       "source_block_ids": [
-        "7c67f5bf846b4d6c86149ee62be63c2f"
+        "40543bf33b7f4bd98af3389693fc9a6f"
       ],
       "block_types": [
         "bullet_list"
@@ -824,7 +824,7 @@
       ],
       "text": "Availability",
       "source_block_ids": [
-        "7c67f5bf846b4d6c86149ee62be63c2f"
+        "40543bf33b7f4bd98af3389693fc9a6f"
       ],
       "block_types": [
         "bullet_list"
@@ -841,7 +841,7 @@
       ],
       "text": "property of being accessible and usable on demand by an authorized entity.",
       "source_block_ids": [
-        "7c67f5bf846b4d6c86149ee62be63c2f"
+        "40543bf33b7f4bd98af3389693fc9a6f"
       ],
       "block_types": [
         "bullet_list"
@@ -858,7 +858,7 @@
       ],
       "text": "means: protection from disruption, intentional deletion, …",
       "source_block_ids": [
-        "7c67f5bf846b4d6c86149ee62be63c2f"
+        "40543bf33b7f4bd98af3389693fc9a6f"
       ],
       "block_types": [
         "bullet_list"
@@ -875,8 +875,8 @@
       ],
       "text": "ISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.",
       "source_block_ids": [
-        "56109e2a5bcd4d10864b5458c77cf9c9",
-        "236378374b2741a89a7de130848d20e2"
+        "cbb12ffde615447a98537676c0ad4a4c",
+        "99052915ede545e88eaa44d26fe811b5"
       ],
       "block_types": [
         "bullet_list",
@@ -894,7 +894,7 @@
       ],
       "text": "Other Objectives:",
       "source_block_ids": [
-        "56109e2a5bcd4d10864b5458c77cf9c9"
+        "cbb12ffde615447a98537676c0ad4a4c"
       ],
       "block_types": [
         "bullet_list"
@@ -911,7 +911,7 @@
       ],
       "text": "Authenticity",
       "source_block_ids": [
-        "56109e2a5bcd4d10864b5458c77cf9c9"
+        "cbb12ffde615447a98537676c0ad4a4c"
       ],
       "block_types": [
         "bullet_list"
@@ -928,7 +928,7 @@
       ],
       "text": "property that an entity is what it claims to be",
       "source_block_ids": [
-        "56109e2a5bcd4d10864b5458c77cf9c9"
+        "cbb12ffde615447a98537676c0ad4a4c"
       ],
       "block_types": [
         "bullet_list"
@@ -945,7 +945,7 @@
       ],
       "text": "ISS Objectives\n\n- Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.",
       "source_block_ids": [
-        "a17d26ab0a114fb49f556fbae91e071e"
+        "5b19a8d19e7f473f9745ce12e0a08b01"
       ],
       "block_types": [
         "bullet_list"
@@ -962,7 +962,7 @@
       ],
       "text": "Non-repudiation",
       "source_block_ids": [
-        "a17d26ab0a114fb49f556fbae91e071e"
+        "5b19a8d19e7f473f9745ce12e0a08b01"
       ],
       "block_types": [
         "bullet_list"
@@ -979,7 +979,7 @@
       ],
       "text": "preventing the denial of previous commitments or actions",
       "source_block_ids": [
-        "a17d26ab0a114fb49f556fbae91e071e"
+        "5b19a8d19e7f473f9745ce12e0a08b01"
       ],
       "block_types": [
         "bullet_list"
@@ -996,7 +996,7 @@
       ],
       "text": "Accountability",
       "source_block_ids": [
-        "a17d26ab0a114fb49f556fbae91e071e"
+        "5b19a8d19e7f473f9745ce12e0a08b01"
       ],
       "block_types": [
         "bullet_list"
@@ -1013,7 +1013,7 @@
       ],
       "text": "the ability to identify entities responsible for past actions.",
       "source_block_ids": [
-        "a17d26ab0a114fb49f556fbae91e071e"
+        "5b19a8d19e7f473f9745ce12e0a08b01"
       ],
       "block_types": [
         "bullet_list"
@@ -1030,7 +1030,7 @@
       ],
       "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1047,7 +1047,7 @@
       ],
       "text": "Attack Examples",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1064,7 +1064,7 @@
       ],
       "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1081,7 +1081,7 @@
       ],
       "text": "ISS Objectives",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1098,7 +1098,7 @@
       ],
       "text": "Security terms",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1115,7 +1115,7 @@
       ],
       "text": "Security Policies",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1132,7 +1132,7 @@
       ],
       "text": "Conclusion",
       "source_block_ids": [
-        "9468f6d792f54166ae405ab6e062909f"
+        "5720d03f9a5f4376bfeb4c3be37c6f2d"
       ],
       "block_types": [
         "bullet_list"
@@ -1149,7 +1149,7 @@
       ],
       "text": "4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome",
       "source_block_ids": [
-        "f7b1ce1f45b64c7f802a06b76d9d9884"
+        "444c92aab88f4aaeb54a2aee821a86e3"
       ],
       "block_types": [
         "paragraph"
@@ -1166,7 +1166,7 @@
       ],
       "text": "Security terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1183,7 +1183,7 @@
       ],
       "text": "Vulnerabilities: Examples",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1200,7 +1200,7 @@
       ],
       "text": "Unprotected data under transmission",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1217,7 +1217,7 @@
       ],
       "text": "Mistakes in firewall or router",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1234,7 +1234,7 @@
       ],
       "text": "Software bugs exist.",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1251,7 +1251,7 @@
       ],
       "text": "Passwords posted near the computer",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1268,7 +1268,7 @@
       ],
       "text": "Threats: Examples",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1285,7 +1285,7 @@
       ],
       "text": "Virus",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1302,7 +1302,7 @@
       ],
       "text": "Illegal Passwords  use",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1319,7 +1319,7 @@
       ],
       "text": "Illegal access to the Internet",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1336,7 +1336,7 @@
       ],
       "text": "Pretending to be a desk helper",
       "source_block_ids": [
-        "2ef6f4b270294ae1876174971ff57340"
+        "1770f006ab5c42a6a09f9a83c8023c41"
       ],
       "block_types": [
         "bullet_list"
@@ -1353,7 +1353,7 @@
       ],
       "text": "Security terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "789a89736ddf4360b584764e98d5d199"
       ],
       "block_types": [
         "bullet_list"
@@ -1370,7 +1370,7 @@
       ],
       "text": "A Risk: the expected loss due to harmful future events,",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "789a89736ddf4360b584764e98d5d199"
       ],
       "block_types": [
         "bullet_list"
@@ -1387,7 +1387,7 @@
       ],
       "text": "An attack: is a realization of a threat",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "789a89736ddf4360b584764e98d5d199"
       ],
       "block_types": [
         "bullet_list"
@@ -1404,7 +1404,7 @@
       ],
       "text": "An attacker: is a person who exploits a vulnerability",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "789a89736ddf4360b584764e98d5d199"
       ],
       "block_types": [
         "bullet_list"
@@ -1421,7 +1421,7 @@
       ],
       "text": "An attacker must have means, opportunity, and motive",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "789a89736ddf4360b584764e98d5d199"
       ],
       "block_types": [
         "bullet_list"
@@ -1438,7 +1438,7 @@
       ],
       "text": "Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
       "source_block_ids": [
-        "fb30430b4dbf47c8b4857a96e2fee56a"
+        "789a89736ddf4360b584764e98d5d199"
       ],
       "block_types": [
         "bullet_list"
@@ -1455,10 +1455,10 @@
       ],
       "text": "Threats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems",
       "source_block_ids": [
-        "240e249fc25d4161a443fdb17c9e71be",
-        "073d3907d3af4fbc8fcc7a6147b0be35",
-        "a0f60dd3c5a2406db7d35fd217a37895",
-        "d8ee452e24964e1288148e730957f961"
+        "3267ea7fe10340e2896b4d54004d8239",
+        "25907e4dcbb2418ea5e05a4761dcc404",
+        "fd209ec1381b42989cc2df9bd0a9ff70",
+        "1537d76147364ee1af7acfbc4ae1c22a"
       ],
       "block_types": [
         "paragraph",
@@ -1478,7 +1478,7 @@
       ],
       "text": "Examples of threats from crackers’ actions:",
       "source_block_ids": [
-        "d8ee452e24964e1288148e730957f961"
+        "1537d76147364ee1af7acfbc4ae1c22a"
       ],
       "block_types": [
         "bullet_list"
@@ -1495,7 +1495,7 @@
       ],
       "text": "Illegally use IDs or passwords that they stole",
       "source_block_ids": [
-        "d8ee452e24964e1288148e730957f961"
+        "1537d76147364ee1af7acfbc4ae1c22a"
       ],
       "block_types": [
         "bullet_list"
@@ -1512,7 +1512,7 @@
       ],
       "text": "Illegally access servers and steal personal information, etc.",
       "source_block_ids": [
-        "d8ee452e24964e1288148e730957f961"
+        "1537d76147364ee1af7acfbc4ae1c22a"
       ],
       "block_types": [
         "bullet_list"
@@ -1529,7 +1529,7 @@
       ],
       "text": "Destroy systems",
       "source_block_ids": [
-        "d8ee452e24964e1288148e730957f961"
+        "1537d76147364ee1af7acfbc4ae1c22a"
       ],
       "block_types": [
         "bullet_list"
@@ -1546,7 +1546,7 @@
       ],
       "text": "Types of Attack\n\nInterruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access.",
       "source_block_ids": [
-        "d9c37e4aec004193bef14bec3b2c8b27"
+        "9d29ad3518a64007b7b8a26faeb5936f"
       ],
       "block_types": [
         "paragraph"
@@ -1563,7 +1563,7 @@
       ],
       "text": "Types of Attack\n\nMasquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later",
       "source_block_ids": [
-        "edc0c1f3c0904137842eaf50d5bd5b86"
+        "d60e10c128a9436c8c56559d0b9d92ef"
       ],
       "block_types": [
         "paragraph"
@@ -1580,7 +1580,7 @@
       ],
       "text": "Countermeasures\n\ninclude techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc.",
       "source_block_ids": [
-        "629e6d56cece463ea42e62b22ef751e8"
+        "918255f0d41a4a4c867c80755616bda6"
       ],
       "block_types": [
         "paragraph"
@@ -1597,7 +1597,7 @@
       ],
       "text": "ISS- another  definition\n\n- What  needs to be protected, i.e., assets\n  - Why (security requirements which include CIA),\n  - What we need to protect from (Threats, vulnerabilities, risks)\n  - and how  (Countermeasures) to protect it for as long as it exists\n  - Then operate, monitor, review, improve\n  - All steps are implemented according to the security policy",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1614,7 +1614,7 @@
       ],
       "text": "What  needs to be protected, i.e., assets",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1631,7 +1631,7 @@
       ],
       "text": "Why (security requirements which include CIA),",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1648,7 +1648,7 @@
       ],
       "text": "What we need to protect from (Threats, vulnerabilities, risks)",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1665,7 +1665,7 @@
       ],
       "text": "and how  (Countermeasures) to protect it for as long as it exists",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1682,7 +1682,7 @@
       ],
       "text": "Then operate, monitor, review, improve",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1699,7 +1699,7 @@
       ],
       "text": "All steps are implemented according to the security policy",
       "source_block_ids": [
-        "158816a4e05f4e27bfbc559fcec9d1f1"
+        "bcbe93cb67384d9bb44e1c497da16d9c"
       ],
       "block_types": [
         "bullet_list"
@@ -1716,7 +1716,7 @@
       ],
       "text": "5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1733,7 +1733,7 @@
       ],
       "text": "a document describing intentions and direction of an organization regarding information security",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1750,7 +1750,7 @@
       ],
       "text": "Example 1:",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1767,7 +1767,7 @@
       ],
       "text": "personal information must be treated as confidential.",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1784,7 +1784,7 @@
       ],
       "text": "services must be available 24/7",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1801,7 +1801,7 @@
       ],
       "text": "states what is/is not allowed",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1818,7 +1818,7 @@
       ],
       "text": "examples:",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1835,7 +1835,7 @@
       ],
       "text": "account names must not be used in passwords.",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1852,7 +1852,7 @@
       ],
       "text": "Surfing the www is prohibited.",
       "source_block_ids": [
-        "4b0f8e41e55d4bce96a33f238f80aa0b"
+        "abe02a6ca4e84231b72ba886805b7d5f"
       ],
       "block_types": [
         "bullet_list"
@@ -1869,7 +1869,7 @@
       ],
       "text": "Security Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)",
       "source_block_ids": [
-        "9e54f740090a4815978f315a9a1cfa34"
+        "10204950547449bcae44354427314910"
       ],
       "block_types": [
         "paragraph"
@@ -1886,14 +1886,14 @@
       ],
       "text": "Security Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate",
       "source_block_ids": [
-        "df32b61c9fb54f0c9b652b6f7020e852",
-        "f71ce24d157c41d3b530dea3e264dba6",
-        "c594372e719e4ef1afd44ad21d9458cc",
-        "9e173b6bb9ce4529af02fc5cc25f3e24",
-        "f994d53d18764ff88cc55b372c3beb49",
-        "f0ec75c823b64850a6fbda5e5a7eca2f",
-        "4360930e35b248e8bc76342c6109f5b5",
-        "a7b9a19928924bc8981272feb90a1de1"
+        "ae759b7005924f80ab05c94ea6d2d6bb",
+        "9fa70453003548a6bed75abc1dafc3bc",
+        "f4f2ca376e21431597e49b5dade8f2b4",
+        "d7c079ecb10142e390e6fda6df8ad682",
+        "30c91a056d0943b4b55b5fe0f878a988",
+        "479f4ea6d105490496032b98acba2eeb",
+        "72bf3b01bb954f28afc37bca4775c3fb",
+        "7d7c0b3dd03748d796da5c3bdefa3016"
       ],
       "block_types": [
         "bullet_list",
@@ -1917,7 +1917,7 @@
       ],
       "text": "Develop sec policy",
       "source_block_ids": [
-        "df32b61c9fb54f0c9b652b6f7020e852"
+        "ae759b7005924f80ab05c94ea6d2d6bb"
       ],
       "block_types": [
         "bullet_list"
@@ -1934,7 +1934,7 @@
       ],
       "text": "Draw blueprints",
       "source_block_ids": [
-        "df32b61c9fb54f0c9b652b6f7020e852"
+        "ae759b7005924f80ab05c94ea6d2d6bb"
       ],
       "block_types": [
         "bullet_list"
@@ -1951,7 +1951,7 @@
       ],
       "text": "Determine sec requirements (objectives)",
       "source_block_ids": [
-        "df32b61c9fb54f0c9b652b6f7020e852"
+        "ae759b7005924f80ab05c94ea6d2d6bb"
       ],
       "block_types": [
         "bullet_list"
@@ -1968,7 +1968,7 @@
       ],
       "text": "Analyze threats, vulnerabilities (i.e., analyze risks)",
       "source_block_ids": [
-        "df32b61c9fb54f0c9b652b6f7020e852"
+        "ae759b7005924f80ab05c94ea6d2d6bb"
       ],
       "block_types": [
         "bullet_list"
@@ -1985,7 +1985,7 @@
       ],
       "text": "Design architecture,",
       "source_block_ids": [
-        "c594372e719e4ef1afd44ad21d9458cc"
+        "f4f2ca376e21431597e49b5dade8f2b4"
       ],
       "block_types": [
         "bullet_list"
@@ -2002,7 +2002,7 @@
       ],
       "text": "Choose countermeasures",
       "source_block_ids": [
-        "c594372e719e4ef1afd44ad21d9458cc"
+        "f4f2ca376e21431597e49b5dade8f2b4"
       ],
       "block_types": [
         "bullet_list"
@@ -2019,7 +2019,7 @@
       ],
       "text": "Continue developing sec policy",
       "source_block_ids": [
-        "c594372e719e4ef1afd44ad21d9458cc"
+        "f4f2ca376e21431597e49b5dade8f2b4"
       ],
       "block_types": [
         "bullet_list"
@@ -2036,7 +2036,7 @@
       ],
       "text": "Implement countermeasures",
       "source_block_ids": [
-        "f994d53d18764ff88cc55b372c3beb49"
+        "30c91a056d0943b4b55b5fe0f878a988"
       ],
       "block_types": [
         "bullet_list"
@@ -2053,7 +2053,7 @@
       ],
       "text": "Test",
       "source_block_ids": [
-        "f994d53d18764ff88cc55b372c3beb49"
+        "30c91a056d0943b4b55b5fe0f878a988"
       ],
       "block_types": [
         "bullet_list"
@@ -2070,7 +2070,7 @@
       ],
       "text": "Carry out training and awareness",
       "source_block_ids": [
-        "f994d53d18764ff88cc55b372c3beb49"
+        "30c91a056d0943b4b55b5fe0f878a988"
       ],
       "block_types": [
         "bullet_list"
@@ -2087,7 +2087,7 @@
       ],
       "text": "Monitor",
       "source_block_ids": [
-        "4360930e35b248e8bc76342c6109f5b5"
+        "72bf3b01bb954f28afc37bca4775c3fb"
       ],
       "block_types": [
         "bullet_list"
@@ -2104,7 +2104,7 @@
       ],
       "text": "review",
       "source_block_ids": [
-        "4360930e35b248e8bc76342c6109f5b5"
+        "72bf3b01bb954f28afc37bca4775c3fb"
       ],
       "block_types": [
         "bullet_list"
@@ -2121,7 +2121,7 @@
       ],
       "text": "6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2138,7 +2138,7 @@
       ],
       "text": "Security terms",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2155,7 +2155,7 @@
       ],
       "text": "ISS",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2172,7 +2172,7 @@
       ],
       "text": "Security objectives",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2189,7 +2189,7 @@
       ],
       "text": "Vulnerabilities and Threats,",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2206,7 +2206,7 @@
       ],
       "text": "Security measures",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2223,7 +2223,7 @@
       ],
       "text": "Security Policy",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2240,7 +2240,7 @@
       ],
       "text": "Next lectures:",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2257,7 +2257,7 @@
       ],
       "text": "Covering these terms in detail",
       "source_block_ids": [
-        "faa514e7306947bc80fa6ef2d8c1251a"
+        "bd0c1e5fbe1649689d63671af167bdf9"
       ],
       "block_types": [
         "bullet_list"
@@ -2274,7 +2274,7 @@
       ],
       "text": "Questions?\n\nQuestions?",
       "source_block_ids": [
-        "b8f1d6f9e1454a96af7843f78e657e31"
+        "ef0fef333187418a9317dacbcfd64b96"
       ],
       "block_types": [
         "paragraph"

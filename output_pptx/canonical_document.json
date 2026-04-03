@@ -12,7 +12,7 @@
       ],
       "blocks": [
         {
-          "id": "d6d228dfcd734d8287a88d52313addb0",
+          "id": "cbedd0ed2dce4553bcea0613ceaa3c2a",
           "type": "heading",
           "order": 1,
           "page_or_slide": 1,
@@ -34,7 +34,7 @@
           "level": 1
         },
         {
-          "id": "384788a63874421ab04796d2a7a3f510",
+          "id": "d7a1f36ee1b54efd9ecc8748e9af8547",
           "type": "heading",
           "order": 2,
           "page_or_slide": 1,
@@ -70,7 +70,7 @@
       ],
       "blocks": [
         {
-          "id": "8e905bcaf2ca45e1a593343430d8aff6",
+          "id": "4afc0d061e2e4c11b1a0b21866efba2d",
           "type": "heading",
           "order": 1,
           "page_or_slide": 2,
@@ -92,7 +92,7 @@
           "level": 1
         },
         {
-          "id": "74b0259933cb43fdb4daabdffbc71f01",
+          "id": "d3aa376291394bc89c11e374156cf83d",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 2,
@@ -152,7 +152,7 @@
       ],
       "blocks": [
         {
-          "id": "054a89e04a814e0b92c412e29b54b5a1",
+          "id": "e4693a67dbb1437696f66b767fe2e87a",
           "type": "heading",
           "order": 1,
           "page_or_slide": 3,
@@ -174,7 +174,7 @@
           "level": 1
         },
         {
-          "id": "3702556f027e40399a23bf494e956938",
+          "id": "0b3e36205c2e4e0197c2211eaf1ed1c3",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 3,
@@ -195,7 +195,7 @@
           "text": "July 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world."
         },
         {
-          "id": "2201282eb2ee4103a67a1dea3379c616",
+          "id": "4f8ac97740cb485c827dc3e07a1c647c",
           "type": "figure",
           "order": 3,
           "page_or_slide": 3,
@@ -213,14 +213,14 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_3_bf844344.jpg",
-          "image_name": "slide_3_bf844344.jpg",
+          "image_path": "output_pptx\\images\\slide_3_67d816d6.jpg",
+          "image_name": "slide_3_67d816d6.jpg",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "2201282eb2ee4103a67a1dea3379c616_desc",
+          "id": "4f8ac97740cb485c827dc3e07a1c647c_desc",
           "type": "figure_description",
           "order": 4,
           "page_or_slide": null,
@@ -228,7 +228,7 @@
             "Security-Related News"
           ],
           "metadata": {
-            "figure_id": "2201282eb2ee4103a67a1dea3379c616",
+            "figure_id": "4f8ac97740cb485c827dc3e07a1c647c",
             "generated": true
           }
         }
@@ -247,7 +247,7 @@
       ],
       "blocks": [
         {
-          "id": "3ba10184ee934286979b45caa500bfce",
+          "id": "e4ed82fc5218450abc03b2ce46b5d505",
           "type": "heading",
           "order": 1,
           "page_or_slide": 4,
@@ -269,7 +269,7 @@
           "level": 1
         },
         {
-          "id": "81465887a9a14c008d98678c3d256d24",
+          "id": "a801ce0184ff440faeeee74f91c2f071",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 4,
@@ -304,7 +304,7 @@
       ],
       "blocks": [
         {
-          "id": "9e451604c1c64ab589271659a5b1ef7d",
+          "id": "6c7984174bd043eba30e9a8439df535c",
           "type": "heading",
           "order": 1,
           "page_or_slide": 5,
@@ -326,7 +326,7 @@
           "level": 1
         },
         {
-          "id": "a602e7ad20264bfb94bd12bdad692c8e",
+          "id": "c884df5280e54915ad6a097dae211c24",
           "type": "figure",
           "order": 2,
           "page_or_slide": 5,
@@ -344,14 +344,14 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_5_a1c4243e.png",
-          "image_name": "slide_5_a1c4243e.png",
+          "image_path": "output_pptx\\images\\slide_5_2ffd055d.png",
+          "image_name": "slide_5_2ffd055d.png",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "a602e7ad20264bfb94bd12bdad692c8e_desc",
+          "id": "c884df5280e54915ad6a097dae211c24_desc",
           "type": "figure_description",
           "order": 3,
           "page_or_slide": null,
@@ -359,7 +359,7 @@
             "Verzion’s 2024 Data Breach Investigations Report"
           ],
           "metadata": {
-            "figure_id": "a602e7ad20264bfb94bd12bdad692c8e",
+            "figure_id": "c884df5280e54915ad6a097dae211c24",
             "generated": true
           }
         }
@@ -378,7 +378,7 @@
       ],
       "blocks": [
         {
-          "id": "f7bba6efac814eddb699d8c980423f57",
+          "id": "b47b537d07204147adb6a198339fd657",
           "type": "heading",
           "order": 1,
           "page_or_slide": 6,
@@ -400,7 +400,7 @@
           "level": 1
         },
         {
-          "id": "2600a6c269c34c8199ecca46636a2cc4",
+          "id": "b16d87a930954fc882c94c77fdc42652",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 6,
@@ -460,7 +460,7 @@
       ],
       "blocks": [
         {
-          "id": "deb7ae5760c24a60b401d80e209d08cc",
+          "id": "2d698910d49c4390bdbc0d17a632d440",
           "type": "heading",
           "order": 1,
           "page_or_slide": 7,
@@ -482,7 +482,7 @@
           "level": 1
         },
         {
-          "id": "0120b4d287bd48b884afee335d5be383",
+          "id": "8eb96bafcd71456fb22c8b28c25f5b63",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 7,
@@ -516,7 +516,7 @@
           ]
         },
         {
-          "id": "422e3e1426e24b049b4ab04f18255cf1",
+          "id": "b7bdf9ed68cc4bc2837ca2f5c1090477",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 7,
@@ -537,7 +537,7 @@
           "text": "physical facilities"
         },
         {
-          "id": "b00addee90304728b69b8b21bcc423a1",
+          "id": "ca1547afd4d842f3aea6c3311a00c2ec",
           "type": "paragraph",
           "order": 4,
           "page_or_slide": 7,
@@ -558,7 +558,7 @@
           "text": "Nets"
         },
         {
-          "id": "fdee649883c94e5abe6b723ee8d6d476",
+          "id": "7fdc11bd8c994124bf3fd33f919710d5",
           "type": "paragraph",
           "order": 5,
           "page_or_slide": 7,
@@ -579,7 +579,7 @@
           "text": "HW"
         },
         {
-          "id": "326e0bfdcb1a443a819cb9720b904e6e",
+          "id": "2dc94803fbcd4ab698a161324a979f22",
           "type": "paragraph",
           "order": 6,
           "page_or_slide": 7,
@@ -600,7 +600,7 @@
           "text": "SW systems"
         },
         {
-          "id": "c0f0a38d966d42e2a64a1d67162235e5",
+          "id": "6267c6dbb27846619507ea52db6a8572",
           "type": "paragraph",
           "order": 7,
           "page_or_slide": 7,
@@ -621,7 +621,7 @@
           "text": "applications"
         },
         {
-          "id": "3d6fde86ed7347c0889723dee7ad6015",
+          "id": "40a78e2818914fc6b0876b244e846a95",
           "type": "paragraph",
           "order": 8,
           "page_or_slide": 7,
@@ -656,7 +656,7 @@
       ],
       "blocks": [
         {
-          "id": "b5fb12b067bd4fc3b7a8e843f60d2e6c",
+          "id": "71068247ba6d4309b31dbe6cb091e780",
           "type": "heading",
           "order": 1,
           "page_or_slide": 8,
@@ -678,7 +678,7 @@
           "level": 1
         },
         {
-          "id": "5771b46047074f14aebb116fe3bedc7d",
+          "id": "38db4191bb5448dca684a36c0a631113",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 8,
@@ -713,7 +713,7 @@
       ],
       "blocks": [
         {
-          "id": "a00de829ca19418ebe1b686731571b53",
+          "id": "1df0a74650a14ff98e8f80af86100215",
           "type": "heading",
           "order": 1,
           "page_or_slide": 9,
@@ -735,7 +735,7 @@
           "level": 1
         },
         {
-          "id": "307ef20520df4af3a69fefe5e743137f",
+          "id": "ec8fae08b1a14c43ae82656416e63b68",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 9,
@@ -815,7 +815,7 @@
       ],
       "blocks": [
         {
-          "id": "a10e8bb0e9ec4f3c930087d6d1ed2c23",
+          "id": "b02d11b683cf4ffe9020fcd672f5dd73",
           "type": "heading",
           "order": 1,
           "page_or_slide": 10,
@@ -837,7 +837,7 @@
           "level": 1
         },
         {
-          "id": "93b29445394e4fcab4c17ae02599e659",
+          "id": "f63bca77ced84324b08f45e9059f2e45",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 10,
@@ -885,7 +885,7 @@
       ],
       "blocks": [
         {
-          "id": "850fc2ff05204bcfb1e2280e9390c3a9",
+          "id": "22b13a5766fa4947a87ddb7adba1c8d2",
           "type": "heading",
           "order": 1,
           "page_or_slide": 11,
@@ -907,7 +907,7 @@
           "level": 1
         },
         {
-          "id": "141d7716579e463db62f34f9b8618b0e",
+          "id": "e23ea7dd28a946098c6385eb74a80215",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 11,
@@ -967,7 +967,7 @@
       ],
       "blocks": [
         {
-          "id": "afd816ee84894cadad0a3a2ced8f9080",
+          "id": "dcc3ba52b41a4524a19a970ff12f0bd0",
           "type": "heading",
           "order": 1,
           "page_or_slide": 12,
@@ -989,7 +989,7 @@
           "level": 1
         },
         {
-          "id": "b8ee2c889ec54b949d92ac50e54452f1",
+          "id": "2fc3640ab2b84fdeaa93814f3f6ac66e",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 12,
@@ -1024,7 +1024,7 @@
       ],
       "blocks": [
         {
-          "id": "1975dac08dd143678b397ed8bf441ec1",
+          "id": "7cd4b90c594547fcb627ad6e6293ddc0",
           "type": "heading",
           "order": 1,
           "page_or_slide": 13,
@@ -1046,7 +1046,7 @@
           "level": 1
         },
         {
-          "id": "0cc6674f8eba448bb1e22678a614faf3",
+          "id": "bb3ab12d23d949fa844ae7461c2c587c",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 13,
@@ -1081,7 +1081,7 @@
       ],
       "blocks": [
         {
-          "id": "75751765903d4284ada3786a803c96ec",
+          "id": "8518698f57a74040a25dae7d027b411b",
           "type": "heading",
           "order": 1,
           "page_or_slide": 14,
@@ -1103,7 +1103,7 @@
           "level": 1
         },
         {
-          "id": "7c67f5bf846b4d6c86149ee62be63c2f",
+          "id": "40543bf33b7f4bd98af3389693fc9a6f",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 14,
@@ -1151,7 +1151,7 @@
       ],
       "blocks": [
         {
-          "id": "0b28a0da49af4eeab620c9ac251e5e3d",
+          "id": "5a379e84c1d84d56a3cbe531f7fb9a70",
           "type": "heading",
           "order": 1,
           "page_or_slide": 15,
@@ -1173,7 +1173,7 @@
           "level": 1
         },
         {
-          "id": "56109e2a5bcd4d10864b5458c77cf9c9",
+          "id": "cbb12ffde615447a98537676c0ad4a4c",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 15,
@@ -1207,7 +1207,7 @@
           ]
         },
         {
-          "id": "236378374b2741a89a7de130848d20e2",
+          "id": "99052915ede545e88eaa44d26fe811b5",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 15,
@@ -1242,7 +1242,7 @@
       ],
       "blocks": [
         {
-          "id": "2fd718dfa0b34ffb8e66d6fd141d5cd2",
+          "id": "6028ef8c9532490fbce8eb4390b56426",
           "type": "heading",
           "order": 1,
           "page_or_slide": 16,
@@ -1264,7 +1264,7 @@
           "level": 1
         },
         {
-          "id": "a17d26ab0a114fb49f556fbae91e071e",
+          "id": "5b19a8d19e7f473f9745ce12e0a08b01",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 16,
@@ -1316,7 +1316,7 @@
       ],
       "blocks": [
         {
-          "id": "2a30cb0b605943919b31e494cec519c6",
+          "id": "2a63708b8d0543f9b25d607406153670",
           "type": "heading",
           "order": 1,
           "page_or_slide": 17,
@@ -1352,7 +1352,7 @@
       ],
       "blocks": [
         {
-          "id": "37e0984495e34fadb5c7d233b21de281",
+          "id": "f0f168c5c8c24775944b0553378cc39f",
           "type": "heading",
           "order": 1,
           "page_or_slide": 18,
@@ -1374,7 +1374,7 @@
           "level": 1
         },
         {
-          "id": "9468f6d792f54166ae405ab6e062909f",
+          "id": "5720d03f9a5f4376bfeb4c3be37c6f2d",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 18,
@@ -1434,7 +1434,7 @@
       ],
       "blocks": [
         {
-          "id": "7a5b0fd55a01441cbedf5f6e0dcaa357",
+          "id": "ccc06176100a4c31b08a380a857eba01",
           "type": "heading",
           "order": 1,
           "page_or_slide": 19,
@@ -1456,7 +1456,7 @@
           "level": 1
         },
         {
-          "id": "f7b1ce1f45b64c7f802a06b76d9d9884",
+          "id": "444c92aab88f4aaeb54a2aee821a86e3",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 19,
@@ -1491,7 +1491,7 @@
       ],
       "blocks": [
         {
-          "id": "c3ae0870a4fd440ebc84ce72a7afba77",
+          "id": "54b09297e10749899adfa127a14f1e42",
           "type": "heading",
           "order": 1,
           "page_or_slide": 20,
@@ -1513,7 +1513,7 @@
           "level": 1
         },
         {
-          "id": "2ef6f4b270294ae1876174971ff57340",
+          "id": "1770f006ab5c42a6a09f9a83c8023c41",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 20,
@@ -1589,7 +1589,7 @@
       ],
       "blocks": [
         {
-          "id": "9129b3ba37084db7b1f585a83ea3e8ef",
+          "id": "b4003dd4b6704081b917e413c78e53fe",
           "type": "heading",
           "order": 1,
           "page_or_slide": 21,
@@ -1611,7 +1611,7 @@
           "level": 1
         },
         {
-          "id": "fb30430b4dbf47c8b4857a96e2fee56a",
+          "id": "789a89736ddf4360b584764e98d5d199",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 21,
@@ -1667,7 +1667,7 @@
       ],
       "blocks": [
         {
-          "id": "8538b269f44a4bf19dc0ecc92f057653",
+          "id": "3a4feb98f3f84d3b86c6a075a4409399",
           "type": "heading",
           "order": 1,
           "page_or_slide": 22,
@@ -1689,7 +1689,7 @@
           "level": 1
         },
         {
-          "id": "c54d53bbfc5d4e4c9f89b007376990d3",
+          "id": "df9e30762861488ea55a842ac7e27036",
           "type": "heading",
           "order": 2,
           "page_or_slide": 22,
@@ -1711,7 +1711,7 @@
           "level": 1
         },
         {
-          "id": "240e249fc25d4161a443fdb17c9e71be",
+          "id": "3267ea7fe10340e2896b4d54004d8239",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 22,
@@ -1732,7 +1732,7 @@
           "text": "They Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)"
         },
         {
-          "id": "073d3907d3af4fbc8fcc7a6147b0be35",
+          "id": "25907e4dcbb2418ea5e05a4761dcc404",
           "type": "paragraph",
           "order": 4,
           "page_or_slide": 22,
@@ -1753,7 +1753,7 @@
           "text": "They cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown"
         },
         {
-          "id": "a0f60dd3c5a2406db7d35fd217a37895",
+          "id": "fd209ec1381b42989cc2df9bd0a9ff70",
           "type": "paragraph",
           "order": 5,
           "page_or_slide": 22,
@@ -1774,7 +1774,7 @@
           "text": "Crackers"
         },
         {
-          "id": "d8ee452e24964e1288148e730957f961",
+          "id": "1537d76147364ee1af7acfbc4ae1c22a",
           "type": "bullet_list",
           "order": 6,
           "page_or_slide": 22,
@@ -1826,7 +1826,7 @@
       ],
       "blocks": [
         {
-          "id": "fc393dd85eae4d2989829dcbe5f9c313",
+          "id": "fbeb9fe580a14fc78a4174bf483c58fc",
           "type": "heading",
           "order": 1,
           "page_or_slide": 23,
@@ -1848,7 +1848,7 @@
           "level": 1
         },
         {
-          "id": "d9c37e4aec004193bef14bec3b2c8b27",
+          "id": "9d29ad3518a64007b7b8a26faeb5936f",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 23,
@@ -1883,7 +1883,7 @@
       ],
       "blocks": [
         {
-          "id": "4a0547c2820e4a128c21f241a75a0170",
+          "id": "33eadabf607b48bca872edc9add1c853",
           "type": "heading",
           "order": 1,
           "page_or_slide": 24,
@@ -1905,7 +1905,7 @@
           "level": 1
         },
         {
-          "id": "edc0c1f3c0904137842eaf50d5bd5b86",
+          "id": "d60e10c128a9436c8c56559d0b9d92ef",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 24,
@@ -1940,7 +1940,7 @@
       ],
       "blocks": [
         {
-          "id": "ec7eb9cb92ff44ddb09f58eb4ba693ac",
+          "id": "43eca07034ee4cbf85c76bd1580b7c10",
           "type": "heading",
           "order": 1,
           "page_or_slide": 25,
@@ -1962,7 +1962,7 @@
           "level": 1
         },
         {
-          "id": "39b35ea46ec44082a08ea34a12159f8c",
+          "id": "97a308105b80414e8eb9cd802a72fd30",
           "type": "figure",
           "order": 2,
           "page_or_slide": 25,
@@ -1980,14 +1980,14 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_25_89109aa8.wmf",
-          "image_name": "slide_25_89109aa8.wmf",
+          "image_path": "output_pptx\\images\\slide_25_ef346324.wmf",
+          "image_name": "slide_25_ef346324.wmf",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "39b35ea46ec44082a08ea34a12159f8c_desc",
+          "id": "97a308105b80414e8eb9cd802a72fd30_desc",
           "type": "figure_description",
           "order": 3,
           "page_or_slide": null,
@@ -1995,7 +1995,7 @@
             "Assets and Examples of Threats"
           ],
           "metadata": {
-            "figure_id": "39b35ea46ec44082a08ea34a12159f8c",
+            "figure_id": "97a308105b80414e8eb9cd802a72fd30",
             "generated": true
           }
         }
@@ -2014,7 +2014,7 @@
       ],
       "blocks": [
         {
-          "id": "51fc1d416e374267b54398d03c786cc4",
+          "id": "c98b23d5eeb748218037b1286f9cab41",
           "type": "heading",
           "order": 1,
           "page_or_slide": 26,
@@ -2036,7 +2036,7 @@
           "level": 1
         },
         {
-          "id": "629e6d56cece463ea42e62b22ef751e8",
+          "id": "918255f0d41a4a4c867c80755616bda6",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 26,
@@ -2071,7 +2071,7 @@
       ],
       "blocks": [
         {
-          "id": "8e855a2d68514769b2bf48b1a5d260e0",
+          "id": "5f1365a4ab16429aaf304071b74ac4e7",
           "type": "heading",
           "order": 1,
           "page_or_slide": 27,
@@ -2093,7 +2093,7 @@
           "level": 1
         },
         {
-          "id": "41ffdeb6304a4effbb4a25cedeced929",
+          "id": "c8c2481127c34db3a819e37045b38fb5",
           "type": "figure",
           "order": 2,
           "page_or_slide": 27,
@@ -2111,14 +2111,14 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_27_e165e92e.wmf",
-          "image_name": "slide_27_e165e92e.wmf",
+          "image_path": "output_pptx\\images\\slide_27_14d82eb3.wmf",
+          "image_name": "slide_27_14d82eb3.wmf",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "41ffdeb6304a4effbb4a25cedeced929_desc",
+          "id": "c8c2481127c34db3a819e37045b38fb5_desc",
           "type": "figure_description",
           "order": 3,
           "page_or_slide": null,
@@ -2126,7 +2126,7 @@
             "A Model for Computer Security"
           ],
           "metadata": {
-            "figure_id": "41ffdeb6304a4effbb4a25cedeced929",
+            "figure_id": "c8c2481127c34db3a819e37045b38fb5",
             "generated": true
           }
         }
@@ -2145,7 +2145,7 @@
       ],
       "blocks": [
         {
-          "id": "51bf9452d0b643b990a9b71eb27f65f9",
+          "id": "2406f9f1cc8a413a8199fbbd4d1e0097",
           "type": "heading",
           "order": 1,
           "page_or_slide": 28,
@@ -2167,7 +2167,7 @@
           "level": 1
         },
         {
-          "id": "158816a4e05f4e27bfbc559fcec9d1f1",
+          "id": "bcbe93cb67384d9bb44e1c497da16d9c",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 28,
@@ -2227,7 +2227,7 @@
       ],
       "blocks": [
         {
-          "id": "1e1d74ef28884bf1a38e18d21933671e",
+          "id": "575190ab1ec242c499f9e1ff4ba7fef1",
           "type": "heading",
           "order": 1,
           "page_or_slide": 29,
@@ -2249,7 +2249,7 @@
           "level": 1
         },
         {
-          "id": "4b0f8e41e55d4bce96a33f238f80aa0b",
+          "id": "abe02a6ca4e84231b72ba886805b7d5f",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 29,
@@ -2317,7 +2317,7 @@
       ],
       "blocks": [
         {
-          "id": "97bdbb0503704fd881cf23a53d2cf1bc",
+          "id": "6f9d251741b44228b9834f382663c209",
           "type": "heading",
           "order": 1,
           "page_or_slide": 30,
@@ -2339,7 +2339,7 @@
           "level": 1
         },
         {
-          "id": "9e54f740090a4815978f315a9a1cfa34",
+          "id": "10204950547449bcae44354427314910",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 30,
@@ -2374,7 +2374,7 @@
       ],
       "blocks": [
         {
-          "id": "46ffd33851a3421a8db58e8e8163e733",
+          "id": "e5279e9e9cfe47abb28729ba5241af20",
           "type": "heading",
           "order": 1,
           "page_or_slide": 31,
@@ -2396,7 +2396,7 @@
           "level": 1
         },
         {
-          "id": "df32b61c9fb54f0c9b652b6f7020e852",
+          "id": "ae759b7005924f80ab05c94ea6d2d6bb",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 31,
@@ -2434,7 +2434,7 @@
           ]
         },
         {
-          "id": "f71ce24d157c41d3b530dea3e264dba6",
+          "id": "9fa70453003548a6bed75abc1dafc3bc",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 31,
@@ -2455,7 +2455,7 @@
           "text": "Analyze"
         },
         {
-          "id": "c594372e719e4ef1afd44ad21d9458cc",
+          "id": "f4f2ca376e21431597e49b5dade8f2b4",
           "type": "bullet_list",
           "order": 4,
           "page_or_slide": 31,
@@ -2489,7 +2489,7 @@
           ]
         },
         {
-          "id": "9e173b6bb9ce4529af02fc5cc25f3e24",
+          "id": "d7c079ecb10142e390e6fda6df8ad682",
           "type": "paragraph",
           "order": 5,
           "page_or_slide": 31,
@@ -2510,7 +2510,7 @@
           "text": "Design"
         },
         {
-          "id": "f994d53d18764ff88cc55b372c3beb49",
+          "id": "30c91a056d0943b4b55b5fe0f878a988",
           "type": "bullet_list",
           "order": 6,
           "page_or_slide": 31,
@@ -2544,7 +2544,7 @@
           ]
         },
         {
-          "id": "f0ec75c823b64850a6fbda5e5a7eca2f",
+          "id": "479f4ea6d105490496032b98acba2eeb",
           "type": "paragraph",
           "order": 7,
           "page_or_slide": 31,
@@ -2565,7 +2565,7 @@
           "text": "Implement"
         },
         {
-          "id": "4360930e35b248e8bc76342c6109f5b5",
+          "id": "72bf3b01bb954f28afc37bca4775c3fb",
           "type": "bullet_list",
           "order": 8,
           "page_or_slide": 31,
@@ -2595,7 +2595,7 @@
           ]
         },
         {
-          "id": "a7b9a19928924bc8981272feb90a1de1",
+          "id": "7d7c0b3dd03748d796da5c3bdefa3016",
           "type": "paragraph",
           "order": 9,
           "page_or_slide": 31,
@@ -2630,7 +2630,7 @@
       ],
       "blocks": [
         {
-          "id": "d0d651c5c0cd409d8ed5b494e7eedbfd",
+          "id": "59542e56b25d497cb4509b91d289647b",
           "type": "heading",
           "order": 1,
           "page_or_slide": 32,
@@ -2652,7 +2652,7 @@
           "level": 1
         },
         {
-          "id": "faa514e7306947bc80fa6ef2d8c1251a",
+          "id": "bd0c1e5fbe1649689d63671af167bdf9",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 32,
@@ -2720,7 +2720,7 @@
       ],
       "blocks": [
         {
-          "id": "b8f1d6f9e1454a96af7843f78e657e31",
+          "id": "ef0fef333187418a9317dacbcfd64b96",
           "type": "paragraph",
           "order": 1,
           "page_or_slide": 33,
@@ -2755,7 +2755,7 @@
       ],
       "blocks": [
         {
-          "id": "559c58df958141a6b453c888911a2c9f",
+          "id": "b678e64698884ad8a9096c8658257c67",
           "type": "heading",
           "order": 1,
           "page_or_slide": 34,
@@ -2777,7 +2777,7 @@
           "level": 1
         },
         {
-          "id": "49b41970ca214fde9e242074aca3f6ad",
+          "id": "9b139038fe40412999205075ebf48db5",
           "type": "figure",
           "order": 2,
           "page_or_slide": 34,
@@ -2795,14 +2795,14 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_34_81bb6557.png",
-          "image_name": "slide_34_81bb6557.png",
+          "image_path": "output_pptx\\images\\slide_34_8ca4af40.png",
+          "image_name": "slide_34_8ca4af40.png",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "49b41970ca214fde9e242074aca3f6ad_desc",
+          "id": "9b139038fe40412999205075ebf48db5_desc",
           "type": "figure_description",
           "order": 3,
           "page_or_slide": null,
@@ -2810,7 +2810,7 @@
             "Case Study 1 – Hospital system"
           ],
           "metadata": {
-            "figure_id": "49b41970ca214fde9e242074aca3f6ad",
+            "figure_id": "9b139038fe40412999205075ebf48db5",
             "generated": true
           }
         }
@@ -2829,7 +2829,7 @@
       ],
       "blocks": [
         {
-          "id": "3e783daab83d4932b43c1bcff3b0fbaf",
+          "id": "9ac962cda4684b90a0f33dfc16c056e5",
           "type": "heading",
           "order": 1,
           "page_or_slide": 35,
@@ -2851,7 +2851,7 @@
           "level": 1
         },
         {
-          "id": "6f850448fc684bcd8f5feeffbf41ab20",
+          "id": "42f5d5c3b67d496a99f0d2056970d697",
           "type": "figure",
           "order": 2,
           "page_or_slide": 35,
@@ -2869,14 +2869,14 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_35_158faed3.png",
-          "image_name": "slide_35_158faed3.png",
+          "image_path": "output_pptx\\images\\slide_35_c5655c78.png",
+          "image_name": "slide_35_c5655c78.png",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "6f850448fc684bcd8f5feeffbf41ab20_desc",
+          "id": "42f5d5c3b67d496a99f0d2056970d697_desc",
           "type": "figure_description",
           "order": 3,
           "page_or_slide": null,
@@ -2884,7 +2884,7 @@
             "Case Study 2 – Online bank"
           ],
           "metadata": {
-            "figure_id": "6f850448fc684bcd8f5feeffbf41ab20",
+            "figure_id": "42f5d5c3b67d496a99f0d2056970d697",
             "generated": true
           }
         }
