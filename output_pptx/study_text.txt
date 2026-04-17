@@ -14,6 +14,8 @@ Security-Related News
 July 2024,
 a flawed software update from the security firm CrowdStrike took down Windows computers across the world.
 
+توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.
+
 Attack Examples
 
 June 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.
@@ -21,6 +23,8 @@ June 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDo
 Targeted by 5,256 source IP @s from 132 countries
 
 Verzion’s 2024 Data Breach Investigations Report
+
+توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.
 
 Outline
 
@@ -199,6 +203,8 @@ Intercepting a message in order to re-send it  later
 
 Assets and Examples of Threats
 
+توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.
+
 Countermeasures
 
 include techniques for ensuring:
@@ -207,6 +213,8 @@ Detection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall
 Reaction (or recovery): Such as Backup systems, OS’s recovery points, etc.
 
 A Model for Computer Security
+
+توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.
 
 ISS- another  definition
 
@@ -279,4 +287,8 @@ Questions?
 
 Case Study 1 – Hospital system
 
+توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.
+
 Case Study 2 – Online bank
+
+توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.

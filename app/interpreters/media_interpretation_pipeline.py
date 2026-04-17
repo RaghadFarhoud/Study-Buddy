@@ -12,8 +12,9 @@ class MediaInterpretationPipeline:
         self.interpreters = interpreters
 
     def run(self, document: CanonicalDocument) -> CanonicalDocument:
-
         for interpreter in self.interpreters:
-            document = interpreter.interpret(document)
-
+             try:
+                 document = interpreter.interpret(document)
+             except Exception as e:
+                print(f"[WARN] Interpreter {interpreter.__class__.__name__} failed: {e}")
         return document

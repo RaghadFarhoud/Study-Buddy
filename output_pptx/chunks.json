@@ -13,7 +13,7 @@
       ],
       "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -30,7 +30,7 @@
       ],
       "text": "Attack Examples",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -47,7 +47,7 @@
       ],
       "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -64,7 +64,7 @@
       ],
       "text": "ISS Objectives",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -81,7 +81,7 @@
       ],
       "text": "Security terms",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -98,7 +98,7 @@
       ],
       "text": "Security Policies",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -115,7 +115,7 @@
       ],
       "text": "Conclusion",
       "source_block_ids": [
-        "d3aa376291394bc89c11e374156cf83d"
+        "c964329301f24b38ad4a7c50532bf0dc"
       ],
       "block_types": [
         "bullet_list"
@@ -130,17 +130,36 @@
       "section_path": [
         "Security-Related News"
       ],
-      "text": "Security-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.",
+      "text": "Security-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
       "source_block_ids": [
-        "0b3e36205c2e4e0197c2211eaf1ed1c3"
+        "c3aee83f9bdf4532800b9f47f5cec6f1",
+        "12d3d658861a4cec89db144a3634325b_desc"
       ],
       "block_types": [
-        "paragraph"
+        "paragraph",
+        "figure_description"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_9",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Security-Related News",
+      "section_path": [
+        "Security-Related News"
+      ],
+      "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "12d3d658861a4cec89db144a3634325b_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_10",
       "level": "section",
       "document_id": "lecture",
       "section_title": "Attack Examples",
@@ -149,7 +168,7 @@
       ],
       "text": "Attack Examples\n\nJune 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries",
       "source_block_ids": [
-        "a801ce0184ff440faeeee74f91c2f071"
+        "082703a18c9244dc9d27e987d3187d77"
       ],
       "block_types": [
         "paragraph"
@@ -157,7 +176,41 @@
       "metadata": {}
     },
     {
-      "chunk_id": "lecture_chunk_10",
+      "chunk_id": "lecture_chunk_11",
+      "level": "section",
+      "document_id": "lecture",
+      "section_title": "Verzion’s 2024 Data Breach Investigations Report",
+      "section_path": [
+        "Verzion’s 2024 Data Breach Investigations Report"
+      ],
+      "text": "Verzion’s 2024 Data Breach Investigations Report\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "0eac1ca53407439a8def2234cc9bec48_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_12",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Verzion’s 2024 Data Breach Investigations Report",
+      "section_path": [
+        "Verzion’s 2024 Data Breach Investigations Report"
+      ],
+      "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "0eac1ca53407439a8def2234cc9bec48_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_13",
       "level": "section",
       "document_id": "lecture",
       "section_title": "Outline",
@@ -166,58 +219,7 @@
       ],
       "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_11",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "Outline",
-      "section_path": [
-        "Outline"
-      ],
-      "text": "Attack Examples",
-      "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_12",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "Outline",
-      "section_path": [
-        "Outline"
-      ],
-      "text": "What is Information Systems Security?",
-      "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_13",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "Outline",
-      "section_path": [
-        "Outline"
-      ],
-      "text": "ISS Objectives",
-      "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
       ],
       "block_types": [
         "bullet_list"
@@ -232,9 +234,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Security terms",
+      "text": "Attack Examples",
       "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
       ],
       "block_types": [
         "bullet_list"
@@ -249,9 +251,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Security Policies",
+      "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
       ],
       "block_types": [
         "bullet_list"
@@ -266,9 +268,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Conclusion",
+      "text": "ISS Objectives",
       "source_block_ids": [
-        "b16d87a930954fc882c94c77fdc42652"
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
       ],
       "block_types": [
         "bullet_list"
@@ -277,6 +279,57 @@
     },
     {
       "chunk_id": "lecture_chunk_17",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Security terms",
+      "source_block_ids": [
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_18",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Security Policies",
+      "source_block_ids": [
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_19",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Conclusion",
+      "source_block_ids": [
+        "ef366fc673214fe9bfa0b6d7a71bc02a"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_20",
       "level": "section",
       "document_id": "lecture",
       "section_title": "2. What is ISS?",
@@ -285,13 +338,13 @@
       ],
       "text": "2. What is ISS?\n\n- Information system\n  - set of applications, services, information technology assets, or other information-handling components\n- Assets: Data/information, software, hardware, communication facilities, physical facilities\n\nphysical facilities\n\nNets\n\nHW\n\nSW systems\n\napplications\n\nData",
       "source_block_ids": [
-        "8eb96bafcd71456fb22c8b28c25f5b63",
-        "b7bdf9ed68cc4bc2837ca2f5c1090477",
-        "ca1547afd4d842f3aea6c3311a00c2ec",
-        "7fdc11bd8c994124bf3fd33f919710d5",
-        "2dc94803fbcd4ab698a161324a979f22",
-        "6267c6dbb27846619507ea52db6a8572",
-        "40a78e2818914fc6b0876b244e846a95"
+        "77316aac40184e5ea2d6194c58f4c469",
+        "b06359275bd547f69bc2926cc34b49e8",
+        "2fc17bb56d2947eabf67cbdd04d7e96f",
+        "8ab1135dc8304367b1b6162737c70e3b",
+        "073fea205a5b4a9d96aee8ce0b9870ec",
+        "7a51c4b93ef246b2a558cb729c3aa9e0",
+        "2d14a31f88dc4600b36ef1e01c505234"
       ],
       "block_types": [
         "bullet_list",
@@ -305,7 +358,7 @@
       "metadata": {}
     },
     {
-      "chunk_id": "lecture_chunk_18",
+      "chunk_id": "lecture_chunk_21",
       "level": "proposition",
       "document_id": "lecture",
       "section_title": "2. What is ISS?",
@@ -314,7 +367,7 @@
       ],
       "text": "Information system",
       "source_block_ids": [
-        "8eb96bafcd71456fb22c8b28c25f5b63"
+        "77316aac40184e5ea2d6194c58f4c469"
       ],
       "block_types": [
         "bullet_list"
@@ -322,7 +375,7 @@
       "metadata": {}
     },
     {
-      "chunk_id": "lecture_chunk_19",
+      "chunk_id": "lecture_chunk_22",
       "level": "proposition",
       "document_id": "lecture",
       "section_title": "2. What is ISS?",
@@ -331,58 +384,7 @@
       ],
       "text": "set of applications, services, information technology assets, or other information-handling components",
       "source_block_ids": [
-        "8eb96bafcd71456fb22c8b28c25f5b63"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_20",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "2. What is ISS?",
-      "section_path": [
-        "2. What is ISS?"
-      ],
-      "text": "Assets: Data/information, software, hardware, communication facilities, physical facilities",
-      "source_block_ids": [
-        "8eb96bafcd71456fb22c8b28c25f5b63"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_21",
-      "level": "section",
-      "document_id": "lecture",
-      "section_title": "2. What is ISS?",
-      "section_path": [
-        "2. What is ISS?"
-      ],
-      "text": "2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.",
-      "source_block_ids": [
-        "38db4191bb5448dca684a36c0a631113"
-      ],
-      "block_types": [
-        "paragraph"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_22",
-      "level": "section",
-      "document_id": "lecture",
-      "section_title": "What is ISS?",
-      "section_path": [
-        "What is ISS?"
-      ],
-      "text": "What is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …",
-      "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "77316aac40184e5ea2d6194c58f4c469"
       ],
       "block_types": [
         "bullet_list"
@@ -393,13 +395,13 @@
       "chunk_id": "lecture_chunk_23",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "What is ISS?",
+      "section_title": "2. What is ISS?",
       "section_path": [
-        "What is ISS?"
+        "2. What is ISS?"
       ],
-      "text": "synonymous with Computer Security",
+      "text": "Assets: Data/information, software, hardware, communication facilities, physical facilities",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "77316aac40184e5ea2d6194c58f4c469"
       ],
       "block_types": [
         "bullet_list"
@@ -408,32 +410,32 @@
     },
     {
       "chunk_id": "lecture_chunk_24",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
-      "section_title": "What is ISS?",
+      "section_title": "2. What is ISS?",
       "section_path": [
-        "What is ISS?"
+        "2. What is ISS?"
       ],
-      "text": "part of information security",
+      "text": "2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "5e3282f8e9be4066994c9033ef4d1c5a"
       ],
       "block_types": [
-        "bullet_list"
+        "paragraph"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_25",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "What is ISS?",
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Information security includes",
+      "text": "What is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -448,9 +450,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Computer security",
+      "text": "synonymous with Computer Security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -465,9 +467,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Information systems security",
+      "text": "part of information security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -482,9 +484,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Database security",
+      "text": "Information security includes",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -499,9 +501,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Network security",
+      "text": "Computer security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -516,9 +518,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Web security",
+      "text": "Information systems security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -533,9 +535,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Digital forensics",
+      "text": "Database security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -550,9 +552,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "Information security management",
+      "text": "Network security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -567,9 +569,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "…",
+      "text": "Web security",
       "source_block_ids": [
-        "ec8fae08b1a14c43ae82656416e63b68"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -578,15 +580,15 @@
     },
     {
       "chunk_id": "lecture_chunk_34",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
       "section_title": "What is ISS?",
       "section_path": [
         "What is ISS?"
       ],
-      "text": "What is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability",
+      "text": "Digital forensics",
       "source_block_ids": [
-        "f63bca77ced84324b08f45e9059f2e45"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -601,9 +603,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "information security [ISO 27000: 2018]",
+      "text": "Information security management",
       "source_block_ids": [
-        "f63bca77ced84324b08f45e9059f2e45"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -618,9 +620,9 @@
       "section_path": [
         "What is ISS?"
       ],
-      "text": "preservation of confidentiality, integrity and availability of information",
+      "text": "…",
       "source_block_ids": [
-        "f63bca77ced84324b08f45e9059f2e45"
+        "3b7cf302855c4e8f9c4e8ceaba88d4e1"
       ],
       "block_types": [
         "bullet_list"
@@ -629,15 +631,15 @@
     },
     {
       "chunk_id": "lecture_chunk_37",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "What is ISS?",
       "section_path": [
         "What is ISS?"
       ],
-      "text": "also preservation of authenticity, accountability, non-repudiation, and reliability",
+      "text": "What is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability",
       "source_block_ids": [
-        "f63bca77ced84324b08f45e9059f2e45"
+        "fb3740d90fce466eaf2a6f9f581ad95b"
       ],
       "block_types": [
         "bullet_list"
@@ -646,15 +648,15 @@
     },
     {
       "chunk_id": "lecture_chunk_38",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Outline"
+        "What is ISS?"
       ],
-      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "text": "information security [ISO 27000: 2018]",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "fb3740d90fce466eaf2a6f9f581ad95b"
       ],
       "block_types": [
         "bullet_list"
@@ -665,13 +667,13 @@
       "chunk_id": "lecture_chunk_39",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Outline"
+        "What is ISS?"
       ],
-      "text": "Attack Examples",
+      "text": "preservation of confidentiality, integrity and availability of information",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "fb3740d90fce466eaf2a6f9f581ad95b"
       ],
       "block_types": [
         "bullet_list"
@@ -682,13 +684,13 @@
       "chunk_id": "lecture_chunk_40",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "What is ISS?",
       "section_path": [
-        "Outline"
+        "What is ISS?"
       ],
-      "text": "What is Information Systems Security?",
+      "text": "also preservation of authenticity, accountability, non-repudiation, and reliability",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "fb3740d90fce466eaf2a6f9f581ad95b"
       ],
       "block_types": [
         "bullet_list"
@@ -697,15 +699,15 @@
     },
     {
       "chunk_id": "lecture_chunk_41",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "Outline",
       "section_path": [
         "Outline"
       ],
-      "text": "ISS Objectives",
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
         "bullet_list"
@@ -720,9 +722,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Security terms",
+      "text": "Attack Examples",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
         "bullet_list"
@@ -737,9 +739,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Security Policies",
+      "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
         "bullet_list"
@@ -754,9 +756,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Conclusion",
+      "text": "ISS Objectives",
       "source_block_ids": [
-        "e23ea7dd28a946098c6385eb74a80215"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
         "bullet_list"
@@ -765,49 +767,49 @@
     },
     {
       "chunk_id": "lecture_chunk_45",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "ISS Objectives",
+      "section_title": "Outline",
       "section_path": [
-        "ISS Objectives"
+        "Outline"
       ],
-      "text": "ISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control",
+      "text": "Security terms",
       "source_block_ids": [
-        "2fc3640ab2b84fdeaa93814f3f6ac66e"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
-        "paragraph"
+        "bullet_list"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_46",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "ISS Objectives",
+      "section_title": "Outline",
       "section_path": [
-        "ISS Objectives"
+        "Outline"
       ],
-      "text": "ISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…",
+      "text": "Security Policies",
       "source_block_ids": [
-        "bb3ab12d23d949fa844ae7461c2c587c"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
-        "paragraph"
+        "bullet_list"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_47",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "ISS Objectives",
+      "section_title": "Outline",
       "section_path": [
-        "ISS Objectives"
+        "Outline"
       ],
-      "text": "ISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …",
+      "text": "Conclusion",
       "source_block_ids": [
-        "40543bf33b7f4bd98af3389693fc9a6f"
+        "0c35501e70454539b76251daccc96849"
       ],
       "block_types": [
         "bullet_list"
@@ -816,49 +818,49 @@
     },
     {
       "chunk_id": "lecture_chunk_48",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "ISS Objectives",
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "Availability",
+      "text": "ISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control",
       "source_block_ids": [
-        "40543bf33b7f4bd98af3389693fc9a6f"
+        "30c306890d404c62ba7d6a24ef68d20e"
       ],
       "block_types": [
-        "bullet_list"
+        "paragraph"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_49",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "ISS Objectives",
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "property of being accessible and usable on demand by an authorized entity.",
+      "text": "ISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…",
       "source_block_ids": [
-        "40543bf33b7f4bd98af3389693fc9a6f"
+        "50587d24de41487ba16e9d1c34cfb895"
       ],
       "block_types": [
-        "bullet_list"
+        "paragraph"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_50",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "ISS Objectives",
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "means: protection from disruption, intentional deletion, …",
+      "text": "ISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …",
       "source_block_ids": [
-        "40543bf33b7f4bd98af3389693fc9a6f"
+        "00af54146c2349d0aa98f4fb35216e8f"
       ],
       "block_types": [
         "bullet_list"
@@ -867,20 +869,18 @@
     },
     {
       "chunk_id": "lecture_chunk_51",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
       "section_title": "ISS Objectives",
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "ISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.",
+      "text": "Availability",
       "source_block_ids": [
-        "cbb12ffde615447a98537676c0ad4a4c",
-        "99052915ede545e88eaa44d26fe811b5"
+        "00af54146c2349d0aa98f4fb35216e8f"
       ],
       "block_types": [
-        "bullet_list",
-        "paragraph"
+        "bullet_list"
       ],
       "metadata": {}
     },
@@ -892,9 +892,9 @@
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "Other Objectives:",
+      "text": "property of being accessible and usable on demand by an authorized entity.",
       "source_block_ids": [
-        "cbb12ffde615447a98537676c0ad4a4c"
+        "00af54146c2349d0aa98f4fb35216e8f"
       ],
       "block_types": [
         "bullet_list"
@@ -909,9 +909,9 @@
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "Authenticity",
+      "text": "means: protection from disruption, intentional deletion, …",
       "source_block_ids": [
-        "cbb12ffde615447a98537676c0ad4a4c"
+        "00af54146c2349d0aa98f4fb35216e8f"
       ],
       "block_types": [
         "bullet_list"
@@ -920,32 +920,34 @@
     },
     {
       "chunk_id": "lecture_chunk_54",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS Objectives",
-      "section_path": [
-        "ISS Objectives"
-      ],
-      "text": "property that an entity is what it claims to be",
-      "source_block_ids": [
-        "cbb12ffde615447a98537676c0ad4a4c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_55",
       "level": "section",
       "document_id": "lecture",
       "section_title": "ISS Objectives",
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "ISS Objectives\n\n- Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.",
+      "text": "ISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.",
       "source_block_ids": [
-        "5b19a8d19e7f473f9745ce12e0a08b01"
+        "b2fb18a7f650469f9ea2c37c881d5e86",
+        "84b738d967584147a54fda601e741e79"
+      ],
+      "block_types": [
+        "bullet_list",
+        "paragraph"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_55",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "Other Objectives:",
+      "source_block_ids": [
+        "b2fb18a7f650469f9ea2c37c881d5e86"
       ],
       "block_types": [
         "bullet_list"
@@ -960,9 +962,9 @@
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "Non-repudiation",
+      "text": "Authenticity",
       "source_block_ids": [
-        "5b19a8d19e7f473f9745ce12e0a08b01"
+        "b2fb18a7f650469f9ea2c37c881d5e86"
       ],
       "block_types": [
         "bullet_list"
@@ -977,9 +979,9 @@
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "preventing the denial of previous commitments or actions",
+      "text": "property that an entity is what it claims to be",
       "source_block_ids": [
-        "5b19a8d19e7f473f9745ce12e0a08b01"
+        "b2fb18a7f650469f9ea2c37c881d5e86"
       ],
       "block_types": [
         "bullet_list"
@@ -988,15 +990,15 @@
     },
     {
       "chunk_id": "lecture_chunk_58",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "ISS Objectives",
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "Accountability",
+      "text": "ISS Objectives\n\n- Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.",
       "source_block_ids": [
-        "5b19a8d19e7f473f9745ce12e0a08b01"
+        "5a8e7a1f3389457eacea960d05a1c6c1"
       ],
       "block_types": [
         "bullet_list"
@@ -1011,9 +1013,9 @@
       "section_path": [
         "ISS Objectives"
       ],
-      "text": "the ability to identify entities responsible for past actions.",
+      "text": "Non-repudiation",
       "source_block_ids": [
-        "5b19a8d19e7f473f9745ce12e0a08b01"
+        "5a8e7a1f3389457eacea960d05a1c6c1"
       ],
       "block_types": [
         "bullet_list"
@@ -1022,15 +1024,15 @@
     },
     {
       "chunk_id": "lecture_chunk_60",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "ISS Objectives",
       "section_path": [
-        "Outline"
+        "ISS Objectives"
       ],
-      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "text": "preventing the denial of previous commitments or actions",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5a8e7a1f3389457eacea960d05a1c6c1"
       ],
       "block_types": [
         "bullet_list"
@@ -1041,13 +1043,13 @@
       "chunk_id": "lecture_chunk_61",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "ISS Objectives",
       "section_path": [
-        "Outline"
+        "ISS Objectives"
       ],
-      "text": "Attack Examples",
+      "text": "Accountability",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5a8e7a1f3389457eacea960d05a1c6c1"
       ],
       "block_types": [
         "bullet_list"
@@ -1058,13 +1060,13 @@
       "chunk_id": "lecture_chunk_62",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Outline",
+      "section_title": "ISS Objectives",
       "section_path": [
-        "Outline"
+        "ISS Objectives"
       ],
-      "text": "What is Information Systems Security?",
+      "text": "the ability to identify entities responsible for past actions.",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5a8e7a1f3389457eacea960d05a1c6c1"
       ],
       "block_types": [
         "bullet_list"
@@ -1073,15 +1075,15 @@
     },
     {
       "chunk_id": "lecture_chunk_63",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "Outline",
       "section_path": [
         "Outline"
       ],
-      "text": "ISS Objectives",
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
         "bullet_list"
@@ -1096,9 +1098,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Security terms",
+      "text": "Attack Examples",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
         "bullet_list"
@@ -1113,9 +1115,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Security Policies",
+      "text": "What is Information Systems Security?",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
         "bullet_list"
@@ -1130,9 +1132,9 @@
       "section_path": [
         "Outline"
       ],
-      "text": "Conclusion",
+      "text": "ISS Objectives",
       "source_block_ids": [
-        "5720d03f9a5f4376bfeb4c3be37c6f2d"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
         "bullet_list"
@@ -1141,32 +1143,32 @@
     },
     {
       "chunk_id": "lecture_chunk_67",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "4. Security Terms",
+      "section_title": "Outline",
       "section_path": [
-        "4. Security Terms"
+        "Outline"
       ],
-      "text": "4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome",
+      "text": "Security terms",
       "source_block_ids": [
-        "444c92aab88f4aaeb54a2aee821a86e3"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
-        "paragraph"
+        "bullet_list"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_68",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security terms",
+      "section_title": "Outline",
       "section_path": [
-        "Security terms"
+        "Outline"
       ],
-      "text": "Security terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper",
+      "text": "Security Policies",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
         "bullet_list"
@@ -1177,13 +1179,13 @@
       "chunk_id": "lecture_chunk_69",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security terms",
+      "section_title": "Outline",
       "section_path": [
-        "Security terms"
+        "Outline"
       ],
-      "text": "Vulnerabilities: Examples",
+      "text": "Conclusion",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "5faac6971d7a4002a0b820dff4b3cd6c"
       ],
       "block_types": [
         "bullet_list"
@@ -1192,32 +1194,32 @@
     },
     {
       "chunk_id": "lecture_chunk_70",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
-      "section_title": "Security terms",
+      "section_title": "4. Security Terms",
       "section_path": [
-        "Security terms"
+        "4. Security Terms"
       ],
-      "text": "Unprotected data under transmission",
+      "text": "4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "d89b2a7883344eeaaf53a20ca0856dee"
       ],
       "block_types": [
-        "bullet_list"
+        "paragraph"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_71",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "Security terms",
       "section_path": [
         "Security terms"
       ],
-      "text": "Mistakes in firewall or router",
+      "text": "Security terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1232,9 +1234,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Software bugs exist.",
+      "text": "Vulnerabilities: Examples",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1249,9 +1251,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Passwords posted near the computer",
+      "text": "Unprotected data under transmission",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1266,9 +1268,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Threats: Examples",
+      "text": "Mistakes in firewall or router",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1283,9 +1285,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Virus",
+      "text": "Software bugs exist.",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1300,9 +1302,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Illegal Passwords  use",
+      "text": "Passwords posted near the computer",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1317,9 +1319,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Illegal access to the Internet",
+      "text": "Threats: Examples",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1334,9 +1336,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Pretending to be a desk helper",
+      "text": "Virus",
       "source_block_ids": [
-        "1770f006ab5c42a6a09f9a83c8023c41"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1345,15 +1347,15 @@
     },
     {
       "chunk_id": "lecture_chunk_79",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
       "section_title": "Security terms",
       "section_path": [
         "Security terms"
       ],
-      "text": "Security terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+      "text": "Illegal Passwords  use",
       "source_block_ids": [
-        "789a89736ddf4360b584764e98d5d199"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1368,9 +1370,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "A Risk: the expected loss due to harmful future events,",
+      "text": "Illegal access to the Internet",
       "source_block_ids": [
-        "789a89736ddf4360b584764e98d5d199"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1385,9 +1387,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "An attack: is a realization of a threat",
+      "text": "Pretending to be a desk helper",
       "source_block_ids": [
-        "789a89736ddf4360b584764e98d5d199"
+        "084a2db548a741bfa0b0d19cab29947c"
       ],
       "block_types": [
         "bullet_list"
@@ -1396,15 +1398,15 @@
     },
     {
       "chunk_id": "lecture_chunk_82",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "Security terms",
       "section_path": [
         "Security terms"
       ],
-      "text": "An attacker: is a person who exploits a vulnerability",
+      "text": "Security terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
       "source_block_ids": [
-        "789a89736ddf4360b584764e98d5d199"
+        "b2c5e47f7f8f4de79473643d7267c1bd"
       ],
       "block_types": [
         "bullet_list"
@@ -1419,9 +1421,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "An attacker must have means, opportunity, and motive",
+      "text": "A Risk: the expected loss due to harmful future events,",
       "source_block_ids": [
-        "789a89736ddf4360b584764e98d5d199"
+        "b2c5e47f7f8f4de79473643d7267c1bd"
       ],
       "block_types": [
         "bullet_list"
@@ -1436,9 +1438,9 @@
       "section_path": [
         "Security terms"
       ],
-      "text": "Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+      "text": "An attack: is a realization of a threat",
       "source_block_ids": [
-        "789a89736ddf4360b584764e98d5d199"
+        "b2c5e47f7f8f4de79473643d7267c1bd"
       ],
       "block_types": [
         "bullet_list"
@@ -1447,23 +1449,17 @@
     },
     {
       "chunk_id": "lecture_chunk_85",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Threats  from hackers",
+      "section_title": "Security terms",
       "section_path": [
-        "Threats  from hackers"
+        "Security terms"
       ],
-      "text": "Threats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems",
+      "text": "An attacker: is a person who exploits a vulnerability",
       "source_block_ids": [
-        "3267ea7fe10340e2896b4d54004d8239",
-        "25907e4dcbb2418ea5e05a4761dcc404",
-        "fd209ec1381b42989cc2df9bd0a9ff70",
-        "1537d76147364ee1af7acfbc4ae1c22a"
+        "b2c5e47f7f8f4de79473643d7267c1bd"
       ],
       "block_types": [
-        "paragraph",
-        "paragraph",
-        "paragraph",
         "bullet_list"
       ],
       "metadata": {}
@@ -1472,13 +1468,13 @@
       "chunk_id": "lecture_chunk_86",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Threats  from hackers",
+      "section_title": "Security terms",
       "section_path": [
-        "Threats  from hackers"
+        "Security terms"
       ],
-      "text": "Examples of threats from crackers’ actions:",
+      "text": "An attacker must have means, opportunity, and motive",
       "source_block_ids": [
-        "1537d76147364ee1af7acfbc4ae1c22a"
+        "b2c5e47f7f8f4de79473643d7267c1bd"
       ],
       "block_types": [
         "bullet_list"
@@ -1489,13 +1485,13 @@
       "chunk_id": "lecture_chunk_87",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Threats  from hackers",
+      "section_title": "Security terms",
       "section_path": [
-        "Threats  from hackers"
+        "Security terms"
       ],
-      "text": "Illegally use IDs or passwords that they stole",
+      "text": "Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
       "source_block_ids": [
-        "1537d76147364ee1af7acfbc4ae1c22a"
+        "b2c5e47f7f8f4de79473643d7267c1bd"
       ],
       "block_types": [
         "bullet_list"
@@ -1504,17 +1500,23 @@
     },
     {
       "chunk_id": "lecture_chunk_88",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "Threats  from hackers",
       "section_path": [
         "Threats  from hackers"
       ],
-      "text": "Illegally access servers and steal personal information, etc.",
+      "text": "Threats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems",
       "source_block_ids": [
-        "1537d76147364ee1af7acfbc4ae1c22a"
+        "903dc8c6d77e4b9eb31a6a89a1b5108e",
+        "2b4ed4945bb644e785a7845538e92441",
+        "1f5099f71acc48cfae5eebbb688f8942",
+        "f27d640b1fe64052b5dbfeb11dcb036d"
       ],
       "block_types": [
+        "paragraph",
+        "paragraph",
+        "paragraph",
         "bullet_list"
       ],
       "metadata": {}
@@ -1527,9 +1529,9 @@
       "section_path": [
         "Threats  from hackers"
       ],
-      "text": "Destroy systems",
+      "text": "Examples of threats from crackers’ actions:",
       "source_block_ids": [
-        "1537d76147364ee1af7acfbc4ae1c22a"
+        "f27d640b1fe64052b5dbfeb11dcb036d"
       ],
       "block_types": [
         "bullet_list"
@@ -1538,6 +1540,57 @@
     },
     {
       "chunk_id": "lecture_chunk_90",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "text": "Illegally use IDs or passwords that they stole",
+      "source_block_ids": [
+        "f27d640b1fe64052b5dbfeb11dcb036d"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_91",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "text": "Illegally access servers and steal personal information, etc.",
+      "source_block_ids": [
+        "f27d640b1fe64052b5dbfeb11dcb036d"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_92",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "text": "Destroy systems",
+      "source_block_ids": [
+        "f27d640b1fe64052b5dbfeb11dcb036d"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_93",
       "level": "section",
       "document_id": "lecture",
       "section_title": "Types of Attack",
@@ -1546,7 +1599,7 @@
       ],
       "text": "Types of Attack\n\nInterruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access.",
       "source_block_ids": [
-        "9d29ad3518a64007b7b8a26faeb5936f"
+        "bf69a0a675a940999136b1f7e4a50c2d"
       ],
       "block_types": [
         "paragraph"
@@ -1554,7 +1607,7 @@
       "metadata": {}
     },
     {
-      "chunk_id": "lecture_chunk_91",
+      "chunk_id": "lecture_chunk_94",
       "level": "section",
       "document_id": "lecture",
       "section_title": "Types of Attack",
@@ -1563,7 +1616,7 @@
       ],
       "text": "Types of Attack\n\nMasquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later",
       "source_block_ids": [
-        "d60e10c128a9436c8c56559d0b9d92ef"
+        "4a026a254b9f49f1a48cc348f172aa5c"
       ],
       "block_types": [
         "paragraph"
@@ -1571,7 +1624,41 @@
       "metadata": {}
     },
     {
-      "chunk_id": "lecture_chunk_92",
+      "chunk_id": "lecture_chunk_95",
+      "level": "section",
+      "document_id": "lecture",
+      "section_title": "Assets and Examples of Threats",
+      "section_path": [
+        "Assets and Examples of Threats"
+      ],
+      "text": "Assets and Examples of Threats\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "aa1f8c726f5c47d78b406577d64fd33d_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_96",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Assets and Examples of Threats",
+      "section_path": [
+        "Assets and Examples of Threats"
+      ],
+      "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "aa1f8c726f5c47d78b406577d64fd33d_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_97",
       "level": "section",
       "document_id": "lecture",
       "section_title": "Countermeasures",
@@ -1580,7 +1667,7 @@
       ],
       "text": "Countermeasures\n\ninclude techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc.",
       "source_block_ids": [
-        "918255f0d41a4a4c867c80755616bda6"
+        "9708ed53802342338ce1dc30fdc81e39"
       ],
       "block_types": [
         "paragraph"
@@ -1588,7 +1675,41 @@
       "metadata": {}
     },
     {
-      "chunk_id": "lecture_chunk_93",
+      "chunk_id": "lecture_chunk_98",
+      "level": "section",
+      "document_id": "lecture",
+      "section_title": "A Model for Computer Security",
+      "section_path": [
+        "A Model for Computer Security"
+      ],
+      "text": "A Model for Computer Security\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "4d22034db40442469bd6fe9efb3443d0_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_99",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "A Model for Computer Security",
+      "section_path": [
+        "A Model for Computer Security"
+      ],
+      "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "4d22034db40442469bd6fe9efb3443d0_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_100",
       "level": "section",
       "document_id": "lecture",
       "section_title": "ISS- another  definition",
@@ -1597,126 +1718,7 @@
       ],
       "text": "ISS- another  definition\n\n- What  needs to be protected, i.e., assets\n  - Why (security requirements which include CIA),\n  - What we need to protect from (Threats, vulnerabilities, risks)\n  - and how  (Countermeasures) to protect it for as long as it exists\n  - Then operate, monitor, review, improve\n  - All steps are implemented according to the security policy",
       "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_94",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS- another  definition",
-      "section_path": [
-        "ISS- another  definition"
-      ],
-      "text": "What  needs to be protected, i.e., assets",
-      "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_95",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS- another  definition",
-      "section_path": [
-        "ISS- another  definition"
-      ],
-      "text": "Why (security requirements which include CIA),",
-      "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_96",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS- another  definition",
-      "section_path": [
-        "ISS- another  definition"
-      ],
-      "text": "What we need to protect from (Threats, vulnerabilities, risks)",
-      "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_97",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS- another  definition",
-      "section_path": [
-        "ISS- another  definition"
-      ],
-      "text": "and how  (Countermeasures) to protect it for as long as it exists",
-      "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_98",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS- another  definition",
-      "section_path": [
-        "ISS- another  definition"
-      ],
-      "text": "Then operate, monitor, review, improve",
-      "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_99",
-      "level": "proposition",
-      "document_id": "lecture",
-      "section_title": "ISS- another  definition",
-      "section_path": [
-        "ISS- another  definition"
-      ],
-      "text": "All steps are implemented according to the security policy",
-      "source_block_ids": [
-        "bcbe93cb67384d9bb44e1c497da16d9c"
-      ],
-      "block_types": [
-        "bullet_list"
-      ],
-      "metadata": {}
-    },
-    {
-      "chunk_id": "lecture_chunk_100",
-      "level": "section",
-      "document_id": "lecture",
-      "section_title": "5. Security Policy",
-      "section_path": [
-        "5. Security Policy"
-      ],
-      "text": "5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.",
-      "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1727,13 +1729,13 @@
       "chunk_id": "lecture_chunk_101",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "ISS- another  definition",
       "section_path": [
-        "5. Security Policy"
+        "ISS- another  definition"
       ],
-      "text": "a document describing intentions and direction of an organization regarding information security",
+      "text": "What  needs to be protected, i.e., assets",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1744,13 +1746,13 @@
       "chunk_id": "lecture_chunk_102",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "ISS- another  definition",
       "section_path": [
-        "5. Security Policy"
+        "ISS- another  definition"
       ],
-      "text": "Example 1:",
+      "text": "Why (security requirements which include CIA),",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1761,13 +1763,13 @@
       "chunk_id": "lecture_chunk_103",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "ISS- another  definition",
       "section_path": [
-        "5. Security Policy"
+        "ISS- another  definition"
       ],
-      "text": "personal information must be treated as confidential.",
+      "text": "What we need to protect from (Threats, vulnerabilities, risks)",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1778,13 +1780,13 @@
       "chunk_id": "lecture_chunk_104",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "ISS- another  definition",
       "section_path": [
-        "5. Security Policy"
+        "ISS- another  definition"
       ],
-      "text": "services must be available 24/7",
+      "text": "and how  (Countermeasures) to protect it for as long as it exists",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1795,13 +1797,13 @@
       "chunk_id": "lecture_chunk_105",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "ISS- another  definition",
       "section_path": [
-        "5. Security Policy"
+        "ISS- another  definition"
       ],
-      "text": "states what is/is not allowed",
+      "text": "Then operate, monitor, review, improve",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1812,13 +1814,13 @@
       "chunk_id": "lecture_chunk_106",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "5. Security Policy",
+      "section_title": "ISS- another  definition",
       "section_path": [
-        "5. Security Policy"
+        "ISS- another  definition"
       ],
-      "text": "examples:",
+      "text": "All steps are implemented according to the security policy",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "daaba1298f644fc3ab8404c53d1fea28"
       ],
       "block_types": [
         "bullet_list"
@@ -1827,15 +1829,15 @@
     },
     {
       "chunk_id": "lecture_chunk_107",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "5. Security Policy",
       "section_path": [
         "5. Security Policy"
       ],
-      "text": "account names must not be used in passwords.",
+      "text": "5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1850,9 +1852,9 @@
       "section_path": [
         "5. Security Policy"
       ],
-      "text": "Surfing the www is prohibited.",
+      "text": "a document describing intentions and direction of an organization regarding information security",
       "source_block_ids": [
-        "abe02a6ca4e84231b72ba886805b7d5f"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1861,49 +1863,35 @@
     },
     {
       "chunk_id": "lecture_chunk_109",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Policy",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Policy"
+        "5. Security Policy"
       ],
-      "text": "Security Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)",
+      "text": "Example 1:",
       "source_block_ids": [
-        "10204950547449bcae44354427314910"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
-        "paragraph"
+        "bullet_list"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_110",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "5. Security Policy"
       ],
-      "text": "Security Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate",
+      "text": "personal information must be treated as confidential.",
       "source_block_ids": [
-        "ae759b7005924f80ab05c94ea6d2d6bb",
-        "9fa70453003548a6bed75abc1dafc3bc",
-        "f4f2ca376e21431597e49b5dade8f2b4",
-        "d7c079ecb10142e390e6fda6df8ad682",
-        "30c91a056d0943b4b55b5fe0f878a988",
-        "479f4ea6d105490496032b98acba2eeb",
-        "72bf3b01bb954f28afc37bca4775c3fb",
-        "7d7c0b3dd03748d796da5c3bdefa3016"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
-        "bullet_list",
-        "paragraph",
-        "bullet_list",
-        "paragraph",
-        "bullet_list",
-        "paragraph",
-        "bullet_list",
-        "paragraph"
+        "bullet_list"
       ],
       "metadata": {}
     },
@@ -1911,13 +1899,13 @@
       "chunk_id": "lecture_chunk_111",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "5. Security Policy"
       ],
-      "text": "Develop sec policy",
+      "text": "services must be available 24/7",
       "source_block_ids": [
-        "ae759b7005924f80ab05c94ea6d2d6bb"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1928,13 +1916,13 @@
       "chunk_id": "lecture_chunk_112",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "5. Security Policy"
       ],
-      "text": "Draw blueprints",
+      "text": "states what is/is not allowed",
       "source_block_ids": [
-        "ae759b7005924f80ab05c94ea6d2d6bb"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1945,13 +1933,13 @@
       "chunk_id": "lecture_chunk_113",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "5. Security Policy"
       ],
-      "text": "Determine sec requirements (objectives)",
+      "text": "examples:",
       "source_block_ids": [
-        "ae759b7005924f80ab05c94ea6d2d6bb"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1962,13 +1950,13 @@
       "chunk_id": "lecture_chunk_114",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "5. Security Policy"
       ],
-      "text": "Analyze threats, vulnerabilities (i.e., analyze risks)",
+      "text": "account names must not be used in passwords.",
       "source_block_ids": [
-        "ae759b7005924f80ab05c94ea6d2d6bb"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1979,13 +1967,13 @@
       "chunk_id": "lecture_chunk_115",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "5. Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "5. Security Policy"
       ],
-      "text": "Design architecture,",
+      "text": "Surfing the www is prohibited.",
       "source_block_ids": [
-        "f4f2ca376e21431597e49b5dade8f2b4"
+        "3bab4813e7a146229d4bd5d3e01c8416"
       ],
       "block_types": [
         "bullet_list"
@@ -1994,35 +1982,49 @@
     },
     {
       "chunk_id": "lecture_chunk_116",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
-      "section_title": "Security Lifecycle",
+      "section_title": "Security Policy",
       "section_path": [
-        "Security Lifecycle"
+        "Security Policy"
       ],
-      "text": "Choose countermeasures",
+      "text": "Security Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)",
       "source_block_ids": [
-        "f4f2ca376e21431597e49b5dade8f2b4"
+        "835b3426e99641139f5ee3fe94a150a1"
       ],
       "block_types": [
-        "bullet_list"
+        "paragraph"
       ],
       "metadata": {}
     },
     {
       "chunk_id": "lecture_chunk_117",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "Security Lifecycle",
       "section_path": [
         "Security Lifecycle"
       ],
-      "text": "Continue developing sec policy",
+      "text": "Security Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate",
       "source_block_ids": [
-        "f4f2ca376e21431597e49b5dade8f2b4"
+        "03d09046d68e4f2cafb4ffdeea886f94",
+        "94aa0435f80642debf34851061a5b572",
+        "5e9186d4257243259e6e60a2d92d4361",
+        "1c1003d21baa44078d7babd3324b55cd",
+        "2d6f3d34964440d3845ed859a3d86180",
+        "0254256a8f984dc0bcba61808526b2ca",
+        "b5ccf12ecb0f4a0bbcc8ac808d47eea7",
+        "9d43181b2fbb4744a8da25f87b009436"
       ],
       "block_types": [
-        "bullet_list"
+        "bullet_list",
+        "paragraph",
+        "bullet_list",
+        "paragraph",
+        "bullet_list",
+        "paragraph",
+        "bullet_list",
+        "paragraph"
       ],
       "metadata": {}
     },
@@ -2034,9 +2036,9 @@
       "section_path": [
         "Security Lifecycle"
       ],
-      "text": "Implement countermeasures",
+      "text": "Develop sec policy",
       "source_block_ids": [
-        "30c91a056d0943b4b55b5fe0f878a988"
+        "03d09046d68e4f2cafb4ffdeea886f94"
       ],
       "block_types": [
         "bullet_list"
@@ -2051,9 +2053,9 @@
       "section_path": [
         "Security Lifecycle"
       ],
-      "text": "Test",
+      "text": "Draw blueprints",
       "source_block_ids": [
-        "30c91a056d0943b4b55b5fe0f878a988"
+        "03d09046d68e4f2cafb4ffdeea886f94"
       ],
       "block_types": [
         "bullet_list"
@@ -2068,9 +2070,9 @@
       "section_path": [
         "Security Lifecycle"
       ],
-      "text": "Carry out training and awareness",
+      "text": "Determine sec requirements (objectives)",
       "source_block_ids": [
-        "30c91a056d0943b4b55b5fe0f878a988"
+        "03d09046d68e4f2cafb4ffdeea886f94"
       ],
       "block_types": [
         "bullet_list"
@@ -2085,9 +2087,9 @@
       "section_path": [
         "Security Lifecycle"
       ],
-      "text": "Monitor",
+      "text": "Analyze threats, vulnerabilities (i.e., analyze risks)",
       "source_block_ids": [
-        "72bf3b01bb954f28afc37bca4775c3fb"
+        "03d09046d68e4f2cafb4ffdeea886f94"
       ],
       "block_types": [
         "bullet_list"
@@ -2102,9 +2104,9 @@
       "section_path": [
         "Security Lifecycle"
       ],
-      "text": "review",
+      "text": "Design architecture,",
       "source_block_ids": [
-        "72bf3b01bb954f28afc37bca4775c3fb"
+        "5e9186d4257243259e6e60a2d92d4361"
       ],
       "block_types": [
         "bullet_list"
@@ -2113,15 +2115,15 @@
     },
     {
       "chunk_id": "lecture_chunk_123",
-      "level": "section",
+      "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail",
+      "text": "Choose countermeasures",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "5e9186d4257243259e6e60a2d92d4361"
       ],
       "block_types": [
         "bullet_list"
@@ -2132,13 +2134,13 @@
       "chunk_id": "lecture_chunk_124",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "Security terms",
+      "text": "Continue developing sec policy",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "5e9186d4257243259e6e60a2d92d4361"
       ],
       "block_types": [
         "bullet_list"
@@ -2149,13 +2151,13 @@
       "chunk_id": "lecture_chunk_125",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "ISS",
+      "text": "Implement countermeasures",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "2d6f3d34964440d3845ed859a3d86180"
       ],
       "block_types": [
         "bullet_list"
@@ -2166,13 +2168,13 @@
       "chunk_id": "lecture_chunk_126",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "Security objectives",
+      "text": "Test",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "2d6f3d34964440d3845ed859a3d86180"
       ],
       "block_types": [
         "bullet_list"
@@ -2183,13 +2185,13 @@
       "chunk_id": "lecture_chunk_127",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "Vulnerabilities and Threats,",
+      "text": "Carry out training and awareness",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "2d6f3d34964440d3845ed859a3d86180"
       ],
       "block_types": [
         "bullet_list"
@@ -2200,13 +2202,13 @@
       "chunk_id": "lecture_chunk_128",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "Security measures",
+      "text": "Monitor",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "b5ccf12ecb0f4a0bbcc8ac808d47eea7"
       ],
       "block_types": [
         "bullet_list"
@@ -2217,13 +2219,13 @@
       "chunk_id": "lecture_chunk_129",
       "level": "proposition",
       "document_id": "lecture",
-      "section_title": "6. Conclusion",
+      "section_title": "Security Lifecycle",
       "section_path": [
-        "6. Conclusion"
+        "Security Lifecycle"
       ],
-      "text": "Security Policy",
+      "text": "review",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "b5ccf12ecb0f4a0bbcc8ac808d47eea7"
       ],
       "block_types": [
         "bullet_list"
@@ -2232,15 +2234,15 @@
     },
     {
       "chunk_id": "lecture_chunk_130",
-      "level": "proposition",
+      "level": "section",
       "document_id": "lecture",
       "section_title": "6. Conclusion",
       "section_path": [
         "6. Conclusion"
       ],
-      "text": "Next lectures:",
+      "text": "6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "f78a78957223438fb28bc8b55b569c6f"
       ],
       "block_types": [
         "bullet_list"
@@ -2255,9 +2257,9 @@
       "section_path": [
         "6. Conclusion"
       ],
-      "text": "Covering these terms in detail",
+      "text": "Security terms",
       "source_block_ids": [
-        "bd0c1e5fbe1649689d63671af167bdf9"
+        "f78a78957223438fb28bc8b55b569c6f"
       ],
       "block_types": [
         "bullet_list"
@@ -2266,6 +2268,125 @@
     },
     {
       "chunk_id": "lecture_chunk_132",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "ISS",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_133",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "Security objectives",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_134",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "Vulnerabilities and Threats,",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_135",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "Security measures",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_136",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "Security Policy",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_137",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "Next lectures:",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_138",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "Covering these terms in detail",
+      "source_block_ids": [
+        "f78a78957223438fb28bc8b55b569c6f"
+      ],
+      "block_types": [
+        "bullet_list"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_139",
       "level": "section",
       "document_id": "lecture",
       "section_title": "Questions?",
@@ -2274,16 +2395,84 @@
       ],
       "text": "Questions?\n\nQuestions?",
       "source_block_ids": [
-        "ef0fef333187418a9317dacbcfd64b96"
+        "8124d524750b4d7b8444789089485d04"
       ],
       "block_types": [
         "paragraph"
       ],
       "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_140",
+      "level": "section",
+      "document_id": "lecture",
+      "section_title": "Case Study 1 – Hospital system",
+      "section_path": [
+        "Case Study 1 – Hospital system"
+      ],
+      "text": "Case Study 1 – Hospital system\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "d0c2d1e80bcd4cfa87fc3b72b8fb7099_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_141",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Case Study 1 – Hospital system",
+      "section_path": [
+        "Case Study 1 – Hospital system"
+      ],
+      "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "d0c2d1e80bcd4cfa87fc3b72b8fb7099_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_142",
+      "level": "section",
+      "document_id": "lecture",
+      "section_title": "Case Study 2 – Online bank",
+      "section_path": [
+        "Case Study 2 – Online bank"
+      ],
+      "text": "Case Study 2 – Online bank\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "f2444575c8444608846af33b1886cb53_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "lecture_chunk_143",
+      "level": "proposition",
+      "document_id": "lecture",
+      "section_title": "Case Study 2 – Online bank",
+      "section_path": [
+        "Case Study 2 – Online bank"
+      ],
+      "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "source_block_ids": [
+        "f2444575c8444608846af33b1886cb53_desc"
+      ],
+      "block_types": [
+        "figure_description"
+      ],
+      "metadata": {}
     }
   ],
   "metadata": {
-    "chunk_count": 132,
+    "chunk_count": 143,
     "levels": [
       "section",
       "paragraph",

@@ -12,7 +12,7 @@
       ],
       "blocks": [
         {
-          "id": "cbedd0ed2dce4553bcea0613ceaa3c2a",
+          "id": "7dc63e2399ed48699ceefde557078828",
           "type": "heading",
           "order": 1,
           "page_or_slide": 1,
@@ -34,7 +34,7 @@
           "level": 1
         },
         {
-          "id": "d7a1f36ee1b54efd9ecc8748e9af8547",
+          "id": "861180217e20490cbc80510250df65c4",
           "type": "heading",
           "order": 2,
           "page_or_slide": 1,
@@ -70,7 +70,7 @@
       ],
       "blocks": [
         {
-          "id": "4afc0d061e2e4c11b1a0b21866efba2d",
+          "id": "ed93de0fc9e14d63ae324669795c9275",
           "type": "heading",
           "order": 1,
           "page_or_slide": 2,
@@ -92,7 +92,7 @@
           "level": 1
         },
         {
-          "id": "d3aa376291394bc89c11e374156cf83d",
+          "id": "c964329301f24b38ad4a7c50532bf0dc",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 2,
@@ -152,7 +152,7 @@
       ],
       "blocks": [
         {
-          "id": "e4693a67dbb1437696f66b767fe2e87a",
+          "id": "e8a3aa5b18b44ea9aa451dc3abc9603c",
           "type": "heading",
           "order": 1,
           "page_or_slide": 3,
@@ -174,7 +174,7 @@
           "level": 1
         },
         {
-          "id": "0b3e36205c2e4e0197c2211eaf1ed1c3",
+          "id": "c3aee83f9bdf4532800b9f47f5cec6f1",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 3,
@@ -195,7 +195,7 @@
           "text": "July 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world."
         },
         {
-          "id": "4f8ac97740cb485c827dc3e07a1c647c",
+          "id": "12d3d658861a4cec89db144a3634325b",
           "type": "figure",
           "order": 3,
           "page_or_slide": 3,
@@ -213,24 +213,28 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_3_67d816d6.jpg",
-          "image_name": "slide_3_67d816d6.jpg",
+          "image_path": "output_pptx\\images\\slide_3_38f2be28.jpg",
+          "image_name": "slide_3_38f2be28.jpg",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "4f8ac97740cb485c827dc3e07a1c647c_desc",
+          "id": "12d3d658861a4cec89db144a3634325b_desc",
           "type": "figure_description",
           "order": 4,
-          "page_or_slide": null,
+          "page_or_slide": 3,
           "section_path": [
             "Security-Related News"
           ],
           "metadata": {
-            "figure_id": "4f8ac97740cb485c827dc3e07a1c647c",
-            "generated": true
-          }
+            "figure_id": "12d3d658861a4cec89db144a3634325b",
+            "generated": true,
+            "context_used": "عنوان القسم: Security-Related News\n\nالنص السابق القريب: Security-Related News July 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world."
+          },
+          "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+          "figure_ref_id": "12d3d658861a4cec89db144a3634325b",
+          "generated_by": "OpenAIImageDescriber"
         }
       ],
       "page_or_slide": 3,
@@ -247,7 +251,7 @@
       ],
       "blocks": [
         {
-          "id": "e4ed82fc5218450abc03b2ce46b5d505",
+          "id": "6cca53dc5a354d6c87cf07fdc3bf05fc",
           "type": "heading",
           "order": 1,
           "page_or_slide": 4,
@@ -269,7 +273,7 @@
           "level": 1
         },
         {
-          "id": "a801ce0184ff440faeeee74f91c2f071",
+          "id": "082703a18c9244dc9d27e987d3187d77",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 4,
@@ -304,7 +308,7 @@
       ],
       "blocks": [
         {
-          "id": "6c7984174bd043eba30e9a8439df535c",
+          "id": "bcb05c3754604f98b8e7e31099864bd7",
           "type": "heading",
           "order": 1,
           "page_or_slide": 5,
@@ -326,7 +330,7 @@
           "level": 1
         },
         {
-          "id": "c884df5280e54915ad6a097dae211c24",
+          "id": "0eac1ca53407439a8def2234cc9bec48",
           "type": "figure",
           "order": 2,
           "page_or_slide": 5,
@@ -344,24 +348,28 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_5_2ffd055d.png",
-          "image_name": "slide_5_2ffd055d.png",
+          "image_path": "output_pptx\\images\\slide_5_1a49537e.png",
+          "image_name": "slide_5_1a49537e.png",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "c884df5280e54915ad6a097dae211c24_desc",
+          "id": "0eac1ca53407439a8def2234cc9bec48_desc",
           "type": "figure_description",
           "order": 3,
-          "page_or_slide": null,
+          "page_or_slide": 5,
           "section_path": [
             "Verzion’s 2024 Data Breach Investigations Report"
           ],
           "metadata": {
-            "figure_id": "c884df5280e54915ad6a097dae211c24",
-            "generated": true
-          }
+            "figure_id": "0eac1ca53407439a8def2234cc9bec48",
+            "generated": true,
+            "context_used": "عنوان القسم: Verzion’s 2024 Data Breach Investigations Report"
+          },
+          "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+          "figure_ref_id": "0eac1ca53407439a8def2234cc9bec48",
+          "generated_by": "OpenAIImageDescriber"
         }
       ],
       "page_or_slide": 5,
@@ -378,7 +386,7 @@
       ],
       "blocks": [
         {
-          "id": "b47b537d07204147adb6a198339fd657",
+          "id": "fde809dda7ec417abb8bf63e49b9c323",
           "type": "heading",
           "order": 1,
           "page_or_slide": 6,
@@ -400,7 +408,7 @@
           "level": 1
         },
         {
-          "id": "b16d87a930954fc882c94c77fdc42652",
+          "id": "ef366fc673214fe9bfa0b6d7a71bc02a",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 6,
@@ -460,7 +468,7 @@
       ],
       "blocks": [
         {
-          "id": "2d698910d49c4390bdbc0d17a632d440",
+          "id": "9a6ea44b83a54f789fe543d94222986d",
           "type": "heading",
           "order": 1,
           "page_or_slide": 7,
@@ -482,7 +490,7 @@
           "level": 1
         },
         {
-          "id": "8eb96bafcd71456fb22c8b28c25f5b63",
+          "id": "77316aac40184e5ea2d6194c58f4c469",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 7,
@@ -516,7 +524,7 @@
           ]
         },
         {
-          "id": "b7bdf9ed68cc4bc2837ca2f5c1090477",
+          "id": "b06359275bd547f69bc2926cc34b49e8",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 7,
@@ -537,7 +545,7 @@
           "text": "physical facilities"
         },
         {
-          "id": "ca1547afd4d842f3aea6c3311a00c2ec",
+          "id": "2fc17bb56d2947eabf67cbdd04d7e96f",
           "type": "paragraph",
           "order": 4,
           "page_or_slide": 7,
@@ -558,7 +566,7 @@
           "text": "Nets"
         },
         {
-          "id": "7fdc11bd8c994124bf3fd33f919710d5",
+          "id": "8ab1135dc8304367b1b6162737c70e3b",
           "type": "paragraph",
           "order": 5,
           "page_or_slide": 7,
@@ -579,7 +587,7 @@
           "text": "HW"
         },
         {
-          "id": "2dc94803fbcd4ab698a161324a979f22",
+          "id": "073fea205a5b4a9d96aee8ce0b9870ec",
           "type": "paragraph",
           "order": 6,
           "page_or_slide": 7,
@@ -600,7 +608,7 @@
           "text": "SW systems"
         },
         {
-          "id": "6267c6dbb27846619507ea52db6a8572",
+          "id": "7a51c4b93ef246b2a558cb729c3aa9e0",
           "type": "paragraph",
           "order": 7,
           "page_or_slide": 7,
@@ -621,7 +629,7 @@
           "text": "applications"
         },
         {
-          "id": "40a78e2818914fc6b0876b244e846a95",
+          "id": "2d14a31f88dc4600b36ef1e01c505234",
           "type": "paragraph",
           "order": 8,
           "page_or_slide": 7,
@@ -656,7 +664,7 @@
       ],
       "blocks": [
         {
-          "id": "71068247ba6d4309b31dbe6cb091e780",
+          "id": "85a47f56c3744ace921cd4648030184b",
           "type": "heading",
           "order": 1,
           "page_or_slide": 8,
@@ -678,7 +686,7 @@
           "level": 1
         },
         {
-          "id": "38db4191bb5448dca684a36c0a631113",
+          "id": "5e3282f8e9be4066994c9033ef4d1c5a",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 8,
@@ -713,7 +721,7 @@
       ],
       "blocks": [
         {
-          "id": "1df0a74650a14ff98e8f80af86100215",
+          "id": "5529c7a638d347b8b7be31f59283f3db",
           "type": "heading",
           "order": 1,
           "page_or_slide": 9,
@@ -735,7 +743,7 @@
           "level": 1
         },
         {
-          "id": "ec8fae08b1a14c43ae82656416e63b68",
+          "id": "3b7cf302855c4e8f9c4e8ceaba88d4e1",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 9,
@@ -815,7 +823,7 @@
       ],
       "blocks": [
         {
-          "id": "b02d11b683cf4ffe9020fcd672f5dd73",
+          "id": "b262a58a348241a4bdbffb55e84a0d32",
           "type": "heading",
           "order": 1,
           "page_or_slide": 10,
@@ -837,7 +845,7 @@
           "level": 1
         },
         {
-          "id": "f63bca77ced84324b08f45e9059f2e45",
+          "id": "fb3740d90fce466eaf2a6f9f581ad95b",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 10,
@@ -885,7 +893,7 @@
       ],
       "blocks": [
         {
-          "id": "22b13a5766fa4947a87ddb7adba1c8d2",
+          "id": "d2d307638e1745a3a2fb6094f1e14b20",
           "type": "heading",
           "order": 1,
           "page_or_slide": 11,
@@ -907,7 +915,7 @@
           "level": 1
         },
         {
-          "id": "e23ea7dd28a946098c6385eb74a80215",
+          "id": "0c35501e70454539b76251daccc96849",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 11,
@@ -967,7 +975,7 @@
       ],
       "blocks": [
         {
-          "id": "dcc3ba52b41a4524a19a970ff12f0bd0",
+          "id": "8151065924e34807988852b78fa27d39",
           "type": "heading",
           "order": 1,
           "page_or_slide": 12,
@@ -989,7 +997,7 @@
           "level": 1
         },
         {
-          "id": "2fc3640ab2b84fdeaa93814f3f6ac66e",
+          "id": "30c306890d404c62ba7d6a24ef68d20e",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 12,
@@ -1024,7 +1032,7 @@
       ],
       "blocks": [
         {
-          "id": "7cd4b90c594547fcb627ad6e6293ddc0",
+          "id": "4511b002189d4a75bb7078a906b841d6",
           "type": "heading",
           "order": 1,
           "page_or_slide": 13,
@@ -1046,7 +1054,7 @@
           "level": 1
         },
         {
-          "id": "bb3ab12d23d949fa844ae7461c2c587c",
+          "id": "50587d24de41487ba16e9d1c34cfb895",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 13,
@@ -1081,7 +1089,7 @@
       ],
       "blocks": [
         {
-          "id": "8518698f57a74040a25dae7d027b411b",
+          "id": "a0b4be9159bc49b18d94f800eb2971a4",
           "type": "heading",
           "order": 1,
           "page_or_slide": 14,
@@ -1103,7 +1111,7 @@
           "level": 1
         },
         {
-          "id": "40543bf33b7f4bd98af3389693fc9a6f",
+          "id": "00af54146c2349d0aa98f4fb35216e8f",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 14,
@@ -1151,7 +1159,7 @@
       ],
       "blocks": [
         {
-          "id": "5a379e84c1d84d56a3cbe531f7fb9a70",
+          "id": "74069da370d9476289233d7015cc3e1f",
           "type": "heading",
           "order": 1,
           "page_or_slide": 15,
@@ -1173,7 +1181,7 @@
           "level": 1
         },
         {
-          "id": "cbb12ffde615447a98537676c0ad4a4c",
+          "id": "b2fb18a7f650469f9ea2c37c881d5e86",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 15,
@@ -1207,7 +1215,7 @@
           ]
         },
         {
-          "id": "99052915ede545e88eaa44d26fe811b5",
+          "id": "84b738d967584147a54fda601e741e79",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 15,
@@ -1242,7 +1250,7 @@
       ],
       "blocks": [
         {
-          "id": "6028ef8c9532490fbce8eb4390b56426",
+          "id": "224654c6641d4997bf564f0468fa4090",
           "type": "heading",
           "order": 1,
           "page_or_slide": 16,
@@ -1264,7 +1272,7 @@
           "level": 1
         },
         {
-          "id": "5b19a8d19e7f473f9745ce12e0a08b01",
+          "id": "5a8e7a1f3389457eacea960d05a1c6c1",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 16,
@@ -1316,7 +1324,7 @@
       ],
       "blocks": [
         {
-          "id": "2a63708b8d0543f9b25d607406153670",
+          "id": "125c166db89f42a892083dbabff4c2ef",
           "type": "heading",
           "order": 1,
           "page_or_slide": 17,
@@ -1352,7 +1360,7 @@
       ],
       "blocks": [
         {
-          "id": "f0f168c5c8c24775944b0553378cc39f",
+          "id": "1feb719f71084366b5ffdb52a91060f5",
           "type": "heading",
           "order": 1,
           "page_or_slide": 18,
@@ -1374,7 +1382,7 @@
           "level": 1
         },
         {
-          "id": "5720d03f9a5f4376bfeb4c3be37c6f2d",
+          "id": "5faac6971d7a4002a0b820dff4b3cd6c",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 18,
@@ -1434,7 +1442,7 @@
       ],
       "blocks": [
         {
-          "id": "ccc06176100a4c31b08a380a857eba01",
+          "id": "c98734c8ed56457baa69b112633147fc",
           "type": "heading",
           "order": 1,
           "page_or_slide": 19,
@@ -1456,7 +1464,7 @@
           "level": 1
         },
         {
-          "id": "444c92aab88f4aaeb54a2aee821a86e3",
+          "id": "d89b2a7883344eeaaf53a20ca0856dee",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 19,
@@ -1491,7 +1499,7 @@
       ],
       "blocks": [
         {
-          "id": "54b09297e10749899adfa127a14f1e42",
+          "id": "931b96b8b06b4db0b2e545acf5a92e16",
           "type": "heading",
           "order": 1,
           "page_or_slide": 20,
@@ -1513,7 +1521,7 @@
           "level": 1
         },
         {
-          "id": "1770f006ab5c42a6a09f9a83c8023c41",
+          "id": "084a2db548a741bfa0b0d19cab29947c",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 20,
@@ -1589,7 +1597,7 @@
       ],
       "blocks": [
         {
-          "id": "b4003dd4b6704081b917e413c78e53fe",
+          "id": "d79a9f6a0c69435c9f1ae6d74a6481ee",
           "type": "heading",
           "order": 1,
           "page_or_slide": 21,
@@ -1611,7 +1619,7 @@
           "level": 1
         },
         {
-          "id": "789a89736ddf4360b584764e98d5d199",
+          "id": "b2c5e47f7f8f4de79473643d7267c1bd",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 21,
@@ -1667,7 +1675,7 @@
       ],
       "blocks": [
         {
-          "id": "3a4feb98f3f84d3b86c6a075a4409399",
+          "id": "ab14e91f898a4fd982a7183e27ae12ce",
           "type": "heading",
           "order": 1,
           "page_or_slide": 22,
@@ -1689,7 +1697,7 @@
           "level": 1
         },
         {
-          "id": "df9e30762861488ea55a842ac7e27036",
+          "id": "1df3a540e6704d04a098d1d4652ead2e",
           "type": "heading",
           "order": 2,
           "page_or_slide": 22,
@@ -1711,7 +1719,7 @@
           "level": 1
         },
         {
-          "id": "3267ea7fe10340e2896b4d54004d8239",
+          "id": "903dc8c6d77e4b9eb31a6a89a1b5108e",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 22,
@@ -1732,7 +1740,7 @@
           "text": "They Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)"
         },
         {
-          "id": "25907e4dcbb2418ea5e05a4761dcc404",
+          "id": "2b4ed4945bb644e785a7845538e92441",
           "type": "paragraph",
           "order": 4,
           "page_or_slide": 22,
@@ -1753,7 +1761,7 @@
           "text": "They cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown"
         },
         {
-          "id": "fd209ec1381b42989cc2df9bd0a9ff70",
+          "id": "1f5099f71acc48cfae5eebbb688f8942",
           "type": "paragraph",
           "order": 5,
           "page_or_slide": 22,
@@ -1774,7 +1782,7 @@
           "text": "Crackers"
         },
         {
-          "id": "1537d76147364ee1af7acfbc4ae1c22a",
+          "id": "f27d640b1fe64052b5dbfeb11dcb036d",
           "type": "bullet_list",
           "order": 6,
           "page_or_slide": 22,
@@ -1826,7 +1834,7 @@
       ],
       "blocks": [
         {
-          "id": "fbeb9fe580a14fc78a4174bf483c58fc",
+          "id": "64827edba83147bfa8eada3484911505",
           "type": "heading",
           "order": 1,
           "page_or_slide": 23,
@@ -1848,7 +1856,7 @@
           "level": 1
         },
         {
-          "id": "9d29ad3518a64007b7b8a26faeb5936f",
+          "id": "bf69a0a675a940999136b1f7e4a50c2d",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 23,
@@ -1883,7 +1891,7 @@
       ],
       "blocks": [
         {
-          "id": "33eadabf607b48bca872edc9add1c853",
+          "id": "608016084ecd40528edd25eee4ea98de",
           "type": "heading",
           "order": 1,
           "page_or_slide": 24,
@@ -1905,7 +1913,7 @@
           "level": 1
         },
         {
-          "id": "d60e10c128a9436c8c56559d0b9d92ef",
+          "id": "4a026a254b9f49f1a48cc348f172aa5c",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 24,
@@ -1940,7 +1948,7 @@
       ],
       "blocks": [
         {
-          "id": "43eca07034ee4cbf85c76bd1580b7c10",
+          "id": "1cf8153f5c3f40b0bec9b2c03dcb91e6",
           "type": "heading",
           "order": 1,
           "page_or_slide": 25,
@@ -1962,7 +1970,7 @@
           "level": 1
         },
         {
-          "id": "97a308105b80414e8eb9cd802a72fd30",
+          "id": "aa1f8c726f5c47d78b406577d64fd33d",
           "type": "figure",
           "order": 2,
           "page_or_slide": 25,
@@ -1980,24 +1988,28 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_25_ef346324.wmf",
-          "image_name": "slide_25_ef346324.wmf",
+          "image_path": "output_pptx\\images\\slide_25_46e533d6.wmf",
+          "image_name": "slide_25_46e533d6.wmf",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "97a308105b80414e8eb9cd802a72fd30_desc",
+          "id": "aa1f8c726f5c47d78b406577d64fd33d_desc",
           "type": "figure_description",
           "order": 3,
-          "page_or_slide": null,
+          "page_or_slide": 25,
           "section_path": [
             "Assets and Examples of Threats"
           ],
           "metadata": {
-            "figure_id": "97a308105b80414e8eb9cd802a72fd30",
-            "generated": true
-          }
+            "figure_id": "aa1f8c726f5c47d78b406577d64fd33d",
+            "generated": true,
+            "context_used": "عنوان القسم: Assets and Examples of Threats"
+          },
+          "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+          "figure_ref_id": "aa1f8c726f5c47d78b406577d64fd33d",
+          "generated_by": "OpenAIImageDescriber"
         }
       ],
       "page_or_slide": 25,
@@ -2014,7 +2026,7 @@
       ],
       "blocks": [
         {
-          "id": "c98b23d5eeb748218037b1286f9cab41",
+          "id": "c10ba671453648ae9e26a72014a51473",
           "type": "heading",
           "order": 1,
           "page_or_slide": 26,
@@ -2036,7 +2048,7 @@
           "level": 1
         },
         {
-          "id": "918255f0d41a4a4c867c80755616bda6",
+          "id": "9708ed53802342338ce1dc30fdc81e39",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 26,
@@ -2071,7 +2083,7 @@
       ],
       "blocks": [
         {
-          "id": "5f1365a4ab16429aaf304071b74ac4e7",
+          "id": "b0ab13cb99f54579b3ac2d678f35681d",
           "type": "heading",
           "order": 1,
           "page_or_slide": 27,
@@ -2093,7 +2105,7 @@
           "level": 1
         },
         {
-          "id": "c8c2481127c34db3a819e37045b38fb5",
+          "id": "4d22034db40442469bd6fe9efb3443d0",
           "type": "figure",
           "order": 2,
           "page_or_slide": 27,
@@ -2111,24 +2123,28 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_27_14d82eb3.wmf",
-          "image_name": "slide_27_14d82eb3.wmf",
+          "image_path": "output_pptx\\images\\slide_27_cbe5666f.wmf",
+          "image_name": "slide_27_cbe5666f.wmf",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "c8c2481127c34db3a819e37045b38fb5_desc",
+          "id": "4d22034db40442469bd6fe9efb3443d0_desc",
           "type": "figure_description",
           "order": 3,
-          "page_or_slide": null,
+          "page_or_slide": 27,
           "section_path": [
             "A Model for Computer Security"
           ],
           "metadata": {
-            "figure_id": "c8c2481127c34db3a819e37045b38fb5",
-            "generated": true
-          }
+            "figure_id": "4d22034db40442469bd6fe9efb3443d0",
+            "generated": true,
+            "context_used": "عنوان القسم: A Model for Computer Security\n\nملاحظات الشريحة: Figure 1.2, based on [CCPS12a], shows the relationship among some of these terms.\nWe start with the concept of a system resource , or asset , that users and owners wish to protect.\nAdversary (threat agent): Individual, group, organization, or government that conducts or has the intent to conduct detrimental activities.\nCountermeasure: A device or techniques that has as its objective the impairment of the operational effectiveness of undesirable\nor adversarial activity, or the prevention of espionage, sabotage, theft, or unauthorized access to or use of\nsensitive information or information systems.\nSystem Resource (Asset): A major application, general support system, high impact program, physical plant, mission critical system, personnel, equipment, or a logically related group of systems"
+          },
+          "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+          "figure_ref_id": "4d22034db40442469bd6fe9efb3443d0",
+          "generated_by": "OpenAIImageDescriber"
         }
       ],
       "page_or_slide": 27,
@@ -2145,7 +2161,7 @@
       ],
       "blocks": [
         {
-          "id": "2406f9f1cc8a413a8199fbbd4d1e0097",
+          "id": "de84958528184c43aad600d5d46e10dc",
           "type": "heading",
           "order": 1,
           "page_or_slide": 28,
@@ -2167,7 +2183,7 @@
           "level": 1
         },
         {
-          "id": "bcbe93cb67384d9bb44e1c497da16d9c",
+          "id": "daaba1298f644fc3ab8404c53d1fea28",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 28,
@@ -2227,7 +2243,7 @@
       ],
       "blocks": [
         {
-          "id": "575190ab1ec242c499f9e1ff4ba7fef1",
+          "id": "a69d9f71bb914af4a2a293733ae8021d",
           "type": "heading",
           "order": 1,
           "page_or_slide": 29,
@@ -2249,7 +2265,7 @@
           "level": 1
         },
         {
-          "id": "abe02a6ca4e84231b72ba886805b7d5f",
+          "id": "3bab4813e7a146229d4bd5d3e01c8416",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 29,
@@ -2317,7 +2333,7 @@
       ],
       "blocks": [
         {
-          "id": "6f9d251741b44228b9834f382663c209",
+          "id": "cbbc84dde62e4f0b90304c90871d98ed",
           "type": "heading",
           "order": 1,
           "page_or_slide": 30,
@@ -2339,7 +2355,7 @@
           "level": 1
         },
         {
-          "id": "10204950547449bcae44354427314910",
+          "id": "835b3426e99641139f5ee3fe94a150a1",
           "type": "paragraph",
           "order": 2,
           "page_or_slide": 30,
@@ -2374,7 +2390,7 @@
       ],
       "blocks": [
         {
-          "id": "e5279e9e9cfe47abb28729ba5241af20",
+          "id": "e2b26c552cf8445fa818fe484852040d",
           "type": "heading",
           "order": 1,
           "page_or_slide": 31,
@@ -2396,7 +2412,7 @@
           "level": 1
         },
         {
-          "id": "ae759b7005924f80ab05c94ea6d2d6bb",
+          "id": "03d09046d68e4f2cafb4ffdeea886f94",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 31,
@@ -2434,7 +2450,7 @@
           ]
         },
         {
-          "id": "9fa70453003548a6bed75abc1dafc3bc",
+          "id": "94aa0435f80642debf34851061a5b572",
           "type": "paragraph",
           "order": 3,
           "page_or_slide": 31,
@@ -2455,7 +2471,7 @@
           "text": "Analyze"
         },
         {
-          "id": "f4f2ca376e21431597e49b5dade8f2b4",
+          "id": "5e9186d4257243259e6e60a2d92d4361",
           "type": "bullet_list",
           "order": 4,
           "page_or_slide": 31,
@@ -2489,7 +2505,7 @@
           ]
         },
         {
-          "id": "d7c079ecb10142e390e6fda6df8ad682",
+          "id": "1c1003d21baa44078d7babd3324b55cd",
           "type": "paragraph",
           "order": 5,
           "page_or_slide": 31,
@@ -2510,7 +2526,7 @@
           "text": "Design"
         },
         {
-          "id": "30c91a056d0943b4b55b5fe0f878a988",
+          "id": "2d6f3d34964440d3845ed859a3d86180",
           "type": "bullet_list",
           "order": 6,
           "page_or_slide": 31,
@@ -2544,7 +2560,7 @@
           ]
         },
         {
-          "id": "479f4ea6d105490496032b98acba2eeb",
+          "id": "0254256a8f984dc0bcba61808526b2ca",
           "type": "paragraph",
           "order": 7,
           "page_or_slide": 31,
@@ -2565,7 +2581,7 @@
           "text": "Implement"
         },
         {
-          "id": "72bf3b01bb954f28afc37bca4775c3fb",
+          "id": "b5ccf12ecb0f4a0bbcc8ac808d47eea7",
           "type": "bullet_list",
           "order": 8,
           "page_or_slide": 31,
@@ -2595,7 +2611,7 @@
           ]
         },
         {
-          "id": "7d7c0b3dd03748d796da5c3bdefa3016",
+          "id": "9d43181b2fbb4744a8da25f87b009436",
           "type": "paragraph",
           "order": 9,
           "page_or_slide": 31,
@@ -2630,7 +2646,7 @@
       ],
       "blocks": [
         {
-          "id": "59542e56b25d497cb4509b91d289647b",
+          "id": "31e59104b37e48edb725dba23db0fc2d",
           "type": "heading",
           "order": 1,
           "page_or_slide": 32,
@@ -2652,7 +2668,7 @@
           "level": 1
         },
         {
-          "id": "bd0c1e5fbe1649689d63671af167bdf9",
+          "id": "f78a78957223438fb28bc8b55b569c6f",
           "type": "bullet_list",
           "order": 2,
           "page_or_slide": 32,
@@ -2720,7 +2736,7 @@
       ],
       "blocks": [
         {
-          "id": "ef0fef333187418a9317dacbcfd64b96",
+          "id": "8124d524750b4d7b8444789089485d04",
           "type": "paragraph",
           "order": 1,
           "page_or_slide": 33,
@@ -2755,7 +2771,7 @@
       ],
       "blocks": [
         {
-          "id": "b678e64698884ad8a9096c8658257c67",
+          "id": "416708873c3743a58191e87d2bfd423b",
           "type": "heading",
           "order": 1,
           "page_or_slide": 34,
@@ -2777,7 +2793,7 @@
           "level": 1
         },
         {
-          "id": "9b139038fe40412999205075ebf48db5",
+          "id": "d0c2d1e80bcd4cfa87fc3b72b8fb7099",
           "type": "figure",
           "order": 2,
           "page_or_slide": 34,
@@ -2795,24 +2811,28 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_34_8ca4af40.png",
-          "image_name": "slide_34_8ca4af40.png",
+          "image_path": "output_pptx\\images\\slide_34_03677395.png",
+          "image_name": "slide_34_03677395.png",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "9b139038fe40412999205075ebf48db5_desc",
+          "id": "d0c2d1e80bcd4cfa87fc3b72b8fb7099_desc",
           "type": "figure_description",
           "order": 3,
-          "page_or_slide": null,
+          "page_or_slide": 34,
           "section_path": [
             "Case Study 1 – Hospital system"
           ],
           "metadata": {
-            "figure_id": "9b139038fe40412999205075ebf48db5",
-            "generated": true
-          }
+            "figure_id": "d0c2d1e80bcd4cfa87fc3b72b8fb7099",
+            "generated": true,
+            "context_used": "عنوان القسم: Case Study 1 – Hospital system\n\nملاحظات الشريحة: نظام المعلومات في المشفى\nيعتمد نظام المعلومات في المشفى عمارة ثلاثية الطبقات (three-tier architecture): طبقة العرض وتتمثل بالواجهة التي يستخدمها مستثمرو النظام لإنجاز وظائفهم، وطبقة التطبيق التي تعالج طلبات المستخدمين/الزبائن وتخاطب طبقة البيانات للإجابة على طلبات المستخدمين وترسل لهم نتائج المعالجة، وطبقة البيانات التي تحتوي على بيانات شخصية عامة للمرضى مثل الاسم والعنوان وتاريخ الميلاد وتخزن ضمن الجدول pnt_info ، وبيانات شخصية صحية ترتبط بالتشخيص والعلاج وتحفظ ضمن الجدول pnt_records. مستخدمو النظام هم مدير النظام وموظف القبول، والطبيب، والمريض.\nيُسمح لمدير النظام بإدارة (إنشاء، إلغاء، تعديل، منح صالحيات، تدقيق/مراجعة عمليات...) حسابات المستخدمين من أطباء وموظفي القبول ومرضى للدخول إلى نظام المعلومات.\nيستطيع موظف القبول فتح حساب للمريض لدى الدخول لأول مرة إلى المشفى، وقراءة وتعديل البيانات الشخصية العامة للمريض، وتسجيل معلومات عن مراجعات المريض وحالات القبول في المشفى والمغادرة.\nيمكن للطبيب المعالج أن يطلع على كامل بيانات المريض وتعديل البيانات الصحية (إضافة تشخيص، إضافة علاج، تعديل علاج، ...).\nيُسمح للمريض patient بالاطلاع على كامل بياناته الشخصية، وتعديل بياناته الشخصية العامة. ويحق للمريض فقط الدخول إلى النظام من خارج شبكة المشفى.\nيَنفذ كل من المريض ومدير النظام والطبيب والموظف إلى النظام عبر الويب بعد تسجيل الدخول (login) بالاعتماد على اسم مستخدم (معرف) وكلمة مرور، وذلك من خلال واجهة ويب، وتتاح لهم واجهة تستعرض العمليات التي يسمح لكل منهم القيام بها.\nيمكن للمستخدم بعد تسجيل الدخول إلى النظام من القيام بالعمليات التي يحتاجها (قراءة، كتابة،...) من خلال طلب استعلام query_request يحتوي على معرف المستخدم ونوع العملية (قراءة، تعديل، إضافة، حذف،....) واسم المريض ومعرفه إن كان متاحاً. وفي حال كانت العملية من النوع تعديل بيانات أو إضافة بيانات جديدة فسيحتوي طلب الاستعلام على البيانات المراد تعديلها أو إضافتها. ويعيد النظام إلى المستخدم نتيجة المعالجة ضمن جواب استعلام reply_ query يحتوي على اسم المريض ومعرفه ونتيجة معالجة طلب الاستعلام.\nالمتطلبات الأمنية للنظام: تريد إدارة المشفى من نظام المعلومات تحقيق المتطلبات التالية:\n1) يجب أن يسمح نظام المعلومات للكادرين الطبي والإداري وللمريض فقط بالنفاذ إلى بيانات المريض حسب الحاجة والصلاحيات آنفة الذكر.\n2) يجب أن تكون بيانات المرضى (الشخصية العامة، والصحية) متاحة بشكل دائم لمستخدمي النظام وفق الصلاحيات الممنوحة لهم.\n3) يجب أن يسمح النظام بمراجعة العمليات التي تجرى على بيانات المرضى.\n4) يجب أن يؤخذ بعين الاعتبار أهمية وحساسية البيانات الصحية للمرضى لذلك سيسمح فقط للطبيب المعالج بتعديل بيانات المريض الصحية بطريقة لا تسمح له انكار إجراء أي تعديل (إضافة، حذف، تحديث).\n5) يجب على المشفى التقيد بقوانين الخصوصية.\n6) يسمح لوزار..."
+          },
+          "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+          "figure_ref_id": "d0c2d1e80bcd4cfa87fc3b72b8fb7099",
+          "generated_by": "OpenAIImageDescriber"
         }
       ],
       "page_or_slide": 34,
@@ -2829,7 +2849,7 @@
       ],
       "blocks": [
         {
-          "id": "9ac962cda4684b90a0f33dfc16c056e5",
+          "id": "134d626bc78e4a47b9b54de8d098637e",
           "type": "heading",
           "order": 1,
           "page_or_slide": 35,
@@ -2851,7 +2871,7 @@
           "level": 1
         },
         {
-          "id": "42f5d5c3b67d496a99f0d2056970d697",
+          "id": "f2444575c8444608846af33b1886cb53",
           "type": "figure",
           "order": 2,
           "page_or_slide": 35,
@@ -2869,24 +2889,28 @@
             }
           },
           "text": null,
-          "image_path": "output_pptx\\images\\slide_35_c5655c78.png",
-          "image_name": "slide_35_c5655c78.png",
+          "image_path": "output_pptx\\images\\slide_35_4f5823de.png",
+          "image_name": "slide_35_4f5823de.png",
           "caption": null,
           "rel_id": null,
           "alt_text": null
         },
         {
-          "id": "42f5d5c3b67d496a99f0d2056970d697_desc",
+          "id": "f2444575c8444608846af33b1886cb53_desc",
           "type": "figure_description",
           "order": 3,
-          "page_or_slide": null,
+          "page_or_slide": 35,
           "section_path": [
             "Case Study 2 – Online bank"
           ],
           "metadata": {
-            "figure_id": "42f5d5c3b67d496a99f0d2056970d697",
-            "generated": true
-          }
+            "figure_id": "f2444575c8444608846af33b1886cb53",
+            "generated": true,
+            "context_used": "عنوان القسم: Case Study 2 – Online bank\n\nملاحظات الشريحة: إدارة الحسابات المصرفية عبر الشبكة\nتعد عمليات السحب عن طريق الصرافات الآلية (ATM) والتحويل الداخلي من الخدمات الأساسية المقدمة لأصحاب الحسابات المصرفية.  تود إدارة المصرف XYZ أتمتة خدماتها المقدمة للزبائن مالكي الحسابات المصرفية. يجب أن يسمح النظام المؤتمت لإدارة المصرف بتقديم الخدمات بطريقة آمنة. يقدم الشكل التالي الشبكة الداخلية للمصرف والصرافات الموزعة جغرافيا في مناطق مختلفة وترتبط بشبكة المصرف الداخلية عن طريق الانتنرت.\nتود إدارة المصرف التقيد بالأنظمة والقوانين التي تحمي الخصوصية.\nالمطلوب:\n1. حلل النظام (الجزء المتعلق بالتهديدات والثغرات والمتطلبات الأمنية)\n2. صمم النظام (الجزء المتعلق بالآليات الأمنية)\n3. نفذ النظام (الجزء المتعلق بالأدوات الخاصة بتنفيذ الآليات)\n4. اختبر النظام (الجزء المتعلق بالسرية والسلامة والإتاحة)"
+          },
+          "text": "توضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+          "figure_ref_id": "f2444575c8444608846af33b1886cb53",
+          "generated_by": "OpenAIImageDescriber"
         }
       ],
       "page_or_slide": 35,

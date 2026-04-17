@@ -1,0 +1,28 @@
+app/
+├── extractors/
+│   ├── docx_extractor.py
+│   ├── pptx_extractor.py
+│   └── pdf_extractor.py
+│
+├── enrichers/
+│   └── caption_linker.py
+│
+├── normalizers/
+│   ├── document_normalizer.py
+│   └── passes/
+│       ├── ...
+│       └── pdf_cleanup_pass.py 
+│
+├── interpreters/
+│   ├── media_interpretation_pipeline.py
+│   ├── figure_interpreter.py
+│   └── table_interpreter.py
+│
+├── builders/
+│   ├── study_text_builder.py
+│   ├── multi_level_chunk_builder.pyss
+│   └── educational_unit_builder.py
+│
+├── services/
+│   └── document_processing_service.py
+
