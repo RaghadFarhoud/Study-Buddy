@@ -6,6 +6,7 @@ from pathlib import Path
 
 from app.extractors.docx_extractor import DocxExtractor
 from app.enrichers.caption_linker import CaptionLinker
+from app.interpreters.local_llm_image_describer import LocalLLMImageDescriber
 from app.pipeline.ingestion_pipeline import IngestionPipeline
 from app.builders.educational_unit_builder import EducationalUnitBuilder
 
@@ -34,7 +35,7 @@ from app.builders.multi_level_chunk_builder import MultiLevelChunkBuilder
 # from app.interpreters.openai_image_describer import OpenAIImageDescriber
 
 
-def build_docx_service(out_dir: Path) -> DocumentProcessingService:
+def build_docx_service(out_dir: Path,local_image_describer : bool = True) -> DocumentProcessingService:
     extractor = DocxExtractor(image_output_dir=str(out_dir / "images"))
     caption_linker = CaptionLinker()
 
@@ -58,7 +59,7 @@ def build_docx_service(out_dir: Path) -> DocumentProcessingService:
         normalizer=normalizer,
     )
     
-    image_describer = OpenAIImageDescriber(model="gpt-5.4")
+    image_describer = LocalLLMImageDescriber() if local_image_describer else OpenAIImageDescriber(model="gpt-5.4")
     media_pipeline = MediaInterpretationPipeline(
         interpreters=[
             FigureInterpreter(image_describer=image_describer),
@@ -78,7 +79,7 @@ def build_docx_service(out_dir: Path) -> DocumentProcessingService:
         chunk_builder=chunk_builder,
         educational_unit_builder=educational_unit_builder,
     )
-def build_pptx_service(out_dir: Path) -> DocumentProcessingService:
+def build_pptx_service(out_dir: Path, local_image_describer : bool = True) -> DocumentProcessingService:
     extractor = PptxExtractor(image_output_dir=str(out_dir / "images"))
 
     ingestion_pipeline = IngestionPipeline(
@@ -89,7 +90,7 @@ def build_pptx_service(out_dir: Path) -> DocumentProcessingService:
     )
     
 
-    image_describer = OpenAIImageDescriber(model="gpt-5.4")
+    image_describer = LocalLLMImageDescriber() if local_image_describer else OpenAIImageDescriber(model="gpt-5.4")
     media_pipeline = MediaInterpretationPipeline(
         interpreters=[
             FigureInterpreter(image_describer=image_describer),
@@ -123,10 +124,11 @@ def main():
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # ps: change local_image_describer to False
     if suffix == ".docx":
-        service = build_docx_service(out_dir)
+        service = build_docx_service(out_dir,local_image_describer= True)
     elif suffix == ".pptx":
-        service = build_pptx_service(out_dir)
+        service = build_pptx_service(out_dir,local_image_describer=True)
     else:
         raise ValueError(f"Unsupported file type: {suffix}. Only .docx and .pptx are supported.")
 

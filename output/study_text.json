@@ -1,0 +1,292 @@
+{
+  "document_id": "lecture",
+  "source_type": "pptx",
+  "source_file": "lecture.pptx",
+  "title": "lecture",
+  "full_text": "Information Systems Security\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\nSecurity-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.\n\n## تحليل الصورة: تأثير الحوادث الأمنية على البنية التحتية\n\nتُظهر هذه الصورة ازدحامًا شديدًا في صالة مطار، وهو ما يمثل بشكل بصري التأثيرات المترتبة على الحوادث الأمنية.  في سياق الحديث عن تحديث أمني معيب من شركة CrowdStrike تسبب في تعطيل أجهزة Windows حول العالم، تُجسد الصورة الفوضى والاضطراب الذي يمكن أن ينتج عن مثل هذه المشكلات.\n\n**العناصر الأساسية:**\n\n*   **الازدحام الشديد:** يمثل هذا الازدحام تعطيل الخدمات وتأثيره على حياة الناس اليومية.\n*   **المطار:**  يمثل البنية التحتية الحيوية التي تعتمد على الأنظمة الرقمية لعملها بشكل سليم (تسجيل الدخول، فحص الأمان، إدارة الأمتعة، إلخ).\n*   **الأمتعة والأشخاص:**  تُظهر هذه العناصر اعتماد المسافرين على هذه البنية التحتية.\n\n**العلاقة بين المكونات:**\n\nتعكس الصورة كيف يمكن لحادث أمني رقمي (مثل تحديث CrowdStrike المعيب) أن يؤثر بشكل مباشر على العمليات الحيوية في الأماكن العامة مثل المطارات، مما يؤدي إلى تعطيل الخدمات وتأخير السفر وإحداث حالة من الفوضى.  تُظهر الصورة بشكل ملموس كيف يمكن للهجمات السيبرانية أن تتجاوز المجال الرقمي لتؤثر على العالم المادي.\n\n**باختصار:** هذه الصورة هي تمثيل مرئي لتداعيات الحوادث الأمنية على البنية التحتية الحيوية، وتوضح مدى أهمية الأمن السيبراني في الحفاظ على استمرارية العمليات اليومية.\n\nAttack Examples\n\nJune 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries\n\nVerzion’s 2024 Data Breach Investigations Report\n\n## تحليل مخطط تطور أنماط الحوادث الأمنية (Verizon's DBIR)\n\n**الوصف:**\n\nتوضح الصورة مخططًا خطيًا يمثل تطور أنماط الحوادث الأمنية بمرور الوقت، وذلك بناءً على تقرير Verizons Data Breach Investigations Report (DBIR) من عام 2024.  يعرض المخطط النسبة المئوية لكل نوع من أنواع الحوادث (مثل إساءة استخدام الصلاحيات، هجمات رفض الخدمة، اختراقات الأنظمة) خلال الفترة من 2018 إلى 2024.\n\n**العناصر الرئيسية:**\n\n*   **المحور الأفقي:** يمثل السنوات من 2018 إلى 2024.\n*   **المحور الرأسي:** يمثل النسبة المئوية للحوادث لكل نوع.\n*   **الخطوط:** كل خط يمثل نوعًا معينًا من الحوادث الأمنية، مثل:\n    *   **هجمات رفض الخدمة (Denial of Service):**  تظهر زيادة ملحوظة في نسبة هذه الهجمات بين 2018 و 2021 ثم استقرارها.\n    *   **اختراقات الأنظمة (System Intrusion):** تظهر تقلبات في النسبة المئوية على مدار الفترة الزمنية.\n    *   **إساءة استخدام الصلاحيات (Privilege Misuse):**  تظل مستقرة نسبيًا، وتشكل نسبة كبيرة من الحوادث الأمنية.\n    *   **هجمات هندسة اجتماعية (Social Engineering):** تظهر زيادة طفيفة في النسبة المئوية مع مرور الوقت.\n    *   **أخطاء متنوعة (Miscellaneous Errors):**  تظل مستقرة نسبيًا.\n\n**الفكرة الأساسية:**\n\nيوضح المخطط كيف تتغير أنماط الحوادث الأمنية بمرور الوقت، مع التركيز على التغيرات في النسب المئوية لكل نوع من أنواع الهجمات. يبرز أهمية مراقبة هذه الأنماط للتكيف مع التهديدات المتغيرة وتحديث استراتيجيات الأمن السيبراني.\n\n**أهمية المخطط:**\n\nيساعد هذا المخطط في فهم الاتجاهات الحالية في مجال الأمن السيبراني، ويقدم رؤى قيمة للمؤسسات لتحديد أولوياتها في الاستثمار في تدابير الأمان المناسبة.\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\n2. What is ISS?\n\n- Information system\n  - set of applications, services, information technology assets, or other information-handling components\n- Assets: Data/information, software, hardware, communication facilities, physical facilities\n\nphysical facilities\n\nNets\n\nHW\n\nSW systems\n\napplications\n\nData\n\n2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.\n\nWhat is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …\n\nWhat is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\nISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control\n\nISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…\n\nISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …\n\nISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.\n\nISS Objectives\n\n  - Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.\n\nComputer Security Challenges\n\nOutline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion\n\n4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome\n\nSecurity terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper\n\nSecurity terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder\n\nThreats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems\n\nTypes of Attack\n\nInterruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access.\n\nTypes of Attack\n\nMasquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later\n\nAssets and Examples of Threats\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.\n\nCountermeasures\n\ninclude techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc.\n\nA Model for Computer Security\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.\n\nISS- another  definition\n\n  - What  needs to be protected, i.e., assets\n  - Why (security requirements which include CIA),\n  - What we need to protect from (Threats, vulnerabilities, risks)\n  - and how  (Countermeasures) to protect it for as long as it exists\n  - Then operate, monitor, review, improve\n  - All steps are implemented according to the security policy\n\n5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.\n\nSecurity Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)\n\nSecurity Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate\n\n6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail\n\nQuestions?\n\nQuestions?\n\nCase Study 1 – Hospital system\n\n## تحليل مخطط بنية نظام المعلومات في المشفى\n\nتُظهر الصورة مخططًا يوضح بنية نظام المعلومات المستخدمة في المشفى، وهي تعتمد على **عمارة ثلاثية الطبقات (Three-Tier Architecture)**. هذا النمط المعماري يقسم النظام إلى ثلاثة أجزاء رئيسية:\n\n1.  **طبقة العرض (Presentation Tier):** تمثل الواجهة التي يتفاعل معها المستخدمون. في هذه الحالة، تتكون من جهاز كمبيوتر محمول للمريض وجهازين لوحيين للطبيب وموظف القبول، بالإضافة إلى واجهة الويب التي يمكن الوصول إليها عبر الإنترنت.\n2.  **طبقة التطبيق (Application Tier):** تعمل كجسر بين طبقتي العرض والبيانات. تتلقى طلبات المستخدمين من طبقة العرض وتعالجها، ثم تتفاعل مع طبقة البيانات لاسترجاع أو تحديث المعلومات المطلوبة. يظهر في الصورة خادمين لتطبيق الأعمال (Application Servers).\n3.  **طبقة البيانات (Data Tier):** تحتوي على قاعدة بيانات المرضى، والتي تتضمن جدولين رئيسيين: `pnt_info` (بيانات شخصية عامة) و `pnt_records` (بيانات صحية). يتم تمثيلها في الصورة بخادم قاعدة بيانات واحد.\n\n**العلاقات بين المكونات:**\n\n*   تتصل طبقة العرض بكل من طبقة التطبيق وطبقة البيانات.\n*   طبقة التطبيق تتلقى طلبات من طبقة العرض وترسل استعلامات إلى طبقة البيانات.\n*   البيانات تنتقل بين الطبقات في اتجاه واحد بشكل أساسي (من طبقة البيانات إلى طبقة التطبيق ثم إلى طبقة العرض).\n\n**أهمية المخطط:**\n\nيوضح هذا المخطط كيف يتم تنظيم نظام المعلومات في المشفى وكيف تتفاعل المكونات المختلفة مع بعضها البعض. يساعد على فهم كيفية وصول المستخدمين المختلفين (المريض، الطبيب، موظف القبول، مدير النظام) إلى البيانات وتنفيذ العمليات المختلفة وفقًا للصلاحيات الممنوحة لهم. كما يبرز أهمية فصل المهام بين الطبقات لزيادة كفاءة النظام وقابليته للتوسع والصيانة.\n\nCase Study 2 – Online bank\n\n## تحليل الشبكة الداخلية للمصرف XYZ: نظرة عامة\n\nتوضح الصورة مخططًا يمثل البنية الأساسية لشبكة المصرف XYZ، مع التركيز على كيفية تفاعلها مع العملاء عبر الإنترنت والصرافات الآلية.  الفكرة الرئيسية هنا هي فهم المسارات التي تتبعها البيانات الحساسة (مثل معلومات الحسابات والمعاملات) من وإلى العملاء، وكيف يمكن أن تكون هذه المسارات عرضة للتهديدات الأمنية.\n\n**العناصر الأساسية في الصورة:**\n\n*   **الإنترنت:** يمثل شبكة الإنترنت العامة، وهي نقطة الدخول الرئيسية للعملاء الذين يستخدمون الخدمات المصرفية عبر الإنترنت أو الصرافات الآلية.\n*   **أجهزة العملاء (Clients):** تمثل أجهزة المستخدمين (الحواسيب الشخصية، الهواتف الذكية) التي تتصل بالخدمات المصرفية عبر الإنترنت.\n*   **الصرافات الآلية (ATMs):**  تمثل نقاط الوصول الموزعة جغرافيًا حيث يمكن للعملاء إجراء عمليات السحب والإيداع والتحويل.\n*   **جدار الحماية (Firewall):** يمثل نقطة التحكم الرئيسية في الشبكة، وهو مسؤول عن فحص حركة البيانات الواردة والصادرة وتصفية أي محاولات وصول غير مصرح بها.\n*   **الخوادم الداخلية (Internal Servers):** تمثل الخوادم التي تستضيف التطبيقات والبيانات المصرفية الحساسة.  تتضمن هذه الخوادم خادم إدارة الحسابات، وخادم المعاملات، وقاعدة بيانات العملاء.\n\n**العلاقات بين المكونات:**\n\n*   تتصل أجهزة العملاء والصرافات الآلية بالشبكة الداخلية للمصرف عبر الإنترنت، وتخضع لرقابة جدار الحماية قبل الوصول إلى الخوادم الداخلية.\n*   جدار الحماية يعمل كحاجز أمني، حيث يمنع الوصول غير المصرح به إلى الخوادم الداخلية ويضمن أن حركة البيانات الواردة والصادرة آمنة.\n*   تتواصل الخوادم الداخلية مع بعضها البعض لتبادل البيانات وإجراء المعاملات.\n\n**أهمية الصورة في سياق دراسة الحالة:**\n\nهذا المخطط يمثل نقطة البداية لتحليل النظام الأمني للمصرف XYZ.  يساعد على تحديد نقاط الضعف المحتملة (مثل هجمات DDoS، أو اختراق الصرافات الآلية) وتحديد المتطلبات الأمنية اللازمة لحماية البيانات الحساسة وضمان خصوصية العملاء.  كما يوضح الصورة كيف يمكن تصميم وتنفيذ آليات أمنية مختلفة (مثل التشفير، والمصادقة متعددة العوامل) لحماية كل مكون من مكونات الشبكة.",
+  "sections": [
+    {
+      "title": "Information Systems Security",
+      "section_path": [
+        "Information Systems Security"
+      ],
+      "text": "Information Systems Security",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "Security-Related News",
+      "section_path": [
+        "Security-Related News"
+      ],
+      "text": "Security-Related News\n\nJuly 2024,\na flawed software update from the security firm CrowdStrike took down Windows computers across the world.\n\n## تحليل الصورة: تأثير الحوادث الأمنية على البنية التحتية\n\nتُظهر هذه الصورة ازدحامًا شديدًا في صالة مطار، وهو ما يمثل بشكل بصري التأثيرات المترتبة على الحوادث الأمنية.  في سياق الحديث عن تحديث أمني معيب من شركة CrowdStrike تسبب في تعطيل أجهزة Windows حول العالم، تُجسد الصورة الفوضى والاضطراب الذي يمكن أن ينتج عن مثل هذه المشكلات.\n\n**العناصر الأساسية:**\n\n*   **الازدحام الشديد:** يمثل هذا الازدحام تعطيل الخدمات وتأثيره على حياة الناس اليومية.\n*   **المطار:**  يمثل البنية التحتية الحيوية التي تعتمد على الأنظمة الرقمية لعملها بشكل سليم (تسجيل الدخول، فحص الأمان، إدارة الأمتعة، إلخ).\n*   **الأمتعة والأشخاص:**  تُظهر هذه العناصر اعتماد المسافرين على هذه البنية التحتية.\n\n**العلاقة بين المكونات:**\n\nتعكس الصورة كيف يمكن لحادث أمني رقمي (مثل تحديث CrowdStrike المعيب) أن يؤثر بشكل مباشر على العمليات الحيوية في الأماكن العامة مثل المطارات، مما يؤدي إلى تعطيل الخدمات وتأخير السفر وإحداث حالة من الفوضى.  تُظهر الصورة بشكل ملموس كيف يمكن للهجمات السيبرانية أن تتجاوز المجال الرقمي لتؤثر على العالم المادي.\n\n**باختصار:** هذه الصورة هي تمثيل مرئي لتداعيات الحوادث الأمنية على البنية التحتية الحيوية، وتوضح مدى أهمية الأمن السيبراني في الحفاظ على استمرارية العمليات اليومية.",
+      "metadata": {}
+    },
+    {
+      "title": "Attack Examples",
+      "section_path": [
+        "Attack Examples"
+      ],
+      "text": "Attack Examples\n\nJune 2022, a Google Cloud Armor customer was targeted with a series of HTTPS DDoS attacks which peaked at 46 million requests per second.\n10 sec of attack’s traffic = Wikipedia’s daily requests\nTargeted by 5,256 source IP @s from 132 countries",
+      "metadata": {}
+    },
+    {
+      "title": "Verzion’s 2024 Data Breach Investigations Report",
+      "section_path": [
+        "Verzion’s 2024 Data Breach Investigations Report"
+      ],
+      "text": "Verzion’s 2024 Data Breach Investigations Report\n\n## تحليل مخطط تطور أنماط الحوادث الأمنية (Verizon's DBIR)\n\n**الوصف:**\n\nتوضح الصورة مخططًا خطيًا يمثل تطور أنماط الحوادث الأمنية بمرور الوقت، وذلك بناءً على تقرير Verizons Data Breach Investigations Report (DBIR) من عام 2024.  يعرض المخطط النسبة المئوية لكل نوع من أنواع الحوادث (مثل إساءة استخدام الصلاحيات، هجمات رفض الخدمة، اختراقات الأنظمة) خلال الفترة من 2018 إلى 2024.\n\n**العناصر الرئيسية:**\n\n*   **المحور الأفقي:** يمثل السنوات من 2018 إلى 2024.\n*   **المحور الرأسي:** يمثل النسبة المئوية للحوادث لكل نوع.\n*   **الخطوط:** كل خط يمثل نوعًا معينًا من الحوادث الأمنية، مثل:\n    *   **هجمات رفض الخدمة (Denial of Service):**  تظهر زيادة ملحوظة في نسبة هذه الهجمات بين 2018 و 2021 ثم استقرارها.\n    *   **اختراقات الأنظمة (System Intrusion):** تظهر تقلبات في النسبة المئوية على مدار الفترة الزمنية.\n    *   **إساءة استخدام الصلاحيات (Privilege Misuse):**  تظل مستقرة نسبيًا، وتشكل نسبة كبيرة من الحوادث الأمنية.\n    *   **هجمات هندسة اجتماعية (Social Engineering):** تظهر زيادة طفيفة في النسبة المئوية مع مرور الوقت.\n    *   **أخطاء متنوعة (Miscellaneous Errors):**  تظل مستقرة نسبيًا.\n\n**الفكرة الأساسية:**\n\nيوضح المخطط كيف تتغير أنماط الحوادث الأمنية بمرور الوقت، مع التركيز على التغيرات في النسب المئوية لكل نوع من أنواع الهجمات. يبرز أهمية مراقبة هذه الأنماط للتكيف مع التهديدات المتغيرة وتحديث استراتيجيات الأمن السيبراني.\n\n**أهمية المخطط:**\n\nيساعد هذا المخطط في فهم الاتجاهات الحالية في مجال الأمن السيبراني، ويقدم رؤى قيمة للمؤسسات لتحديد أولوياتها في الاستثمار في تدابير الأمان المناسبة.",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "2. What is ISS?",
+      "section_path": [
+        "2. What is ISS?"
+      ],
+      "text": "2. What is ISS?\n\n- Information system\n  - set of applications, services, information technology assets, or other information-handling components\n- Assets: Data/information, software, hardware, communication facilities, physical facilities\n\nphysical facilities\n\nNets\n\nHW\n\nSW systems\n\napplications\n\nData",
+      "metadata": {}
+    },
+    {
+      "title": "2. What is ISS?",
+      "section_path": [
+        "2. What is ISS?"
+      ],
+      "text": "2. What is ISS?\n\nInformation Systems Security (ISS)\nis the protection of information systems against unauthorized access to or modification of information, whether in storage, processing or transit, and against the denial of service to authorized users, including those measures necessary to detect, document, and counter such threats.",
+      "metadata": {}
+    },
+    {
+      "title": "What is ISS?",
+      "section_path": [
+        "What is ISS?"
+      ],
+      "text": "What is ISS?\n\n- synonymous with Computer Security\n- part of information security\n- Information security includes\n  - Computer security\n  - Information systems security\n  - Database security\n  - Network security\n  - Web security\n  - Digital forensics\n  - Information security management\n  - …",
+      "metadata": {}
+    },
+    {
+      "title": "What is ISS?",
+      "section_path": [
+        "What is ISS?"
+      ],
+      "text": "What is ISS?\n\n- information security [ISO 27000: 2018]\n  - preservation of confidentiality, integrity and availability of information\n  - also preservation of authenticity, accountability, non-repudiation, and reliability",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\nConfidentiality: property that information is not made available or disclosed to unauthorized individuals, entities, or processes\nPrivacy: individual’s information is under her/his control\nmeans: encryption, access control",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\nIntegrity: property of accuracy and completeness\nIntegrity: covers two related concepts\nData integrity: assures that information and programs are changed only in a specified and authorized manner\nSystem integrity: assures that a system performs its intended function as specified, free from unauthorized manipulation\nmeans: cryptographic checksums, access control,…",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\n- Availability\n  - property of being accessible and usable on demand by an authorized entity.\n  - means: protection from disruption, intentional deletion, …",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\n- Other Objectives:\n  - Authenticity\n    - property that an entity is what it claims to be\n\n2 related terms are usually used\nEntity authentication\ncorroboration of the identity of an entity (e.g., a person, a credit card)\nMessage authentication\ncorroborating the source of information;\nalso known as data origin authentication.",
+      "metadata": {}
+    },
+    {
+      "title": "ISS Objectives",
+      "section_path": [
+        "ISS Objectives"
+      ],
+      "text": "ISS Objectives\n\n  - Non-repudiation\n    - preventing the denial of previous commitments or actions\n  - Accountability\n    - the ability to identify entities responsible for past actions.",
+      "metadata": {}
+    },
+    {
+      "title": "Computer Security Challenges",
+      "section_path": [
+        "Computer Security Challenges"
+      ],
+      "text": "Computer Security Challenges",
+      "metadata": {}
+    },
+    {
+      "title": "Outline",
+      "section_path": [
+        "Outline"
+      ],
+      "text": "Outline\n\n- Attack Examples\n- What is Information Systems Security?\n- ISS Objectives\n- Security terms\n- Security Policies\n- Conclusion",
+      "metadata": {}
+    },
+    {
+      "title": "4. Security Terms",
+      "section_path": [
+        "4. Security Terms"
+      ],
+      "text": "4. Security Terms\n\nA vulnerability: is a weakness in system design/implementation/operation and can be in hardware or software.\nExample: a software bug exists in the OS, or no password rules are set.\nA threat:\nSomething that can potentially cause damage\nRefers to a situation in which either a person could do something undesirable\nor a natural occurrence could cause an undesirable outcome",
+      "metadata": {}
+    },
+    {
+      "title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "text": "Security terms\n\n- Vulnerabilities: Examples\n  - Unprotected data under transmission\n  - Mistakes in firewall or router\n  - Software bugs exist.\n  - Passwords posted near the computer\n- Threats: Examples\n  - Virus\n  - Illegal Passwords  use\n  - Illegal access to the Internet\n  - Pretending to be a desk helper",
+      "metadata": {}
+    },
+    {
+      "title": "Security terms",
+      "section_path": [
+        "Security terms"
+      ],
+      "text": "Security terms\n\n- A Risk: the expected loss due to harmful future events,\n- An attack: is a realization of a threat\n- An attacker: is a person who exploits a vulnerability\n- An attacker must have means, opportunity, and motive\n  - Synonyms: enemy, adversary, opponent, eavesdropper, intruder",
+      "metadata": {}
+    },
+    {
+      "title": "Threats  from hackers",
+      "section_path": [
+        "Threats  from hackers"
+      ],
+      "text": "Threats  from hackers\n\nThey Conduct illegal access only to satisfy their interest, or try out their technology (no damage to other people)\n\nThey cause damage by stealing information from networks/servers they accessed illegally, or by forcing services to shutdown\n\nCrackers\n\n- Examples of threats from crackers’ actions:\n- Illegally use IDs or passwords that they stole\n- Illegally access servers and steal personal information, etc.\n- Destroy systems",
+      "metadata": {}
+    },
+    {
+      "title": "Types of Attack",
+      "section_path": [
+        "Types of Attack"
+      ],
+      "text": "Types of Attack\n\nInterruption, delay, denial of receipt or denial of service\nSystem assets or information become unavailable or are rendered unavailable\nInterception or snooping\nUnauthorized party gains access to information by browsing through files or reading communications.\nModification or alteration\nUnauthorized party changes information in transit or information stored for subsequent access.",
+      "metadata": {}
+    },
+    {
+      "title": "Types of Attack",
+      "section_path": [
+        "Types of Attack"
+      ],
+      "text": "Types of Attack\n\nMasquerade or spoofing\nSpurious information is inserted into the system or network by making it appears as if it is from a legitimate entity.\nRepudiation\nFalse denial that an entity created something.\nTraffic analysis\nMonitoring traffic in order to get information about exchanged data (regardless the content itself)\nReplay attack\nIntercepting a message in order to re-send it  later",
+      "metadata": {}
+    },
+    {
+      "title": "Assets and Examples of Threats",
+      "section_path": [
+        "Assets and Examples of Threats"
+      ],
+      "text": "Assets and Examples of Threats\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "metadata": {}
+    },
+    {
+      "title": "Countermeasures",
+      "section_path": [
+        "Countermeasures"
+      ],
+      "text": "Countermeasures\n\ninclude techniques for ensuring:\nPrevention: such as encryption, user authentication, one time password, anti-virus, firewall, etc.\nDetection: such as IDS (Intrusion Detection Systems), Monitoring tools, Firewall logs, digital signature, etc.\nReaction (or recovery): Such as Backup systems, OS’s recovery points, etc.",
+      "metadata": {}
+    },
+    {
+      "title": "A Model for Computer Security",
+      "section_path": [
+        "A Model for Computer Security"
+      ],
+      "text": "A Model for Computer Security\n\nتوضّح الصورة عنصرًا بصريًا تعليميًا مرتبطًا بموضوع هذا القسم، وتساعد في شرح المثال أو البنية أو العلاقات المعروضة.",
+      "metadata": {}
+    },
+    {
+      "title": "ISS- another  definition",
+      "section_path": [
+        "ISS- another  definition"
+      ],
+      "text": "ISS- another  definition\n\n  - What  needs to be protected, i.e., assets\n  - Why (security requirements which include CIA),\n  - What we need to protect from (Threats, vulnerabilities, risks)\n  - and how  (Countermeasures) to protect it for as long as it exists\n  - Then operate, monitor, review, improve\n  - All steps are implemented according to the security policy",
+      "metadata": {}
+    },
+    {
+      "title": "5. Security Policy",
+      "section_path": [
+        "5. Security Policy"
+      ],
+      "text": "5. Security Policy\n\n- a document describing intentions and direction of an organization regarding information security\n  - Example 1:\n    - personal information must be treated as confidential.\n    - services must be available 24/7\n- states what is/is not allowed\n  - examples:\n    - account names must not be used in passwords.\n    - Surfing the www is prohibited.",
+      "metadata": {}
+    },
+    {
+      "title": "Security Policy",
+      "section_path": [
+        "Security Policy"
+      ],
+      "text": "Security Policy\n\nsecurity policy does not specify technologies.\nA security Policy is a guideline for implementing security measures.\nExample:\nUse a firewall to block ports 80 and 443 (as to prevent leakage of confidential information)\nEncrypt email containing sensitive data (as to protect private information)",
+      "metadata": {}
+    },
+    {
+      "title": "Security Lifecycle",
+      "section_path": [
+        "Security Lifecycle"
+      ],
+      "text": "Security Lifecycle\n\n- Develop sec policy\n- Draw blueprints\n- Determine sec requirements (objectives)\n- Analyze threats, vulnerabilities (i.e., analyze risks)\n\nAnalyze\n\n- Design architecture,\n- Choose countermeasures\n- Continue developing sec policy\n\nDesign\n\n- Implement countermeasures\n- Test\n- Carry out training and awareness\n\nImplement\n\n- Monitor\n- review\n\nOperate",
+      "metadata": {}
+    },
+    {
+      "title": "6. Conclusion",
+      "section_path": [
+        "6. Conclusion"
+      ],
+      "text": "6. Conclusion\n\n- Security terms\n  - ISS\n  - Security objectives\n  - Vulnerabilities and Threats,\n  - Security measures\n  - Security Policy\n- Next lectures:\n  - Covering these terms in detail",
+      "metadata": {}
+    },
+    {
+      "title": "Questions?",
+      "section_path": [
+        "Questions?"
+      ],
+      "text": "Questions?\n\nQuestions?",
+      "metadata": {}
+    },
+    {
+      "title": "Case Study 1 – Hospital system",
+      "section_path": [
+        "Case Study 1 – Hospital system"
+      ],
+      "text": "Case Study 1 – Hospital system\n\n## تحليل مخطط بنية نظام المعلومات في المشفى\n\nتُظهر الصورة مخططًا يوضح بنية نظام المعلومات المستخدمة في المشفى، وهي تعتمد على **عمارة ثلاثية الطبقات (Three-Tier Architecture)**. هذا النمط المعماري يقسم النظام إلى ثلاثة أجزاء رئيسية:\n\n1.  **طبقة العرض (Presentation Tier):** تمثل الواجهة التي يتفاعل معها المستخدمون. في هذه الحالة، تتكون من جهاز كمبيوتر محمول للمريض وجهازين لوحيين للطبيب وموظف القبول، بالإضافة إلى واجهة الويب التي يمكن الوصول إليها عبر الإنترنت.\n2.  **طبقة التطبيق (Application Tier):** تعمل كجسر بين طبقتي العرض والبيانات. تتلقى طلبات المستخدمين من طبقة العرض وتعالجها، ثم تتفاعل مع طبقة البيانات لاسترجاع أو تحديث المعلومات المطلوبة. يظهر في الصورة خادمين لتطبيق الأعمال (Application Servers).\n3.  **طبقة البيانات (Data Tier):** تحتوي على قاعدة بيانات المرضى، والتي تتضمن جدولين رئيسيين: `pnt_info` (بيانات شخصية عامة) و `pnt_records` (بيانات صحية). يتم تمثيلها في الصورة بخادم قاعدة بيانات واحد.\n\n**العلاقات بين المكونات:**\n\n*   تتصل طبقة العرض بكل من طبقة التطبيق وطبقة البيانات.\n*   طبقة التطبيق تتلقى طلبات من طبقة العرض وترسل استعلامات إلى طبقة البيانات.\n*   البيانات تنتقل بين الطبقات في اتجاه واحد بشكل أساسي (من طبقة البيانات إلى طبقة التطبيق ثم إلى طبقة العرض).\n\n**أهمية المخطط:**\n\nيوضح هذا المخطط كيف يتم تنظيم نظام المعلومات في المشفى وكيف تتفاعل المكونات المختلفة مع بعضها البعض. يساعد على فهم كيفية وصول المستخدمين المختلفين (المريض، الطبيب، موظف القبول، مدير النظام) إلى البيانات وتنفيذ العمليات المختلفة وفقًا للصلاحيات الممنوحة لهم. كما يبرز أهمية فصل المهام بين الطبقات لزيادة كفاءة النظام وقابليته للتوسع والصيانة.",
+      "metadata": {}
+    },
+    {
+      "title": "Case Study 2 – Online bank",
+      "section_path": [
+        "Case Study 2 – Online bank"
+      ],
+      "text": "Case Study 2 – Online bank\n\n## تحليل الشبكة الداخلية للمصرف XYZ: نظرة عامة\n\nتوضح الصورة مخططًا يمثل البنية الأساسية لشبكة المصرف XYZ، مع التركيز على كيفية تفاعلها مع العملاء عبر الإنترنت والصرافات الآلية.  الفكرة الرئيسية هنا هي فهم المسارات التي تتبعها البيانات الحساسة (مثل معلومات الحسابات والمعاملات) من وإلى العملاء، وكيف يمكن أن تكون هذه المسارات عرضة للتهديدات الأمنية.\n\n**العناصر الأساسية في الصورة:**\n\n*   **الإنترنت:** يمثل شبكة الإنترنت العامة، وهي نقطة الدخول الرئيسية للعملاء الذين يستخدمون الخدمات المصرفية عبر الإنترنت أو الصرافات الآلية.\n*   **أجهزة العملاء (Clients):** تمثل أجهزة المستخدمين (الحواسيب الشخصية، الهواتف الذكية) التي تتصل بالخدمات المصرفية عبر الإنترنت.\n*   **الصرافات الآلية (ATMs):**  تمثل نقاط الوصول الموزعة جغرافيًا حيث يمكن للعملاء إجراء عمليات السحب والإيداع والتحويل.\n*   **جدار الحماية (Firewall):** يمثل نقطة التحكم الرئيسية في الشبكة، وهو مسؤول عن فحص حركة البيانات الواردة والصادرة وتصفية أي محاولات وصول غير مصرح بها.\n*   **الخوادم الداخلية (Internal Servers):** تمثل الخوادم التي تستضيف التطبيقات والبيانات المصرفية الحساسة.  تتضمن هذه الخوادم خادم إدارة الحسابات، وخادم المعاملات، وقاعدة بيانات العملاء.\n\n**العلاقات بين المكونات:**\n\n*   تتصل أجهزة العملاء والصرافات الآلية بالشبكة الداخلية للمصرف عبر الإنترنت، وتخضع لرقابة جدار الحماية قبل الوصول إلى الخوادم الداخلية.\n*   جدار الحماية يعمل كحاجز أمني، حيث يمنع الوصول غير المصرح به إلى الخوادم الداخلية ويضمن أن حركة البيانات الواردة والصادرة آمنة.\n*   تتواصل الخوادم الداخلية مع بعضها البعض لتبادل البيانات وإجراء المعاملات.\n\n**أهمية الصورة في سياق دراسة الحالة:**\n\nهذا المخطط يمثل نقطة البداية لتحليل النظام الأمني للمصرف XYZ.  يساعد على تحديد نقاط الضعف المحتملة (مثل هجمات DDoS، أو اختراق الصرافات الآلية) وتحديد المتطلبات الأمنية اللازمة لحماية البيانات الحساسة وضمان خصوصية العملاء.  كما يوضح الصورة كيف يمكن تصميم وتنفيذ آليات أمنية مختلفة (مثل التشفير، والمصادقة متعددة العوامل) لحماية كل مكون من مكونات الشبكة.",
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "section_count": 35
+  }
+}
